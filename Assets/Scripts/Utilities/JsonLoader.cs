@@ -12,7 +12,7 @@ namespace TenshiNoTamago.Utilities
 
             if (File.Exists(path))
             {
-                string json = File.ReadAllText(path);
+                string json = File.ReadAllText(path); 
 
                 // ºÏ≤È «∑Ò”– BOM
                 byte[] bytes = System.Text.Encoding.UTF8.GetBytes(json);
