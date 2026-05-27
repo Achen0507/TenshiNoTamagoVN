@@ -6,7 +6,6 @@ using TenshiNoTamago.Core;
 using TenshiNoTamago.Data;
 using TenshiNoTamago.Utilities;
 using UnityEngine;
-using UnityEngine.TestTools;
 using UnityEngine.UI;
 
 namespace TenshiNoTamago.UI
@@ -350,11 +349,12 @@ namespace TenshiNoTamago.UI
         private IEnumerator TypeText(string fullText,System.Action onComplete) {
             isTyping = true;
             descriptionText.text = "";
-            float typeSpeed = 0.1f;  // 每个字间隔秒数
 
             foreach (char c in fullText)
             {
                 descriptionText.text += c;
+                float typeSpeed = 0.1f;
+                if (c == '。' || c == '、' || c == '…') typeSpeed = 0.2f;
                 yield return new WaitForSeconds(typeSpeed); 
             }
 
