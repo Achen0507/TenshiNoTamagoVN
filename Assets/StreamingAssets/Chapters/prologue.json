@@ -1,0 +1,103 @@
+{
+  "chapterName": "Prologue",
+  "frames": [
+    {
+      "id": 1,
+      "backgroundPath": "Images/Backgrounds/0_1",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "树不是树。是骨。\n蛋不是蛋。是被忘记的开始。\n根须扎进虚空，树冠托着一个不破的沉默。",
+      "autoNextSeconds": 3,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+    {
+      "id": 2,
+      "backgroundPath": "Images/Backgrounds/0_2",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "天是红的，不是夕阳。\n是锈。\n远处有建筑残骸，像被拔掉肋骨的胸腔。\n风声。只有风声。",
+      "autoNextSeconds": 3,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+        {
+      "id": 3,
+      "backgroundPath": "Images/Backgrounds/0_3",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "建筑是哥特的。尖拱像倒插的肋骨。\n风穿过残存的窗洞，发出不像风的声音 \n——更像有人在很远的地方反复念同一个字。",
+      "autoNextSeconds": 3,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+        {
+      "id": 4,
+      "backgroundPath": "Images/Backgrounds/0_4_1",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "方舟。或者眼睛。\n",
+      "autoNextSeconds": 3,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+        {
+      "id": 5,
+      "backgroundPath": "Images/Backgrounds/0_4_2",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "它从红天中降下来，像一个巨人正在缓慢地眨眼。",
+      "autoNextSeconds": 3,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+            {
+      "id": 6,
+      "backgroundPath": "Images/Backgrounds/0_4_3",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "没有水。没有雨。\n它只是一只空的眼窝,\n它只是一只空的眼窝，在审视一片早已被审判过的土地。",
+      "autoNextSeconds": 3,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+            {
+      "id": 7,
+      "backgroundPath": "Images/Backgrounds/0_4_4",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
+      "autoNextSeconds": 0,
+      "options": [
+      {
+          "text": "注视方舟的“瞳孔”位置 ",
+          "descriptionOnSelect": "那里是黑的。不是阴影，是一种吸收光的黑。",
+          "eggDelta": 2,
+          "nextFrameId": -1
+        },
+              {
+          "text": "注视方舟的边缘 ",
+          "descriptionOnSelect": "边缘有水痕。但它明明没有经过水。",
+          "eggDelta": 4,
+          "nextFrameId": -1
+        },
+      
+      ],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+  ]
+}

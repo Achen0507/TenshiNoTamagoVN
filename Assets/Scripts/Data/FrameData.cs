@@ -1,21 +1,35 @@
+using System;
+
 namespace TenshiNoTamago.Data
 {
-    [System.Serializable]
-    public class FrameData 
-    {
-        public int id;
-        public string backgroundPath;
-        public string descriptionText;
-        public float autoNextSeconds;   // 0=等待点击，>0=自动跳转
-        public OptionData[] options;  // 选项列表
-        public int eggDelta;
-    }
-
-    [System.Serializable]
+    [Serializable]
     public class OptionData
     {
         public string text;
         public string descriptionOnSelect;
         public int eggDelta;
+        public int nextFrameId;  // 跳转到指定帧（-1表示顺序下一帧）
+    }
+
+    [Serializable]
+    public class FrameData
+    {
+        public int id;
+        public string backgroundPath;
+        public string characterSpritePath;   // 立绘
+        public string characterPosition;     // left / right / center
+        public string descriptionText;
+        public float autoNextSeconds;
+        public OptionData[] options;
+        public int eggDelta;
+        public bool isAnimation;
+        public float animationSpeed;
+    }
+
+    [Serializable]
+    public class ChapterData
+    {
+        public string chapterName;
+        public FrameData[] frames;
     }
 }

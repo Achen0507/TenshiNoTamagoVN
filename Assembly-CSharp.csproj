@@ -58,6 +58,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Data\FrameData.cs" />
     <Compile Include="Assets\Scripts\UI\DialogueController.cs" />
+    <Compile Include="Assets\Scripts\Utilities\JsonLoader.cs" />
+    <Compile Include="Assets\Scripts\Core\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
