@@ -1,9 +1,12 @@
 using DG.Tweening;
 using System.Collections;
+using System.Threading;
+using System.Threading.Tasks;
 using TenshiNoTamago.Core;
 using TenshiNoTamago.Data;
 using TenshiNoTamago.Utilities;
 using UnityEngine;
+using UnityEngine.TestTools;
 using UnityEngine.UI;
 
 namespace TenshiNoTamago.UI
@@ -19,13 +22,19 @@ namespace TenshiNoTamago.UI
         [SerializeField] private GameObject dialoguePanel;
         [SerializeField] private Transform optionsContainer;      // 选项按钮的父容器
         [SerializeField] private GameObject optionButtonPrefab;   // 选项按钮预制体
+        [SerializeField] private GameObject nextIndicator;   
 
         [Header("章节数据")]
         [SerializeField] private string chapterToLoad = "prologue";
 
         [Header("淡入淡出")]
         [SerializeField] private Image fadePanel;   
-        [SerializeField] private GameObject titleObject; 
+        [SerializeField] private GameObject titleObject;
+
+        [Header("背景飘移")]
+        [SerializeField] private bool enableParallax = true;
+        [SerializeField] private float moveRangePercent = 0.5f;
+        [SerializeField] private float moveDuration = 12f;    
 
         private ChapterData currentChapterData;
         private FrameData currentFrame;
@@ -33,18 +42,50 @@ namespace TenshiNoTamago.UI
         private float autoNextTimer = 0f;
         private bool isTyping = false;
         private int pendingNextFrameId = -1;  // 待跳转的帧ID
+        private bool isTextFullyDisplayed = false;  // 当前帧文字是否已完整显示
+
         private bool titleShown = false;
+
+        private Vector3 originalBgPosition;
+        private Tween bgTweenX;
+        private Tween bgTweenY;
 
         private void Start()
         {
+            originalBgPosition = backgroundImage.rectTransform.anchoredPosition;
+
+            float screenWidth = Screen.width;
+            float actualMoveRange = screenWidth * moveRangePercent / 100f;
+
+            if (enableParallax)
+            {
+                StartMicroMotion(actualMoveRange);
+            }
+
             LoadChapter(chapterToLoad);
+        }
+
+        private void StartMicroMotion(float range)
+        {
+            bgTweenX = backgroundImage.rectTransform.DOAnchorPosX(originalBgPosition.x + range, moveDuration)
+        .SetEase(Ease.InOutSine)
+        .SetLoops(-1, LoopType.Yoyo);
+
+            bgTweenY = backgroundImage.rectTransform.DOAnchorPosY(originalBgPosition.y + range * 0.6f, moveDuration * 1.3f)
+                .SetEase(Ease.InOutSine)
+                .SetLoops(-1, LoopType.Yoyo);
+        }
+
+        private void OnDestroy()
+        {
+            bgTweenX?.Kill();
+            bgTweenY?.Kill();
         }
 
         private void Update()
         {
             if (isWaitingForInput)
             {
-                // 自动跳转逻辑
                 if (autoNextTimer > 0)
                 {
                     autoNextTimer -= Time.deltaTime;
@@ -56,14 +97,24 @@ namespace TenshiNoTamago.UI
                 // 点击跳转逻辑
                 else if (Input.GetMouseButtonDown(0))
                 {
-                    if (pendingNextFrameId != -1)
+                    if (!isTextFullyDisplayed)
                     {
-                        JumpToFrame(pendingNextFrameId);
-                        pendingNextFrameId = -1;
+                        StopCoroutine(typingCoroutine);
+                        descriptionText.text = currentFrame.descriptionText;
+                        isTyping = false;
+                        isTextFullyDisplayed = true;
                     }
                     else
                     {
-                        AdvanceToNextFrame();
+                        if (pendingNextFrameId != -1)
+                        {
+                            JumpToFrame(pendingNextFrameId);
+                            pendingNextFrameId = -1;
+                        }
+                        else
+                        {
+                            AdvanceToNextFrame();
+                        }
                     }
                 }
             }
@@ -93,6 +144,7 @@ namespace TenshiNoTamago.UI
 
         private void ShowFrame(FrameData frame) {
             currentFrame = frame;
+            isTextFullyDisplayed = false;
 
             // 应用本帧的卵完整度变化
             if (frame.eggDelta != 0)
@@ -104,7 +156,7 @@ namespace TenshiNoTamago.UI
             {
                 titleShown = true;
                 ShowTitle();
-                return;  // 标题的变黑
+                return; 
             }
 
             if (!string.IsNullOrEmpty(frame.backgroundPath)) {
@@ -126,16 +178,52 @@ namespace TenshiNoTamago.UI
                 {
                     ShowOptions(frame.options);
                     isWaitingForInput = false;
+                    nextIndicator.SetActive(false);
                 }
                 else
                 {
                     ClearOptions();
                     isWaitingForInput = true;
                     autoNextTimer = frame.autoNextSeconds;
+
+                    if (autoNextTimer == 0)
+                    {
+                        nextIndicator.SetActive(true);
+                        _ = BlinkIndicatorAsync();
+                    }
+                    else {
+                        nextIndicator.SetActive(false);
+                    }
                 }
             });
 
             // 处理立绘TODO
+        }
+
+        private CancellationTokenSource blinkCts;
+        private async Task BlinkIndicatorAsync()
+        {
+            blinkCts?.Cancel();
+            blinkCts = new CancellationTokenSource();
+            var token = blinkCts.Token;
+
+            Text indicatorText = nextIndicator.GetComponent<Text>();
+            if (indicatorText == null) return;
+
+            indicatorText.color = new Color(indicatorText.color.r, indicatorText.color.g, indicatorText.color.b, 1f);
+
+            while (nextIndicator != null && nextIndicator.activeSelf && !token.IsCancellationRequested)
+            {
+                await indicatorText.DOFade(0.3f, 0.5f).AsyncWaitForCompletion();
+                if (token.IsCancellationRequested) break;
+                await indicatorText.DOFade(1f, 0.5f).AsyncWaitForCompletion();
+                if (token.IsCancellationRequested) break;
+                await Task.Delay(500, token);
+            }
+            if (indicatorText != null && !token.IsCancellationRequested)
+            {
+                indicatorText.color = new Color(indicatorText.color.r, indicatorText.color.g, indicatorText.color.b, 1f);
+            }
         }
 
         private void ShowOptions(OptionData[] options) {
@@ -165,7 +253,6 @@ namespace TenshiNoTamago.UI
                 GameManager.Instance.AddEggIntegrity(option.eggDelta);
             }
 
-            Debug.Log($"[DialogueController] 选择了: {option.text}");
             ClearOptions();
 
             if (!string.IsNullOrEmpty(option.descriptionOnSelect))
@@ -173,6 +260,7 @@ namespace TenshiNoTamago.UI
                 SetDescriptionText(option.descriptionOnSelect);
                 pendingNextFrameId = option.nextFrameId;
                 isWaitingForInput = true;  // 切换到等待点击状态
+                nextIndicator.SetActive(false);
             }
             else {
                 // 没有追加文字：直接跳转
@@ -209,35 +297,28 @@ namespace TenshiNoTamago.UI
         {
             isWaitingForInput = false;
 
-            Debug.Log("ShowTitle 开始");
             // 1. 先变黑（底图被遮住）
             fadePanel.DOFade(1f, 1f).OnComplete(() =>
             {
-                Debug.Log("黑屏完成，准备显示标题");
                 // 2. 黑屏后，标题慢慢淡入
                 titleObject.SetActive(true);
-                Debug.Log($"titleObject active: {titleObject.activeSelf}");
+
                 CanvasGroup titleGroup = titleObject.GetComponent<CanvasGroup>();
                 if (titleGroup == null)
                     titleGroup = titleObject.AddComponent<CanvasGroup>();
-                Debug.Log($"CanvasGroup alpha 初始: {titleGroup.alpha}");
 
                 titleGroup.alpha = 0;
                 titleGroup.DOFade(1f, 1f).OnComplete(() =>
                 {
-                    // 3. 标题停留 1.5 秒
                     DOVirtual.DelayedCall(1.5f, () =>
                     {
-                        // 4. 标题慢慢淡出
                         titleGroup.DOFade(0f, 1f).OnComplete(() =>
                         {
                             titleObject.SetActive(false);
 
-                            // 5. 换第一章背景
                             Sprite chapter1Bg = Resources.Load<Sprite>("Image/Backgrounds/1_1");
                             backgroundImage.sprite = chapter1Bg;
 
-                            // 6. 黑屏淡出，显示第一章
                             fadePanel.DOFade(0f, 1f).OnComplete(() =>
                             {
                                 AdvanceToNextFrame();
@@ -254,14 +335,15 @@ namespace TenshiNoTamago.UI
         private void SetDescriptionText(string text,System.Action onComplete =null)
         {
             if (typingCoroutine != null) StopCoroutine(typingCoroutine);
+            isTextFullyDisplayed = false;
 
             if (string.IsNullOrEmpty(text))
             {
                 descriptionText.text = "";
+                isTextFullyDisplayed = true;
                 onComplete?.Invoke();
                 return;
             }
-
             typingCoroutine = StartCoroutine(TypeText(text,onComplete));
         }
 
@@ -269,12 +351,15 @@ namespace TenshiNoTamago.UI
             isTyping = true;
             descriptionText.text = "";
             float typeSpeed = 0.1f;  // 每个字间隔秒数
+
             foreach (char c in fullText)
             {
                 descriptionText.text += c;
                 yield return new WaitForSeconds(typeSpeed); 
             }
+
             isTyping = false;
+            isTextFullyDisplayed = true;
             onComplete?.Invoke();
         }
 
