@@ -143,7 +143,6 @@ namespace TenshiNoTamago.UI
         private void ShowFrame(FrameData frame) {
             if (animationCoroutine != null)
             {
-                Debug.Log($"停止动画，当前停留在第几帧？");
                 StopCoroutine(animationCoroutine);
                 animationCoroutine = null;
             }
@@ -378,7 +377,6 @@ namespace TenshiNoTamago.UI
 
         private IEnumerator PlaySequence(FrameData frame) {
             Sprite[] frames = Resources.LoadAll<Sprite>(frame.backgroundPath);
-            Debug.Log($"加载了 {frames.Length} 张图，分别是：{string.Join(", ", frames.Select(f => f.name))}");
 
             if (frames == null || frames.Length == 0)
             {
