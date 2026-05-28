@@ -286,6 +286,13 @@ namespace TenshiNoTamago.UI
 
         private void AdvanceToNextFrame() {
             int currentIndex = System.Array.FindIndex(currentChapterData.frames, f => f.id == currentFrame.id);
+
+            if (currentFrame.nextFrameId == 9999)
+            {
+                GotoEnding();
+                return;
+            }
+
             if (currentIndex >= 0 && currentIndex + 1 < currentChapterData.frames.Length)
             {
                 ShowFrame(currentChapterData.frames[currentIndex + 1]);
@@ -415,6 +422,41 @@ namespace TenshiNoTamago.UI
                 }
                 animationCoroutine = null;
             }           
+        }
+
+        private void GotoEnding()
+        {
+            int egg = GameManager.Instance.eggIntegrity;
+            int targetId = -1;
+
+            // 判断是从哪个入口进入的
+            if (currentFrame.id == 201)
+            {
+                // 女孩雕塑分支
+                if (egg >= 60) targetId = 2021;      
+                else if (egg >= 30) targetId = 2022; 
+                else targetId = 2023;               
+            }
+            else if (currentFrame.id == 214)
+            {
+                // 树与蛋分支
+                if (egg >= 60) targetId = 2141;
+                else if (egg >= 30) targetId = 2142;
+                else targetId = 2143;
+            }else if(currentFrame.id == 148)
+                //砸蛋分支
+                if (egg >= 60) targetId = 1491;
+                else if (egg >= 30) targetId = 1492;
+                else targetId = 1493;
+            else
+            {
+                Debug.LogWarning($"GotoEnding: 未知的入口帧 {currentFrame.id}");
+            }
+
+            if (targetId != -1)
+            {
+                JumpToFrame(targetId);
+            }
         }
     }
 }

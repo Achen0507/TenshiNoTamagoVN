@@ -103,7 +103,7 @@
               {
           "text": "注视天空 ",
           "descriptionOnSelect": "红天里没有云。只有一种缓慢的、让人想闭眼的压迫感。",
-          "eggDelta": 0,
+          "eggDelta": 1,
           "nextFrameId": 9
         },
               {
@@ -128,7 +128,7 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId": 8
+      "nextFrameId": 9
     },
         {
       "id": 9,
