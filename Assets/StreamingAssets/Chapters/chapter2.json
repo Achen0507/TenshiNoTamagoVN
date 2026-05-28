@@ -1,0 +1,1811 @@
+{
+  "chapterName": "Chapter2",
+  "frames": [
+    {
+      "id": 1,
+      "backgroundPath": "Image/Backgrounds/2_1",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "灰白色的石阶，一级一级往上，消失在阴影里。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+     {
+      "id": 2,
+      "backgroundPath": "Image/Backgrounds/2_1",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "女孩坐在台阶上。她在吃果酱。\n 玻璃罐子放在膝盖旁边。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+         {
+      "id": 3,
+      "backgroundPath": "Image/Backgrounds/2_1",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "罐子是透明的，能看见里面红色的残渣。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+             {
+      "id": 4,
+      "backgroundPath": "Image/Backgrounds/2_1",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "风吹过草地。草像波浪一样动，\n 从远处推过来，经过她，又推到更远的地方去。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                 {
+      "id": 5,
+      "backgroundPath": "Image/Backgrounds/2_2",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她放下水瓶。\n 瓶子搁在石阶上，发出很轻的“叩”一声。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                    {
+      "id": 6,
+      "backgroundPath": "Image/Backgrounds/2_2",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她把右手伸进裙子里，拿出蛋。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                        {
+      "id": 7,
+      "backgroundPath": "Image/Backgrounds/2_2",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她把蛋捧在膝盖上方，两只手合拢，像一个盛水的碗。",
+      "autoNextSeconds": 0,
+      "options": [
+        {
+          "text": "注视蛋的表面 ",
+          "descriptionOnSelect": "蛋壳上有一些不规则的暗斑，像是被手指反复摸过的痕迹。",
+          "eggDelta": 2,
+          "nextFrameId": -1
+        },
+          {
+          "text": "注视她的手 ",
+          "descriptionOnSelect": "她的手指很细，握蛋的方式很轻，像是怕捏碎什么。",
+          "eggDelta": 1,
+          "nextFrameId": -1
+        }
+      ],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                        {
+      "id": 8,
+      "backgroundPath": "Image/Backgrounds/2_3(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "台阶下面有一小洼水。是下雨留下的，还是从别处漫过来的，无人知晓。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                            {
+      "id": 9,
+      "backgroundPath": "Image/Backgrounds/2_3(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她看着水面。一阵风吹过，水面皱了一下。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                {
+      "id": 10,
+      "backgroundPath": "Image/Backgrounds/2_3(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "涟漪从中心散开，碰到边缘又弹回来，互相撞碎。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                  {
+      "id": 11,
+      "backgroundPath": "Image/Backgrounds/2_3(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她看着涟漪消失。\n 水面回归平静。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                      {
+      "id": 12,
+      "backgroundPath": "Image/Backgrounds/2_2",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她爬回台阶上面。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                          {
+      "id": 13,
+      "backgroundPath": "Image/Backgrounds/2_2",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "似乎是心有感应，察觉到了什么空气中细微的危险。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                              {
+      "id": 14,
+      "backgroundPath": "Image/Backgrounds/2_3",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她爬到最高一级的时候，停住了。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                  {
+      "id": 15,
+      "backgroundPath": "Image/Backgrounds/2_3",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "男人背对着她，坐在台阶上。\n 那个十字形的东西背在他身后，像另一个沉默的人。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                      {
+      "id": 16,
+      "backgroundPath": "Image/Backgrounds/2_3",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她站在他身后几步远的地方。没有说话。",
+      "autoNextSeconds": 0,
+      "options": [
+       {
+          "text": "注视他的背影  ",
+          "descriptionOnSelect": "披风是黑的。和台阶的灰色不一样。\n 黑色在灰色上面，像一个被剪下来贴上去的影子。\n 他的肩膀没有起伏。",
+          "eggDelta": 1,
+          "nextFrameId": -1
+        }, 
+        {
+          "text": "注视他背上的十字武器 ",
+          "descriptionOnSelect": "十字形。表面有凹痕，不是伤痕，是磨损。",
+          "eggDelta": 2,
+          "nextFrameId": -1
+        }
+      ],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                          {
+      "id": 17,
+      "backgroundPath": "Image/Backgrounds/2_4",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她往前走了两步。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                              {
+      "id": 18,
+      "backgroundPath": "Image/Backgrounds/2_4",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "脚步声很轻，但在这个安静的台阶上，每一脚都像踩在鼓面上。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                  {
+      "id": 19,
+      "backgroundPath": "Image/Backgrounds/2_4(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "男人转过来，看着她。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                      {
+      "id": 20,
+      "backgroundPath": "Image/Backgrounds/2_4(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他的脸从暗处转到光里—— \n 月光或者别的什么光，从很高的地方照下来。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                          {
+      "id": 21,
+      "backgroundPath": "Image/Backgrounds/2_4(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她害怕了，后退几步。但眼睛没有离开他。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                              {
+      "id": 22,
+      "backgroundPath": "Image/Backgrounds/2_4(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "男人也没有动。只是那么看着她。",
+      "autoNextSeconds": 0,
+      "options": [
+              {
+          "text": "注视她的脸 ",
+          "descriptionOnSelect": "她的瞳孔在小幅度的震动着，嘴唇微张。",
+          "eggDelta": 1,
+          "nextFrameId": -1
+        },
+                {
+          "text": "注视男人的眼睛 ",
+          "descriptionOnSelect": "他的眼睛看起来没有任何波澜，就像一潭死水。",
+          "eggDelta": 2,
+          "nextFrameId": -1
+        }
+      ],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                              {
+      "id": 23,
+      "backgroundPath": "Image/Backgrounds/2_5",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他伸出手。\n 手伸进披风内侧拿出了一个意外的东西。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                  {
+      "id": 24,
+      "backgroundPath": "Image/Backgrounds/2_5",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "是她的蛋。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                      {
+      "id": 25,
+      "backgroundPath": "Image/Backgrounds/2_6",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他没有递给她。只是托着，放在两个人之间的空气里。",
+      "autoNextSeconds": 0,
+      "options": [
+              {
+          "text": "注视蛋 ",
+          "descriptionOnSelect": "蛋在他手里。和她拿的方式不一样——他握得更紧。\n 蛋壳上的暗斑在暗光里几乎看不见了。",
+          "eggDelta": 3,
+          "nextFrameId": -1
+        },
+                {
+          "text": "注视男人的手 ",
+          "descriptionOnSelect": "他的手指上缠有绷带。估计是哪场战争的成果。",
+          "eggDelta": 2,
+          "nextFrameId": -1
+        }
+      ],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                          {
+      "id": 26,
+      "backgroundPath": "Image/Backgrounds/2_6",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他终于开口。\n 声音不高，但在这个空旷的地方，每一个字都像是从地底下传上来的。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                              {
+      "id": 27,
+      "backgroundPath": "Image/Backgrounds/2_6",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "「重要之物如果不收入怀中，是会丢失的」",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                  {
+      "id": 28,
+      "backgroundPath": "Image/Backgrounds/2_7",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她站在那里，犹豫了很久。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                      {
+      "id": 29,
+      "backgroundPath": "Image/Backgrounds/2_7",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她走上前一步。还是把蛋塞回裙子里。",
+      "autoNextSeconds": 0,
+      "options": [
+          {
+          "text": "注视她收蛋的手 ",
+          "descriptionOnSelect": "她的手指微微发抖。\n 蛋被塞进裙子暗袋的那一刻，她按住了那个位置。",
+          "eggDelta": 2,
+          "nextFrameId": -1
+        },
+                  {
+          "text": "注视她的表情  ",
+          "descriptionOnSelect": "她没有看那个男人。嘴唇抿着，像在咽下什么没有说出口的话。",
+          "eggDelta": 1,
+          "nextFrameId": -1
+        }
+      ],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                          {
+      "id": 30,
+      "backgroundPath": "Image/Backgrounds/2_8",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他又开口了。\n 这次声音更低，像是在质问。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                              {
+      "id": 31,
+      "backgroundPath": "Image/Backgrounds/2_8",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "「蛋里面是什么呢？」",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                  {
+      "id": 32,
+      "backgroundPath": "Image/Backgrounds/2_8",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她抬起头看着他。这次她没有后退。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                      {
+      "id": 33,
+      "backgroundPath": "Image/Backgrounds/2_8",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "「我不能告诉你。」",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                          {
+      "id": 34,
+      "backgroundPath": "Image/Backgrounds/2_8",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "「因为我不了解你。」",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                              {
+      "id": 35,
+      "backgroundPath": "Image/Backgrounds/2_8",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他没有因为那句话而有任何变化。表情没有变。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                  {
+      "id": 36,
+      "backgroundPath": "Image/Backgrounds/2_8",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他只是接着说了下去--",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                      {
+      "id": 37,
+      "backgroundPath": "Image/Backgrounds/2_8",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "「如果不把蛋打破看看的话，就不知道里面是什么哦。」",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                          {
+      "id": 38,
+      "backgroundPath": "Image/Backgrounds/2_8",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "“打破”两个字说得很轻，但似乎有什么破坏力。",
+      "autoNextSeconds": 0,
+      "options": [
+       {
+          "text": "注视女孩的反应 ",
+          "descriptionOnSelect": "她站在那里。卵在她的裙子下面，贴着腰侧。\n 她没有动。也没有说话。只是看着他。",
+          "eggDelta": 1,
+          "nextFrameId": -1
+        },
+         {
+          "text": "注视男人的表情 ",
+          "descriptionOnSelect": "他的表情没有变化。眼睛没有眨。\n 像一扇门关上——不是推开，是合上。",
+          "eggDelta": 2,
+          "nextFrameId": -1
+        }
+      ],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                              {
+      "id": 39,
+      "backgroundPath": "Image/Backgrounds/2_9",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "女孩被吓跑了。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                  {
+      "id": 40,
+      "backgroundPath": "Image/Backgrounds/2_10",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他回头看着她的背影。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                      {
+      "id": 41,
+      "backgroundPath": "Image/Backgrounds/2_10",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她跑得很远的时候，似乎又有些纠结地停下了脚步。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                          {
+      "id": 42,
+      "backgroundPath": "Image/Backgrounds/2_10",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她跑了很远才停下来。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                              {
+      "id": 43,
+      "backgroundPath": "Image/Backgrounds/2_10",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "回头那个男人还站在那里。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                  {
+      "id": 44,
+      "backgroundPath": "Image/Backgrounds/2_10",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她看不清他的脸。但他一定还在看她。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                      {
+      "id": 45,
+      "backgroundPath": "Image/Backgrounds/2_10",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她朝他喊。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                          {
+      "id": 46,
+      "backgroundPath": "Image/Backgrounds/2_10",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "「你是谁——」",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                              {
+      "id": 47,
+      "backgroundPath": "Image/Backgrounds/2_10",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "声音在空旷的地方散开，没有回音。\n 她不确定他有没有听见。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                 {
+      "id": 48,
+      "backgroundPath": "Image/Backgrounds/2_11",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "天更暗了。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                     {
+      "id": 49,
+      "backgroundPath": "Image/Backgrounds/2_11",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "心照不宣的时候，他们走在一起。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                         {
+      "id": 50,
+      "backgroundPath": "Image/Backgrounds/2_11",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "不知道过了多久。\n 太阳的位置没有变——或者这里根本没有太阳。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                             {
+      "id": 51,
+      "backgroundPath": "Image/Backgrounds/2_11",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "两个人都没有看对方。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                 {
+      "id": 52,
+      "backgroundPath": "Image/Backgrounds/2_12",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她突然停下来转身。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                     {
+      "id": 53,
+      "backgroundPath": "Image/Backgrounds/2_12",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "「不要跟着我。」",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                         {
+      "id": 54,
+      "backgroundPath": "Image/Backgrounds/2_12",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "声音不大，但很近。\n 她离他很近——比在台阶上的时候近多了。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                             {
+      "id": 55,
+      "backgroundPath": "Image/Backgrounds/2_12",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他没有说话。只是看着她。 \n 那种看和在台阶上几乎没什么两样。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                 {
+      "id": 56,
+      "backgroundPath": "Image/Backgrounds/2_12",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她瞪了他一眼，转身继续走。他也继续走。还是那个距离。不远不近。",
+      "autoNextSeconds": 0,
+      "options": [
+        {
+          "text": "注视男人的眼睛  ",
+          "descriptionOnSelect": "他的视线没有离开她的背影。",
+          "eggDelta": 2,
+          "nextFrameId": -1
+        },
+          {
+          "text": "注视女孩的背影 ",
+          "descriptionOnSelect": "她的肩膀绷得很紧。脚步很快，但每次快到他跟不上的时候，她会慢下来。",
+          "eggDelta": 1,
+          "nextFrameId": -1
+        }
+      ],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                 {
+      "id": 57,
+      "backgroundPath": "Image/Backgrounds/2_13",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他们拐进一条巷子。巷子很窄，两边是高墙。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                     {
+      "id": 58,
+      "backgroundPath": "Image/Backgrounds/2_13",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她走了几步，回头。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                         {
+      "id": 59,
+      "backgroundPath": "Image/Backgrounds/2_14",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "阴影像是一堵墙，他也冲破墙壁进来了。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                             {
+      "id": 60,
+      "backgroundPath": "Image/Backgrounds/2_14",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "吓得她跑了起来。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                 {
+      "id": 61,
+      "backgroundPath": "Image/Backgrounds/2_15",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他们走过很多巷子。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                     {
+      "id": 62,
+      "backgroundPath": "Image/Backgrounds/2_15",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "窗棂的倒影在地上、墙上、他们身上流动。 \n  这些倒影在墙上横着走、竖着走、斜着走。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                         {
+      "id": 63,
+      "backgroundPath": "Image/Backgrounds/2_17",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他们走在倒影里，倒影也在他们身上走。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": true,
+      "animationSpeed": 0.5
+    },
+                                                                                                                                                                                                                                             {
+      "id": 64,
+      "backgroundPath": "Image/Backgrounds/2_17/2_17_5",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他们都没有说话。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                 {
+      "id": 65,
+      "backgroundPath": "Image/Backgrounds/2_17/2_17_5",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "只有脚步声，和倒影流动时那种听不见的声音—— \n 一种在心里响起的、像水流一样的嗡鸣。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                     {
+      "id": 66,
+      "backgroundPath": "Image/Backgrounds/2_18",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她一直在悄悄回头看男人的位置。 \n 每次回头，他都走在她后面。每次都是那个距离。",
+      "autoNextSeconds": 0,
+      "options": [
+       {
+          "text": "注视她的眼睛  ",
+          "descriptionOnSelect": "她的眼神里有害怕。但害怕的下面还有别的东西——",
+          "eggDelta": 1,
+          "nextFrameId": -1
+        },
+         {
+          "text": "注视他的脚步 ",
+          "descriptionOnSelect": "他的步伐不快，但每一步都很稳。\n 他一直走在她后面的影子里，从来没有踩到她的影子。",
+          "eggDelta": 2,
+          "nextFrameId": -1
+        }
+      ],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                         {
+      "id": 67,
+      "backgroundPath": "Image/Backgrounds/2_19",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "路灯亮了。不知道是什么时候亮的。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                             {
+      "id": 68,
+      "backgroundPath": "Image/Backgrounds/2_19",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "两个影子朝相反的方向拉去。中间的地面是空的。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                 {
+      "id": 69,
+      "backgroundPath": "Image/Backgrounds/2_20",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她坐下来，从身边拿出那个水瓶。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                     {
+      "id": 70,
+      "backgroundPath": "Image/Backgrounds/2_20",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "举起瓶子朝他那边推了推。没有说话。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                         {
+      "id": 71,
+      "backgroundPath": "Image/Backgrounds/2_20",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他摇了摇头。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                             {
+      "id": 72,
+      "backgroundPath": "Image/Backgrounds/2_20",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她把水瓶收回来，放在膝盖上。低着头。嘴唇抿成一条线。",
+      "autoNextSeconds": 0,
+      "options": [
+      {
+          "text": "注视水瓶  ",
+          "descriptionOnSelect": "水瓶里的水是清的。瓶壁上有一条细缝，从瓶口一直裂到底部，但水没有漏出来。 ",
+          "eggDelta": 2,
+          "nextFrameId": 502
+        },
+        {
+          "text": "注视女孩的表情  ",
+          "descriptionOnSelect": "她低着头。头发垂下来，遮住半张脸。嘴唇抿着。",
+          "eggDelta": 1,
+          "nextFrameId": 73
+        }
+      ],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                             {
+      "id": 502,
+      "backgroundPath": "Image/Backgrounds/2_20",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "光是那条缝进来的，在水里折了一下，变成一道很细的彩虹。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId": 73
+    },
+                                                                                                                                                                                                                                                                             {
+      "id": 73,
+      "backgroundPath": "Image/Backgrounds/2_21",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "雨是突然来的。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                 {
+      "id": 74,
+      "backgroundPath": "Image/Backgrounds/2_21",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "屋檐很窄，水从上面落下来，在他们面前织成一道帘子。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                     {
+      "id": 75,
+      "backgroundPath": "Image/Backgrounds/2_21",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她戴着兜帽，回头看男人。\n 雨水从他脸上流下来，他没有擦。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                         {
+      "id": 76,
+      "backgroundPath": "Image/Backgrounds/2_22",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他朝她这边偏了偏身子。\n 披风张开一点，他的意思很清楚。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                             {
+      "id": 77,
+      "backgroundPath": "Image/Backgrounds/2_22",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她哼了一声。",
+      "autoNextSeconds": 0,
+      "options": [
+       {
+          "text": "注视男人的披风   ",
+          "descriptionOnSelect": "里面是暗色的，外面是绿的。雨水打在披风上，没有渗进去，而是汇成水珠滚下去。 ",
+          "eggDelta": 1,
+          "nextFrameId": -1
+        },
+         {
+          "text": "注视女孩拒绝的动作  ",
+          "descriptionOnSelect": "她把兜帽拉得更低了，但她的手没有放下来——还攥着兜帽的边缘。像是在保护什么，又像是在挡住自己的脸。 ",
+          "eggDelta": 2,
+          "nextFrameId": -1
+        }
+      ],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                 {
+      "id": 78,
+      "backgroundPath": "Image/Backgrounds/2_22(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他们沿着街边走。经过一扇窗户。窗户里倒映出她和他的倒影。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                     {
+      "id": 79,
+      "backgroundPath": "Image/Backgrounds/2_22(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "雨声中传来了急促的脚步声。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                         {
+      "id": 80,
+      "backgroundPath": "Image/Backgrounds/2_22(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "不是一个人的，是很多人的。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                             {
+      "id": 81,
+      "backgroundPath": "Image/Backgrounds/2_23",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "武器碰撞的声音。金属和金属，金属和皮甲。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                 {
+      "id": 82,
+      "backgroundPath": "Image/Backgrounds/2_23",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "那些像雕塑一样的人从街角跑出来。\n 他们跑过她面前时，带起一阵风。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                     {
+      "id": 83,
+      "backgroundPath": "Image/Backgrounds/2_24",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "突如其来的变动吓得她抓住他的袖子。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                         {
+      "id": 84,
+      "backgroundPath": "Image/Backgrounds/2_24",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他看着那些士兵跑过去。\n 他的手臂没有动，但也没有推开她。",
+      "autoNextSeconds": 0,
+      "options": [
+       {
+          "text": "注视她的手   ",
+          "descriptionOnSelect": "她的手指抓住他的袖子。指甲陷进布料里，指节发白。 ",
+          "eggDelta": 2,
+          "nextFrameId": -1
+        },
+         {
+          "text": "注视男人的反应    ",
+          "descriptionOnSelect": "他没有动。没有看她，没有推开她。只是站在那里，让她抓着。 ",
+          "eggDelta": 1,
+          "nextFrameId": -1
+        }
+      ],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                             {
+      "id": 85,
+      "backgroundPath": "Image/Backgrounds/2_25",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "士兵们跑过街角。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                 {
+      "id": 86,
+      "backgroundPath": "Image/Backgrounds/2_25",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他们的脸似乎是一样的——不是长得像，是表情一样。 \n 他们的脚步砸在石板上，石板在震。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                     {
+      "id": 87,
+      "backgroundPath": "Image/Backgrounds/2_26",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他抬起那只没被她抓住的手臂，放在她的肩膀上。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                         {
+      "id": 88,
+      "backgroundPath": "Image/Backgrounds/2_26",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "「鱼出来了」",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                             {
+      "id": 89,
+      "backgroundPath": "Image/Backgrounds/2_26",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "「鱼?」",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                 {
+      "id": 90,
+      "backgroundPath": "Image/Backgrounds/2_26",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "「明明哪里都不在，却不停地追逐。」",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                     {
+      "id": 91,
+      "backgroundPath": "Image/Backgrounds/2_26",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "「鱼明明哪里都不在...」",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                         {
+      "id": 92,
+      "backgroundPath": "Image/Backgrounds/2_27",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他带着她继续往前走。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                             {
+      "id": 93,
+      "backgroundPath": "Image/Backgrounds/2_27",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他们和士兵前进的方向是相反的。\n 像两股水流，在巷口交叉，然后分开。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                 {
+      "id": 94,
+      "backgroundPath": "Image/Backgrounds/2_27",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "士兵们没有看他们。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                     {
+      "id": 95,
+      "backgroundPath": "Image/Backgrounds/2_27",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "地上有东西在动。\n 不是水。\n 是影子。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                         {
+      "id": 96,
+      "backgroundPath": "Image/Backgrounds/2_28",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "鱼的影子。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                             {
+      "id": 97,
+      "backgroundPath": "Image/Backgrounds/2_28",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "它们在地面上游动——没有水的地方， \n 它们在石板上滑过去，像是石板下面是海。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                 {
+      "id": 98,
+      "backgroundPath": "Image/Backgrounds/2_28",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "它们的游动没有方向，或者说所有的方向都是墙。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                     {
+      "id": 99,
+      "backgroundPath": "Image/Backgrounds/2_28",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "碰到墙的时候，它们没有停，而是沿着墙面游上去。",
+      "autoNextSeconds": 0,
+      "options": [
+      {
+          "text": "注视鱼的影子    ",
+          "descriptionOnSelect": "它们在墙面上游动。没有水。没有声音。 ",
+          "eggDelta": 2,
+          "nextFrameId": 503
+        },
+        {
+          "text": "注视地面     ",
+          "descriptionOnSelect": "地面是湿的。影子的边缘在抖动，像被风吹皱的布。 ",
+          "eggDelta": 1,
+          "nextFrameId": 504
+        }
+      ],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                         {
+      "id": 503,
+      "backgroundPath": "Image/Backgrounds/2_29(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "影子像活的一样——鳞片的形状能看清楚。 \n 它们游过水坑的时候，水坑里的水会抖一下。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId": 100
+    },
+                                                                                                                                                                                                                                                                                                                                                                                             {
+      "id": 504,
+      "backgroundPath": "Image/Backgrounds/2_28(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "有些影子是完整的鱼形，有些只是一截——半条鱼在地上游，另一半不知道在哪。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId": 100
+    },
+                                                                                                                                                                                                                                                                                                                                                                                 {
+      "id": 100,
+      "backgroundPath": "Image/Backgrounds/2_29",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "士兵们拿着长矛。他们朝地上的影子戳下去。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                     {
+      "id": 101,
+      "backgroundPath": "Image/Backgrounds/2_29",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "矛头碰到影子的地方，影子会扭一下。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                         {
+      "id": 102,
+      "backgroundPath": "Image/Backgrounds/2_29",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "没有液体。没有血。只是影子在动， \n 然后在矛头下面慢慢变淡，最后消失。\n 但过一会儿，别的地方又会出现新的影子。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                             {
+      "id": 103,
+      "backgroundPath": "Image/Backgrounds/2_30",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "鱼影游到墙上。\n 游过砖缝，游过门框，游到窗户上。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                 {
+      "id": 104,
+      "backgroundPath": "Image/Backgrounds/2_30",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "士兵们跟着它们。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                     {
+      "id": 105,
+      "backgroundPath": "Image/Backgrounds/2_30",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "矛头戳进窗户，玻璃碎了。碎片落在地上，发出清脆的声音。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                         {
+      "id": 106,
+      "backgroundPath": "Image/Backgrounds/2_31",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "士兵的声音远了。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                             {
+      "id": 107,
+      "backgroundPath": "Image/Backgrounds/2_31",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他们走到另一个地方。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                 {
+      "id": 108,
+      "backgroundPath": "Image/Backgrounds/2_31",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "男人在门外的台阶上坐下。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                     {
+      "id": 109,
+      "backgroundPath": "Image/Backgrounds/2_32",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她走进去。\n 里面很大，还有很多椅子。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                         {
+      "id": 110,
+      "backgroundPath": "Image/Backgrounds/2_33",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她沿着中间的走道往前走。\n 脚步在空荡荡的大厅里发出很轻的回声。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                             {
+      "id": 111,
+      "backgroundPath": "Image/Backgrounds/2_33",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "椅子的尽头有一扇巨大的彩窗。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                 {
+      "id": 112,
+      "backgroundPath": "Image/Backgrounds/2_34",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": true,
+      "animationSpeed": 0.5
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                     {
+      "id": 113,
+      "backgroundPath": "Image/Backgrounds/2_34/2_34_4",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "彩窗比她高很多，几乎碰到天花板。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                         {
+      "id": 114,
+      "backgroundPath": "Image/Backgrounds/2_34/2_34_4",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "颜色在夜里还是亮的——蓝、红、金，像是有人在另一边举着灯。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                             {
+      "id": 115,
+      "backgroundPath": "Image/Backgrounds/2_34/2_34_4",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "那扇窗户似乎自带一种魔力，吸引人靠近。",
+      "autoNextSeconds": 0,
+      "options": [
+      {
+          "text": "注视彩窗的图案    ",
+          "descriptionOnSelect": "颜料有些剥落了，让人看不清雕的是什么，但顶部的图案与鱼尾似乎有些相似? ",
+          "eggDelta": 3,
+          "nextFrameId": -1
+        },
+        {
+          "text": "注视女孩的脸     ",
+          "descriptionOnSelect": "她的眼睛亮了，嘴唇张开了一点。视线完全被眼前的玻璃吸引了。 ",
+          "eggDelta": 1,
+          "nextFrameId": -1
+        }
+      ],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                             {
+      "id": 116,
+      "backgroundPath": "Image/Backgrounds/2_35",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "雨声从外面传进来。\n 雨水打在彩窗上，沿着碎玻璃的边缘往下流。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                 {
+      "id": 117,
+      "backgroundPath": "Image/Backgrounds/2_35",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她跑到彩窗前面。\n 玻璃上映出她的脸——不是很清楚，被颜色和雨水弄花了。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                     {
+      "id": 118,
+      "backgroundPath": "Image/Backgrounds/2_35",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "窗外还有男人的脸。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                         {
+      "id": 119,
+      "backgroundPath": "Image/Backgrounds/2_35",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他在窗外看着她。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                             {
+      "id": 120,
+      "backgroundPath": "Image/Backgrounds/2_36",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "男人站在士兵中间。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                 {
+      "id": 121,
+      "backgroundPath": "Image/Backgrounds/2_36",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "士兵们在他身边跑来跑去，长矛戳向地上的影子。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                     {
+      "id": 122,
+      "backgroundPath": "Image/Backgrounds/2_36",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "墙壁上时不时有鱼游过。\n 它们的影子经过他时，他的表情没有任何变化。",
+      "autoNextSeconds": 0,
+      "options": [
+       {
+          "text": "注视男人的表情    ",
+          "descriptionOnSelect": "他的眼睛似乎并不在看鱼。几乎看不到胸口的起伏。 ",
+          "eggDelta": 2,
+          "nextFrameId": -1
+        },
+         {
+          "text": "注视墙壁上的鱼     ",
+          "descriptionOnSelect": "鱼的影子在墙上滑过。它们的鳞片在光线下闪一下，然后消失。\n 它们没有方向——或者说，所有的方向都是墙。 ",
+          "eggDelta": 1,
+          "nextFrameId": -1
+        }
+      ],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         {
+      "id": 123,
+      "backgroundPath": "Image/Backgrounds/2_37",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "鱼影在墙上逃。矛头刺穿玻璃。碎片落下来。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                             {
+      "id": 124,
+      "backgroundPath": "Image/Backgrounds/2_38",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "地面上全是影子的碎片、玻璃的碎片、雨水的反光。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 {
+      "id": 125,
+      "backgroundPath": "Image/Backgrounds/2_38",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "这些画面叠在一起，快得看不清。像一段被加速播放的迷梦。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     {
+      "id": 126,
+      "backgroundPath": "Image/Backgrounds/2_39",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他们从建筑里出来。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         {
+      "id": 127,
+      "backgroundPath": "Image/Backgrounds/2_39",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "士兵的声音在后面渐渐远了。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             {
+      "id": 128,
+      "backgroundPath": "Image/Backgrounds/2_39",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "鱼影也少了。\n 街上又只剩下他们两个人。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 {
+      "id": 129,
+      "backgroundPath": "Image/Backgrounds/3_1",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "铃铛声慢慢飘了过来,像是从水底传上来的。",
+      "autoNextSeconds": 0,
+      "options": [
+       {
+          "text": "注视铃铛的方向    ",
+          "descriptionOnSelect": "铃铛在响。但风已经停了。到处都见不到人影。 ",
+          "eggDelta": 2,
+          "nextFrameId": -1
+        },
+         {
+          "text": "注视女孩的表情    ",
+          "descriptionOnSelect": "她的嘴唇动了一下。像是想说什么。又咽回去了。 ",
+          "eggDelta": 1,
+          "nextFrameId": -1
+        }
+      ],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 {
+      "id": 130,
+      "backgroundPath": "Image/Backgrounds/3_1",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "铃铛声还在响，但越来越轻。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     {
+      "id": 13,
+      "backgroundPath": "Image/Backgrounds/3_1",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他们的影子被月光拉得很长，走远了，铃铛声也渐渐听不见了。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    }
+  ]
+}

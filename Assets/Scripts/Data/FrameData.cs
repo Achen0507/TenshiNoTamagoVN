@@ -24,6 +24,7 @@ namespace TenshiNoTamago.Data
         public int eggDelta;
         public bool isAnimation;
         public float animationSpeed;
+        public bool loopAnimation;   // true=循环播放，false=播一次停住
     }
 
     [Serializable]

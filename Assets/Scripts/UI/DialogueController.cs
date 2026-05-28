@@ -1,5 +1,6 @@
 using DG.Tweening;
 using System.Collections;
+using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using TenshiNoTamago.Core;
@@ -39,7 +40,6 @@ namespace TenshiNoTamago.UI
         private FrameData currentFrame;
         private bool isWaitingForInput = false;
         private float autoNextTimer = 0f;
-        private bool isTyping = false;
         private int pendingNextFrameId = -1;  // 待跳转的帧ID
         private bool isTextFullyDisplayed = false;  // 当前帧文字是否已完整显示
 
@@ -100,7 +100,6 @@ namespace TenshiNoTamago.UI
                     {
                         StopCoroutine(typingCoroutine);
                         descriptionText.text = currentFrame.descriptionText;
-                        isTyping = false;
                         isTextFullyDisplayed = true;
                     }
                     else
@@ -142,6 +141,13 @@ namespace TenshiNoTamago.UI
         }
 
         private void ShowFrame(FrameData frame) {
+            if (animationCoroutine != null)
+            {
+                Debug.Log($"停止动画，当前停留在第几帧？");
+                StopCoroutine(animationCoroutine);
+                animationCoroutine = null;
+            }
+
             currentFrame = frame;
             isTextFullyDisplayed = false;
 
@@ -151,7 +157,7 @@ namespace TenshiNoTamago.UI
                 GameManager.Instance.AddEggIntegrity(frame.eggDelta);
             }
 
-            if (frame.id == 37 && !titleShown)
+            if (chapterToLoad == "prologue" && frame.id == 37 && !titleShown)
             {
                 titleShown = true;
                 ShowTitle();
@@ -256,22 +262,27 @@ namespace TenshiNoTamago.UI
 
             if (!string.IsNullOrEmpty(option.descriptionOnSelect))
             {
-                SetDescriptionText(option.descriptionOnSelect);
-                pendingNextFrameId = option.nextFrameId;
-                isWaitingForInput = true;  // 切换到等待点击状态
-                nextIndicator.SetActive(false);
+                SetDescriptionText(option.descriptionOnSelect, () =>
+                {
+                    // 显示追加文字后的逻辑：没有选项，直接进入等待点击
+                    isWaitingForInput = true;
+                    autoNextTimer = 0;
+
+                    // 显示箭头
+                    nextIndicator.SetActive(true);
+                    _ = BlinkIndicatorAsync();
+
+                    pendingNextFrameId = option.nextFrameId;
+                });
             }
-            else {
-                // 没有追加文字：直接跳转
+            else
+            {
+                // 没有追加文字，直接跳转
                 if (option.nextFrameId != -1)
-                {
                     JumpToFrame(option.nextFrameId);
-                }
                 else
-                {
                     AdvanceToNextFrame();
-                }
-            }            
+            }       
         }
 
         private void AdvanceToNextFrame() {
@@ -296,10 +307,8 @@ namespace TenshiNoTamago.UI
         {
             isWaitingForInput = false;
 
-            // 1. 先变黑（底图被遮住）
             fadePanel.DOFade(1f, 1f).OnComplete(() =>
             {
-                // 2. 黑屏后，标题慢慢淡入
                 titleObject.SetActive(true);
 
                 CanvasGroup titleGroup = titleObject.GetComponent<CanvasGroup>();
@@ -315,13 +324,9 @@ namespace TenshiNoTamago.UI
                         {
                             titleObject.SetActive(false);
 
-                            Sprite chapter1Bg = Resources.Load<Sprite>("Image/Backgrounds/1_1");
-                            backgroundImage.sprite = chapter1Bg;
+                            LoadChapter("chapter1");
 
-                            fadePanel.DOFade(0f, 1f).OnComplete(() =>
-                            {
-                                AdvanceToNextFrame();
-                            });
+                            fadePanel.DOFade(0f, 1f);
                         });
                     });
                 });
@@ -347,18 +352,17 @@ namespace TenshiNoTamago.UI
         }
 
         private IEnumerator TypeText(string fullText,System.Action onComplete) {
-            isTyping = true;
             descriptionText.text = "";
+            float typeSpeed = 0.1f;
 
             foreach (char c in fullText)
             {
                 descriptionText.text += c;
-                float typeSpeed = 0.1f;
                 if (c == '。' || c == '、' || c == '…') typeSpeed = 0.2f;
+                else typeSpeed = 0.1f;
                 yield return new WaitForSeconds(typeSpeed); 
             }
 
-            isTyping = false;
             isTextFullyDisplayed = true;
             onComplete?.Invoke();
         }
@@ -374,6 +378,8 @@ namespace TenshiNoTamago.UI
 
         private IEnumerator PlaySequence(FrameData frame) {
             Sprite[] frames = Resources.LoadAll<Sprite>(frame.backgroundPath);
+            Debug.Log($"加载了 {frames.Length} 张图，分别是：{string.Join(", ", frames.Select(f => f.name))}");
+
             if (frames == null || frames.Length == 0)
             {
                 Debug.LogWarning($"未找到动画序列: {frame.backgroundPath}");
@@ -382,18 +388,35 @@ namespace TenshiNoTamago.UI
             int current = 0;
             float timer = 0;
 
-            while (current < frames.Length)
+            if (frame.loopAnimation)
             {
-                backgroundImage.sprite = frames[current];
-                timer += Time.deltaTime;
-
-                if (timer >= frame.animationSpeed)
+                while (true)
                 {
-                    timer = 0;
-                    current++;
+                    backgroundImage.sprite = frames[current];
+                    timer += Time.deltaTime;
+                    if (timer >= frame.animationSpeed)
+                    {
+                        timer = 0;
+                        current++;
+                        if (current >= frames.Length) current = 0;
+                    }
+                    yield return null;
                 }
-                yield return null;
             }
+            else {
+                while (current < frames.Length)
+                {
+                    backgroundImage.sprite = frames[current];
+                    timer += Time.deltaTime;
+                    if (timer >= frame.animationSpeed)
+                    {
+                        timer = 0;
+                        current++;
+                    }
+                    yield return null;
+                }
+                animationCoroutine = null;
+            }           
         }
     }
 }
