@@ -26,6 +26,7 @@ namespace TenshiNoTamago.Data
         public float animationSpeed;
         public bool loopAnimation;   // true=循环播放，false=播一次停住
         public int nextFrameId = -1;
+        public string sfxKey;
     }
 
     [Serializable]

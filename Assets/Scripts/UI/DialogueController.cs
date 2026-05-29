@@ -1,6 +1,5 @@
 using DG.Tweening;
 using System.Collections;
-using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using TenshiNoTamago.Core;
@@ -42,12 +41,20 @@ namespace TenshiNoTamago.UI
         private float autoNextTimer = 0f;
         private int pendingNextFrameId = -1;  // 待跳转的帧ID
         private bool isTextFullyDisplayed = false;  // 当前帧文字是否已完整显示
+        private AudioSource currentVoiceSource; //当前播放语音
+        public static System.Action<string, int> OnFrameChanged;  // 氛围音乐
 
         private bool titleShown = false;
 
         private Vector3 originalBgPosition;
         private Tween bgTweenX;
         private Tween bgTweenY;
+
+        private void Awake()
+        {
+            if (OnFrameChanged == null)
+                OnFrameChanged = delegate { };
+        }
 
         private void Start()
         {
@@ -175,6 +182,14 @@ namespace TenshiNoTamago.UI
                     else Debug.LogWarning($"[DialogueController] Background not found: {frame.backgroundPath}");
                 }
             }
+
+            // 播放本帧音效
+            if (!string.IsNullOrEmpty(frame.sfxKey))
+            {
+                PlayVoice(frame.sfxKey);
+            }
+
+            OnFrameChanged?.Invoke(currentChapterData.chapterName, frame.id);
 
             SetDescriptionText(frame.descriptionText, () =>
             {
@@ -457,6 +472,16 @@ namespace TenshiNoTamago.UI
             {
                 JumpToFrame(targetId);
             }
+        }
+
+        private void PlayVoice(string sfxKey)
+        {
+            if (currentVoiceSource != null && currentVoiceSource.isPlaying)
+            {
+                currentVoiceSource.Stop();
+            }
+
+            currentVoiceSource = AudioManager.Instance.PlaySFXAndReturnSource(sfxKey);
         }
     }
 }

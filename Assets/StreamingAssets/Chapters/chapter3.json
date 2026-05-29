@@ -18,12 +18,42 @@
       "backgroundPath": "Image/Backgrounds/3_1",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "「拜托了，请不要动我的蛋。」",
+      "descriptionText": "「拜托了...」",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"baituole",
+      "nextFrameId":2222
+     },
+          {
+      "id": 2222,
+      "backgroundPath": "Image/Backgrounds/3_1",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "「请不要动我的蛋」",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "sfxKey":"qingbuyao",
+      "nextFrameId":2223
+     },
+               {
+      "id": 2223,
+      "backgroundPath": "Image/Backgrounds/3_1",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "「约定好了」",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "sfxKey":"yuehaole",
+      "nextFrameId":3
      },
           {
       "id": 3,
@@ -66,12 +96,13 @@
       "backgroundPath": "Image/Backgrounds/3_2",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "「在这边。」",
+      "descriptionText": "「在这边哦!」",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"zhebiano"
      },
                               {
       "id": 7,
@@ -180,7 +211,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"wojianguoshu"
      },
                                                                  {
       "id": 15,
@@ -204,7 +236,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"nashiduojiu"
      },
                                                                            {
       "id": 17,
@@ -248,12 +281,13 @@
       "backgroundPath": "Image/Backgrounds/3_4/3_4_4",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "「在音鸣云动的天空下。」",
+      "descriptionText": "「在遥远的过去,在音鸣云动的天空下。」",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"zaiyaoyuan"
      },
                                                                                      {
       "id": 20,
@@ -265,7 +299,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"dipingxian"
      },
                                                                                           {
       "id": 21,
@@ -277,7 +312,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+       "sfxKey":"jiqujianghua"
      },
                                                                                                {
       "id": 22,
@@ -296,12 +332,28 @@
       "backgroundPath": "Image/Backgrounds/3_4/3_4_4",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "「是在蛋中，持续深眠的巨鸟。」",
+      "descriptionText": "「是在蛋中...」",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"danlimian02",
+      "nextFrameId":2332
+     },
+                                                                                                         {
+      "id": 2332,
+      "backgroundPath": "Image/Backgrounds/3_4/3_4_4",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "「持续深眠的巨鸟。」",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "sfxKey":"shuimiandeniao",
+      "nextFrameId":24
      },
                                                                                                          {
       "id": 24,
@@ -313,7 +365,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"nazhiniao"
      },
                                                                                                               {
       "id": 25,
@@ -325,7 +378,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"qunale"
      },
                                                                                                                    {
       "id": 26,
@@ -361,7 +415,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"xianzaiye"
      },
                                                                                                                              {
       "id": 29,
@@ -373,19 +428,21 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"haizaizuomeng"
      },
                                                                                                                                   {
       "id": 30,
       "backgroundPath": "Image/Backgrounds/3_7",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "「鸟会做什么梦呢？」",
+      "descriptionText": "「梦? \n 鸟会做什么梦呢？」",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"zuoshenmemeng"
      },
                                                                                                                                        {
       "id": 31,
@@ -397,15 +454,31 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "nextFrameId":3112
+     },
+                                                                                                                                       {
+      "id": 3112,
+      "backgroundPath": "Image/Backgrounds/3_7",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "「那个蛋里是什么？」",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "sfxKey":"nidedan",
+      "nextFrameId":32
      },
                                                                                                                                             {
       "id": 32,
       "backgroundPath": "Image/Backgrounds/3_7",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "「那个蛋里是什么？可以告诉我了吗。」",
+      "descriptionText": "「还不能告诉我吗?」",
       "autoNextSeconds": 0,
+      "sfxKey":"haibuneng",
       "options": [
        {
           "text": "注视女孩的脸    ",
@@ -494,7 +567,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"nilaiduojiu"
      },
                                                                                                                                                                              {
       "id": 39,
@@ -506,7 +580,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"shouji"
      },
                                                                                                                                                                                   {
       "id": 40,
@@ -530,7 +605,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"woyewangle"
      },
                                                                                                                                                                                             {
       "id": 42,
@@ -542,7 +618,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"zhihou"
      },
                                                                                                                                                                                                  {
       "id": 43,
@@ -554,7 +631,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"yexuyikaishi"
      },
                                                                                                                                                                                                       {
       "id": 44,
@@ -578,7 +656,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"yaoqunane"
      },
                                                                                                                                                                                                                 {
       "id": 46,
@@ -634,18 +713,31 @@
       "characterPosition": "",
       "descriptionText": "「我要把由我创造的人类从地表抹去。\n 人，野兽，爬虫，乃至飞鸟——无一例外地毁灭。\n 因为我对创造出这一切感到懊悔。」",
       "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "sfxKey":"woyaoba",
+      "nextFrameId":4811
+},
+      {"id": 4811,
+      "backgroundPath": "Image/Backgrounds/3_16",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
+      "autoNextSeconds": 0,
       "options": [
        {
       "text": "注视他的嘴唇",
       "descriptionOnSelect": "他的嘴唇在动，声音没有起伏。像一扇门在重复开合。",
       "eggDelta": 1,
-      "nextFrameId": -1
+      "nextFrameId": 49
     },
     {
       "text": "注视墙上的化石",
       "descriptionOnSelect": "化石的头朝着右边。喙张开，但没有舌头。",
       "eggDelta": 2,
-      "nextFrameId": -1
+      "nextFrameId": 49
     }
       ],
       "eggDelta": 0,
@@ -662,7 +754,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"jiangxia"
      },
                                                                                                                                                                                                                                     {
       "id": 50,
@@ -686,7 +779,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"hongshui"
      },
                                                                                                                                                                                                                                          {
       "id": 52,
@@ -698,7 +792,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"natian"
      },
                                                                                                                                                                                                                                               {
       "id": 53,
@@ -710,7 +805,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"fangzhou"
      },
      {
   "id": 507,
@@ -743,7 +839,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"zaidimian"
      },
                                                                                                                                                                                                                                                         {
       "id": 55,
@@ -755,7 +852,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"zhiyouyuta"
      },
                                                                                                                                                                                                                                                              {
       "id": 56,
@@ -780,7 +878,8 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":505
+      "nextFrameId":505,
+      "sfxKey":"takandao"
      },
      {
   "id": 505,
@@ -810,19 +909,21 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"keshizaiyemeiyou"
      },
                                                                                                                                                                                                                                                                        {
       "id": 59,
       "backgroundPath": "Image/Backgrounds/3_16",
-      "characterSpritePath": "",
+      "characterSpritePath": "", 
       "characterPosition": "",
       "descriptionText": "「鸟儿是找到了去处，还是精疲力尽被水淹没——」",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"niaozhaodao"
      },
                                                                                                                                                                                                                                                                             {
       "id": 60,
@@ -834,7 +935,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"meiyouren"
      },
                                                                                                                                                                                                                                                                                  {
       "id": 61,
@@ -846,7 +948,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"suoyirenmen"
      },
                                                                                                                                                                                                                                                                                       {
       "id": 62,
@@ -858,7 +961,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"cengjiheshi"
      },
                                                                                                                                                                                                                                                                                            {
       "id": 63,
@@ -870,7 +974,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"dangranyebujide"
      },
                                                                                                                                                                                                                                                                                                 {
       "id": 64,
@@ -889,12 +994,28 @@
       "backgroundPath": "Image/Backgrounds/3_16(bu)",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "「我们从何处来，在此生活了多久，又将去往何处。」",
+      "descriptionText": "「我们从何处来，在此生活了多久。」",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"womencong",
+      "nextFrameId":6512
+     },
+                                                                                                                                                                                                                                                                                                          {
+      "id": 6512,
+      "backgroundPath": "Image/Backgrounds/3_16(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "「又将去往何处。」",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "sfxKey":"youjiangquwang",
+      "nextFrameId":66
      },
                                                                                                                                                                                                                                                                                                           {
       "id": 66,
@@ -906,7 +1027,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"zheshihenjiu"
      },
                                                                                                                                                                                                                                                                                                                {
       "id": 67,
@@ -918,7 +1040,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"woyexiangbuqi"
      },
                                                                                                                                                                                                                                                                                                                     {
       "id": 68,
@@ -930,9 +1053,9 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
-     },
-                                                                                                                                                                                                                                                                                                                         {
+      "animationSpeed": 0,
+      "sfxKey":"taijiuyuan"
+      },{                                                                                                                                                                                                                                                                                                            
       "id": 69,
       "backgroundPath": "Image/Backgrounds/3_17",
       "characterSpritePath": "",
@@ -942,7 +1065,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"huoxuzhishi"
      },
                                                                                                                                                                                                                                                                                                                               {
       "id": 70,
@@ -954,7 +1078,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"wangji"
      },
                                                                                                                                                                                                                                                                                                                                    {
       "id": 71,
@@ -966,7 +1091,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"huoxu"
      },
                                                                                                                                                                                                                                                                                                                                         {
       "id": 72,
@@ -978,7 +1104,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"niaoerhuoxu"
      },
      {
   "id": 508,
@@ -1047,7 +1174,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"zaideo"
      },
                                                                                                                                                                                                                                                                                                                                                                  {
       "id": 77,
@@ -1059,7 +1187,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"zaizhe"
      },
                                                                                                                                                                                                                                                                                                                                                                       {
       "id": 78,
@@ -1108,7 +1237,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"zaoyin4"
      },
                                                                                                                                                                                                                                                                                                                                                                                 {
       "id": 81,
@@ -1221,7 +1351,7 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                    {
       "id": 89,
-      "backgroundPath": "Image/Backgrounds/3_21/3_21_4",
+      "backgroundPath": "Image/Backgrounds/3_21/3_21_4", 
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "「我发现的时候它已经变成了化石。」",
@@ -1229,7 +1359,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"wofaxiandeshihou"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                         {
       "id": 90,
@@ -1241,7 +1372,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"tazaizheli"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                              {
       "id": 91,
@@ -1253,7 +1385,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"woyaofuhua"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                   {
       "id": 92,
@@ -1277,7 +1410,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"wozhaodaode"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                             {
       "id": 94,
@@ -1298,6 +1432,7 @@
       "characterPosition": "",
       "descriptionText": "「我就知道。」",
       "autoNextSeconds": 0,
+       "sfxKey":"wojiuzhidao",
       "options": [
        {
       "text": "注视男人的眼睛",
@@ -1320,7 +1455,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"wojiuzhidaoshizhey"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                       {
       "id": 97,
@@ -1375,12 +1511,13 @@
       "backgroundPath": "Image/Backgrounds/3_24",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "「能听到动静吗？」",
+      "descriptionText": "「能听到什么吗？」",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"nengtingdao"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                {
       "id": 102,
@@ -1416,7 +1553,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"nengtingjian"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               {
       "id": 105,
@@ -1428,7 +1566,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"weiruo"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    {
       "id": 106,
@@ -1452,7 +1591,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"nashixintiao"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              {
       "id": 108,
@@ -1476,7 +1616,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"chibang"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        {
       "id": 110,
@@ -1488,7 +1629,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"tiankongde"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             {
       "id": 111,
@@ -1536,7 +1678,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"buyongduojiu"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 {
       "id": 115,
@@ -1548,7 +1691,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"suiranhaizai"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      {
       "id": 116,
@@ -1560,7 +1704,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"yegeinikan"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           {
       "id": 117,
@@ -1572,7 +1717,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"buyongduojiu2"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                {
       "id": 118,
@@ -1584,7 +1730,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"suoyizaizheli"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     {
       "id": 119,
@@ -1596,19 +1743,21 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"zhelibuhui"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          {
       "id": 120,
       "backgroundPath": "Image/Backgrounds/3_26",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "「很暖和。」",
+      "descriptionText": "「很温暖。」",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"henwennuan"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               {
       "id": 121,
@@ -1716,7 +1865,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"nishishui"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       {
       "id": 130,
@@ -1740,7 +1890,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"nishishui2"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 {
       "id": 132,
@@ -2281,7 +2432,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"jiao01"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          {
       "id": 167,
@@ -2317,7 +2469,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":""
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         {
       "id": 170,
@@ -3113,8 +3266,7 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
-     },
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     {
+     },{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
       "id": 221,
       "backgroundPath": "Image/Backgrounds/1_1",
       "characterSpritePath": "",

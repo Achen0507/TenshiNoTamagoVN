@@ -370,12 +370,26 @@
       "backgroundPath": "Image/Backgrounds/2_6",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "「重要之物如果不收入怀中，是会丢失的」",
+      "descriptionText": "「重要之物如果不收入怀中,」",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"zhongyao"
+    },
+                                                                                                  {
+      "id": 27_2,
+      "backgroundPath": "Image/Backgrounds/2_6",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "「可是会丢失的哦。」",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "sfxKey":"diushi"
     },
                                                                                                   {
       "id": 28,
@@ -436,7 +450,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"danlimian"
     },
                                                                                                                   {
       "id": 32,
@@ -460,7 +475,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"nazhong"
     },
                                                                                                                           {
       "id": 34,
@@ -472,7 +488,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"yinweiwo"
     },
                                                                                                                               {
       "id": 35,
@@ -508,7 +525,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"ruguo"
     },
                                                                                                                                           {
       "id": 38,
@@ -629,7 +647,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"nishi"
     },
                                                                                                                                                                               {
       "id": 47,
@@ -1211,7 +1230,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"yuchulai"
     },
                                                                                                                                                                                                                                                                                                                                              {
       "id": 89,
@@ -1223,7 +1243,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"yu"
     },
                                                                                                                                                                                                                                                                                                                                                  {
       "id": 90,
@@ -1235,7 +1256,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"mingmingnali"
     },
                                                                                                                                                                                                                                                                                                                                                      {
       "id": 91,
@@ -1247,7 +1269,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"yumingming"
     },
                                                                                                                                                                                                                                                                                                                                                          {
       "id": 92,

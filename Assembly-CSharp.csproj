@@ -56,11 +56,13 @@
     <Analyzer Include="D:\vscode\vs2019\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\UI\MainMenuAnimController.cs" />
     <Compile Include="Assets\Scripts\UI\DialogueController.cs" />
     <Compile Include="Assets\Scripts\Core\GameManager.cs" />
     <Compile Include="Assets\Scripts\Data\FrameData.cs" />
     <Compile Include="Assets\Scripts\Utilities\JsonLoader.cs" />
-    <Compile Include="Assets\Scripts\UI\MainMenuAnimController.cs" />
+    <Compile Include="Assets\Scripts\Core\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\Core\AmbienceController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\Fonts\kaiso_up\readme.txt" />

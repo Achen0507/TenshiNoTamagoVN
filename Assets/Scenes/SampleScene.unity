@@ -123,6 +123,540 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &494142607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 494142612}
+  - component: {fileID: 494142611}
+  - component: {fileID: 494142610}
+  - component: {fileID: 494142609}
+  - component: {fileID: 494142608}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &494142608
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494142607}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &494142609
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494142607}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.8
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &494142610
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494142607}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &494142611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494142607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9dab1bd1ee3843469d6884919fb814c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bgmSource: {fileID: 494142610}
+  ambienceSource: {fileID: 494142609}
+  sfxSource: {fileID: 494142608}
+  audioMappings:
+  - key: zhongyao
+    clip: {fileID: 8300000, guid: 13b076b07657abf4298f72c664443d80, type: 3}
+  - key: diushi
+    clip: {fileID: 8300000, guid: 2559d2991e54d6e49a8f66986a2bbf9e, type: 3}
+  - key: danlimian
+    clip: {fileID: 8300000, guid: daf375e4ef4bd234bba14304c0ead467, type: 3}
+  - key: nazhong
+    clip: {fileID: 8300000, guid: 9146d28de16ded848a36ef08c468a36e, type: 3}
+  - key: yinweiwo
+    clip: {fileID: 8300000, guid: 1225e060bc17614488832239476d89a1, type: 3}
+  - key: ruguo
+    clip: {fileID: 8300000, guid: 69899355fdd4c9f47930851895ea39f7, type: 3}
+  - key: nishi
+    clip: {fileID: 8300000, guid: d4bbcfec63d3a3947b3df6fc3be027af, type: 3}
+  - key: yuchulai
+    clip: {fileID: 8300000, guid: d5155740599019e4ca7be3e050ce242e, type: 3}
+  - key: mingmingnali
+    clip: {fileID: 8300000, guid: cf783a05bb3444940836befc6ad8d45b, type: 3}
+  - key: yumingming
+    clip: {fileID: 8300000, guid: 555401029d5f61042854c48cd4ac10e7, type: 3}
+  - key: wojianguoshu
+    clip: {fileID: 8300000, guid: 70c617c4ac833884e9f80abab123da2b, type: 3}
+  - key: nashiduojiu
+    clip: {fileID: 8300000, guid: f96dd1bec3da6cc4f9815e548f8ac935, type: 3}
+  - key: zaiyaoyuan
+    clip: {fileID: 8300000, guid: 6ccb82fbd081edb46923a15165ae92de, type: 3}
+  - key: dipingxian
+    clip: {fileID: 8300000, guid: 688587fd7cf97ef41a7e1100244dbcc6, type: 3}
+  - key: jiqujianghua
+    clip: {fileID: 8300000, guid: bcdae5341e2f8cf4a85d8bfe8406cae3, type: 3}
+  - key: danlimian02
+    clip: {fileID: 8300000, guid: 4172b947e5fea4541be6928108fb2bf1, type: 3}
+  - key: nazhiniao
+    clip: {fileID: 8300000, guid: e0ad302f0e2018141b8fe34811555c51, type: 3}
+  - key: shuimiandeniao
+    clip: {fileID: 8300000, guid: a67424360db07ce468af80ab2899ffd8, type: 3}
+  - key: haizaizuomeng
+    clip: {fileID: 8300000, guid: 2f74037c37c199f46b96221a6b0b0a3b, type: 3}
+  - key: niaoerhuoxu
+    clip: {fileID: 8300000, guid: f35743aa4686dc04cac99dbc4aa828cc, type: 3}
+  - key: huoxu
+    clip: {fileID: 8300000, guid: 4c94ccb0f00f1fd468a193f6c8c345cc, type: 3}
+  - key: natian
+    clip: {fileID: 8300000, guid: d3c12c7afa3690043bf1449981341d1d, type: 3}
+  - key: fangzhou
+    clip: {fileID: 8300000, guid: c6f094a754122d841a9e7d3f4c842ada, type: 3}
+  - key: hongshui
+    clip: {fileID: 8300000, guid: db62137ef90a887469b7d0239cce3691, type: 3}
+  - key: buyongduojiu
+    clip: {fileID: 8300000, guid: d23f93d5ffbcfe04893d9c581226e663, type: 3}
+  - key: buyongduojiu2
+    clip: {fileID: 8300000, guid: c652fd08fe46c0c4090e1ceced66de78, type: 3}
+  - key: henwennuan
+    clip: {fileID: 8300000, guid: ce4d71429479ab1448c83fc81b5d655d, type: 3}
+  - key: chibang
+    clip: {fileID: 8300000, guid: 5adc081b1d719854b9493f119eb8ef46, type: 3}
+  - key: jiangxia
+    clip: {fileID: 8300000, guid: ec50c887bad4a7e4a9e3dd774c0bebfd, type: 3}
+  - key: nengtingdao
+    clip: {fileID: 8300000, guid: 51de788a0726c7244ae241118800af12, type: 3}
+  - key: nilaiduojiu
+    clip: {fileID: 8300000, guid: 5743ded890473fe48bda4e561b3e3907, type: 3}
+  - key: nengtingjian
+    clip: {fileID: 8300000, guid: cefdc251540676a49a9cae1cec0dfdcf, type: 3}
+  - key: suiranhaizai
+    clip: {fileID: 8300000, guid: 5d506289e41744e42b36712165f29228, type: 3}
+  - key: shouji
+    clip: {fileID: 8300000, guid: 1c821625a05d3644d8133a880be5bc7e, type: 3}
+  - key: nashixintiao
+    clip: {fileID: 8300000, guid: 3f600604bb3ca9747a15578bdded7d29, type: 3}
+  - key: nishishui2
+    clip: {fileID: 8300000, guid: dc4e91ec958c2a64288342b24c355fa9, type: 3}
+  - key: nishishui
+    clip: {fileID: 8300000, guid: 3b9d6e66f7dd86742b7ead5e834e87d5, type: 3}
+  - key: zaideo
+    clip: {fileID: 8300000, guid: e52c046c778a3ac4b90f98ec929502a6, type: 3}
+  - key: yexuyikaishi
+    clip: {fileID: 8300000, guid: 367bd23d663ef9745a57277620be9163, type: 3}
+  - key: yaoqunane
+    clip: {fileID: 8300000, guid: 6694e0a0f1e76534f8027a7e32631236, type: 3}
+  - key: zhelibuhui
+    clip: {fileID: 8300000, guid: bc4e3153bebb92d44a19010b64162080, type: 3}
+  - key: zheshihenjiu
+    clip: {fileID: 8300000, guid: f0e5e9dc7e2539f4e8c6a6dc90e9ea34, type: 3}
+  - key: zhihou
+    clip: {fileID: 8300000, guid: 65057f202cedca346864108f891dffd7, type: 3}
+  - key: yegeinikan
+    clip: {fileID: 8300000, guid: 092bc5f7ccf676a489a5b8928d1b5afd, type: 3}
+  - key: xianzaiye
+    clip: {fileID: 8300000, guid: fe56bff989da49a4a872957b34861b12, type: 3}
+  - key: woyexiangbuqi
+    clip: {fileID: 8300000, guid: 287660d5d57697c48bef63e894dc6039, type: 3}
+  - key: woyewangle
+    clip: {fileID: 8300000, guid: bb9a34796371aa649addc37df438ea2d, type: 3}
+  - key: weiruo
+    clip: {fileID: 8300000, guid: a0d6e7c7a6496c140ad392e5a4ca95ae, type: 3}
+  - key: wangji
+    clip: {fileID: 8300000, guid: fdd6e5aa67187ae438aed83292729dac, type: 3}
+  - key: zaizhe
+    clip: {fileID: 8300000, guid: c8f8241bedf08a444b222eab09999b12, type: 3}
+  - key: zuoshenmemeng
+    clip: {fileID: 8300000, guid: 4821c36505a57664fa4271e8e1596ef8, type: 3}
+  - key: haibuneng
+    clip: {fileID: 8300000, guid: cd731d80a9b00a44886c6cf73d59a5a6, type: 3}
+  - key: qunale
+    clip: {fileID: 8300000, guid: 5bc090b736168114087a76d80190b0ad, type: 3}
+  - key: suoyizaizheli
+    clip: {fileID: 8300000, guid: 413abbb6fa93d094c97b8e7b0ee39cc6, type: 3}
+  - key: tiankongde
+    clip: {fileID: 8300000, guid: e7927377e6d6cdb409a2f47869552759, type: 3}
+  - key: taijiuyuan
+    clip: {fileID: 8300000, guid: 0a4a3c76091629544a92e5764305525e, type: 3}
+  - key: takandao
+    clip: {fileID: 8300000, guid: 657c5c5160cd86346aea8ac23193d802, type: 3}
+  - key: keshizaiyemeiyou
+    clip: {fileID: 8300000, guid: 9cdd84058b2d3f2448113d7d42de21d9, type: 3}
+  - key: niaozhaodao
+    clip: {fileID: 8300000, guid: ec471aa181765364fbd29d41d91d4a68, type: 3}
+  - key: meiyouren
+    clip: {fileID: 8300000, guid: 4f67b50caa74ace4b802b441e818825d, type: 3}
+  - key: suoyirenmen
+    clip: {fileID: 8300000, guid: d90d89e08a1c71b4787746e36c9b0d05, type: 3}
+  - key: cengjiheshi
+    clip: {fileID: 8300000, guid: 5efd61e246bd4784da10fb370eb1a5d0, type: 3}
+  - key: dangranyebujide
+    clip: {fileID: 8300000, guid: 6a8f666950905644384a2178a0ed14da, type: 3}
+  - key: womencong
+    clip: {fileID: 8300000, guid: 5d46130e8f2dcda438e7f98c8f792eee, type: 3}
+  - key: youjiangquwang
+    clip: {fileID: 8300000, guid: 96de37badd337cb4ea5ee2e6414c90a0, type: 3}
+  - key: woyaoba
+    clip: {fileID: 8300000, guid: 5101b91cff6dc604395660e4579f91c7, type: 3}
+  - key: zaidimian
+    clip: {fileID: 8300000, guid: f06bc62747b6d024b9ca370c4c79a817, type: 3}
+  - key: zhiyouyuta
+    clip: {fileID: 8300000, guid: 17e2c26808026d840b27822fb151288c, type: 3}
+  - key: wofaxiandeshihou
+    clip: {fileID: 8300000, guid: c27a3c2601a24034099f5128e4c5a839, type: 3}
+  - key: tazaizheli
+    clip: {fileID: 8300000, guid: bf5ed6c17dfa79346a4abb97deaed279, type: 3}
+  - key: woyaofuhua
+    clip: {fileID: 8300000, guid: 43608886bf4606745861ab7c02eac483, type: 3}
+  - key: wozhaodaode
+    clip: {fileID: 8300000, guid: a861d35ae64ecef488bd1ab94c1626f7, type: 3}
+  - key: baituole
+    clip: {fileID: 8300000, guid: 9d0e12c669b389d47ae31cd5296193bd, type: 3}
+  - key: qingbuyao
+    clip: {fileID: 8300000, guid: 1b2220cdaa7b6924eaa760aab78c45da, type: 3}
+  - key: yuehaole
+    clip: {fileID: 8300000, guid: b6d30f092471cd94f894ce096e7bf8e5, type: 3}
+  - key: wojiuzhidao
+    clip: {fileID: 8300000, guid: 32bde5cfc6acf134e8a79d1c7f789d3e, type: 3}
+  - key: wojiuzhidaoshizhey
+    clip: {fileID: 8300000, guid: 4bcf318f439848c4f886fd22f0a21953, type: 3}
+  - key: nidedan
+    clip: {fileID: 8300000, guid: a33d5bd0a00505d459ec2a4c44cbd36d, type: 3}
+  - key: zhebiano
+    clip: {fileID: 8300000, guid: 71ae167db242a1f45a32a4fb852cb7b0, type: 3}
+  - key: zaoyin4
+    clip: {fileID: 8300000, guid: 9e42eb153b95c8b438d83432ce034c41, type: 3}
+  - key: huoxuzhishi
+    clip: {fileID: 8300000, guid: d2022dbd9f2b1114aad86671ed965e2c, type: 3}
+  - key: wind04
+    clip: {fileID: 8300000, guid: 8862076712fc4e54daeb3d46e260553a, type: 3}
+  - key: Accumulation
+    clip: {fileID: 8300000, guid: 2af6db5915697e9498678234951fb70f, type: 3}
+  - key: water03
+    clip: {fileID: 8300000, guid: 01dece895f2534e428b301b8b2dd76d7, type: 3}
+  - key: rain04
+    clip: {fileID: 8300000, guid: 1906377dab76c0d41865df0ed2a8824b, type: 3}
+  - key: jiangshu
+    clip: {fileID: 8300000, guid: abd58fb7797bb9f4997ba31e708aeb97, type: 3}
+  - key: faxianniao
+    clip: {fileID: 8300000, guid: 92c14de1edb72b44d84e369a79df0d99, type: 3}
+  - key: wind06
+    clip: {fileID: 8300000, guid: a9a8a28383bcbe44ea2005aa0bd053bb, type: 3}
+  - key: river04
+    clip: {fileID: 8300000, guid: d6ddda5f35c57dc41b16a824059c66a2, type: 3}
+  - key: zadanqianwaijing
+    clip: {fileID: 8300000, guid: d91e3f8afe8e4084495b4592748003d4, type: 3}
+  - key: zadanqiangouhuo
+    clip: {fileID: 8300000, guid: 18978845a1c4066489907040d7f25c05, type: 3}
+  - key: zadan
+    clip: {fileID: 8300000, guid: 7743d41b89eb2884691da0be2fef188e, type: 3}
+  - key: rain05
+    clip: {fileID: 8300000, guid: 93734fc9d8b968e4abefe19620a36f69, type: 3}
+  - key: jiao01
+    clip: {fileID: 8300000, guid: d7e5acca4d107a44d9a0af015cef5c21, type: 3}
+  - key: wind07
+    clip: {fileID: 8300000, guid: a351ff6ed1c887e448370124284d54b3, type: 3}
+  - key: engine06
+    clip: {fileID: 8300000, guid: 6589141b49b643b4caec2c0c17f4867e, type: 3}
+  - key: engine07
+    clip: {fileID: 8300000, guid: ce9616c00089d734ab5b0d9b987a079b, type: 3}
+  - key: shu
+    clip: {fileID: 8300000, guid: 3524cfb0d2c5b3041a24910431439fd2, type: 3}
+--- !u!4 &494142612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494142607}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -372,7 +906,7 @@ MonoBehaviour:
   optionsContainer: {fileID: 767057942}
   optionButtonPrefab: {fileID: 7517830269323814174, guid: d58620df10090fc4e83b93af263cb434, type: 3}
   nextIndicator: {fileID: 1538443095}
-  chapterToLoad: prologue
+  chapterToLoad: Chapter3
   fadePanel: {fileID: 2055092166}
   titleObject: {fileID: 1325601682}
   enableParallax: 1
@@ -462,6 +996,174 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &796624116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 796624118}
+  - component: {fileID: 796624117}
+  m_Layer: 0
+  m_Name: AmbienceController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &796624117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796624116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de075187cc0c7c14da723c87c5f19403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events:
+  - chapterName: Chapter3
+    frameId: 1
+    ambienceKey: wind04
+    loop: 1
+  - chapterName: Chapter3
+    frameId: 4
+    ambienceKey: 
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 5
+    ambienceKey: water03
+    loop: 1
+  - chapterName: Chapter3
+    frameId: 10
+    ambienceKey: 
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 11
+    ambienceKey: shu
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 37
+    ambienceKey: 
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 47
+    ambienceKey: rain04
+    loop: 1
+  - chapterName: Chapter3
+    frameId: 48
+    ambienceKey: 
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 508
+    ambienceKey: rain04
+    loop: 1
+  - chapterName: Chapter3
+    frameId: 81
+    ambienceKey: 
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 51
+    ambienceKey: jiangshu
+    loop: 1
+  - chapterName: Chapter3
+    frameId: 83
+    ambienceKey: 
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 84
+    ambienceKey: faxianniao
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 98
+    ambienceKey: wind06
+    loop: 1
+  - chapterName: Chapter3
+    frameId: 99
+    ambienceKey: 
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 123
+    ambienceKey: river04
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 124
+    ambienceKey: river04
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 135
+    ambienceKey: zadanqianwaijing
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 135
+    ambienceKey: zadanqianwaijing
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 138
+    ambienceKey: zadanqiangouhuo
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 141
+    ambienceKey: zadan
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 1521
+    ambienceKey: 
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 150
+    ambienceKey: rain05
+    loop: 1
+  - chapterName: Chapter3
+    frameId: 150
+    ambienceKey: rain05
+    loop: 1
+  - chapterName: Chapter3
+    frameId: 156
+    ambienceKey: 
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 169
+    ambienceKey: wind04
+    loop: 1
+  - chapterName: Chapter3
+    frameId: 172
+    ambienceKey: 
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 193
+    ambienceKey: wind07
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 196
+    ambienceKey: 
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 197
+    ambienceKey: engine07
+    loop: 1
+  - chapterName: Chapter3
+    frameId: 201
+    ambienceKey: 
+    loop: 0
+--- !u!4 &796624118
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796624116}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1047730987
 GameObject:
   m_ObjectHideFlags: 0
@@ -903,7 +1605,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1.2
+    m_LineSpacing: 1
   m_Text: "\u6728\u306F\u6728\u3067\u306F\u306A\u304F\u3001\u305F\u3060\u4FFA\u305F\u3061\u306E"
 --- !u!23 &1397442222
 MeshRenderer:
@@ -1115,3 +1817,49 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2055092164}
   m_CullTransparentMesh: 1
+--- !u!1 &2090524198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2090524200}
+  - component: {fileID: 2090524199}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2090524199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090524198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51e0d224f36f52446a2975110174cd6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eggIntegrity: 0
+  currentChapter: 
+  currentFrameId: 1
+--- !u!4 &2090524200
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090524198}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 332.39355, y: 680.0921, z: -112.55282}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
