@@ -376,10 +376,11 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "sfxKey":"zhongyao"
+      "sfxKey":"zhongyao",
+      "nextFrameId":2711
     },
                                                                                                   {
-      "id": 27_2,
+      "id": 2711,
       "backgroundPath": "Image/Backgrounds/2_6",
       "characterSpritePath": "",
       "characterPosition": "",
@@ -389,7 +390,8 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "sfxKey":"diushi"
+      "sfxKey":"diushi",
+      "nextFrameId":28
     },
                                                                                                   {
       "id": 28,
@@ -582,7 +584,7 @@
       "backgroundPath": "Image/Backgrounds/2_10",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "她跑得很远的时候，似乎又有些纠结地停下了脚步。",
+      "descriptionText": "她跑得很远的时候，似乎又有些纠结地慢下了脚步。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
@@ -727,12 +729,13 @@
       "backgroundPath": "Image/Backgrounds/2_12",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "「不要跟着我。」",
+      "descriptionText": "「不要跟着我!」",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"buyaogenzhewo"
     },
                                                                                                                                                                                                          {
       "id": 54,
@@ -1819,7 +1822,7 @@
       "animationSpeed": 0
     },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      {
-      "id": 13,
+      "id": 131,
       "backgroundPath": "Image/Backgrounds/3_1",
       "characterSpritePath": "",
       "characterPosition": "",

@@ -1238,7 +1238,7 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "sfxKey":"zaoyin4"
+      "sfxKey":"zaideo2"
      },
                                                                                                                                                                                                                                                                                                                                                                                 {
       "id": 81,
@@ -1654,7 +1654,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"nashifeng"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       {
       "id": 113,
@@ -1788,12 +1789,26 @@
       "backgroundPath": "Image/Backgrounds/3_28",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "外面的风声和雨声越来越大了。\n 水从下水道口漫上来。快要漫过石堤。",
+      "descriptionText": "外面的风声和雨声越来越大了。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "nextFrameId":1232
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             {
+      "id": 1232,
+      "backgroundPath": "Image/Backgrounds/3_28",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "水从下水道口漫上来。快要漫过石堤。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":124
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              {
       "id": 124,
@@ -2312,7 +2327,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"nishishui"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             {
       "id": 157,
@@ -2324,7 +2340,8 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "sfxKey":"nishishui"
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  {
       "id": 158,
@@ -2469,8 +2486,7 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0,
-      "sfxKey":""
+      "animationSpeed": 0
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         {
       "id": 170,

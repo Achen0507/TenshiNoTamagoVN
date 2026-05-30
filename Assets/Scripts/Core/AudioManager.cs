@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,6 +12,9 @@ namespace TenshiNoTamago.Core
         [SerializeField] private AudioSource bgmSource;
         [SerializeField] private AudioSource ambienceSource; //氛围音
         [SerializeField] private AudioSource sfxSource;
+
+        [Header("音量设置")]
+        [SerializeField] private float targetAmbienceVolume = 0.6f;
 
         [Header("音效映射")]
         [SerializeField] private AudioMapping[] audioMappings;
@@ -63,13 +67,35 @@ namespace TenshiNoTamago.Core
         /// <summary>
         /// 播放环境音（风声、雨声等）
         /// </summary>
-        public void PlayAmbience(string key, bool loop = true) {
-            Debug.Log($"PlayAmbience 被调用: key={key}, loop={loop}");
+        public void PlayAmbience(string key, bool loop = true,float fadeTime =1f) {
+            if (ambienceSource == null) return;
             if (audioDict.TryGetValue(key, out AudioClip clip))
             {
-                ambienceSource.clip = clip;
-                ambienceSource.loop = loop;
-                ambienceSource.Play();
+                if (ambienceSource.isPlaying && ambienceSource.clip == clip) return;
+
+                if (ambienceSource.isPlaying)
+                {
+                    ambienceSource.DOFade(0f, fadeTime).OnComplete(() =>
+                    {
+                        ambienceSource.Stop();
+                        ambienceSource.clip = clip;
+                        ambienceSource.loop = loop;
+                        ambienceSource.volume = 0f;
+                        ambienceSource.Play();
+                        ambienceSource.DOFade(targetAmbienceVolume, fadeTime);
+                    });
+                }
+                else
+                {
+                    ambienceSource.clip = clip;
+                    ambienceSource.loop = loop;
+                    ambienceSource.volume = 0f;
+                    ambienceSource.Play();
+                    ambienceSource.DOFade(targetAmbienceVolume, fadeTime);
+                }
+            }
+            else{
+                Debug.LogWarning($"未找到环境音 key: {key}");
             }
         }
 
@@ -107,9 +133,16 @@ namespace TenshiNoTamago.Core
         /// <summary>
         /// 停止环境音
         /// </summary>
-        public void StopAmbience() {
-            if (ambienceSource != null && ambienceSource.isPlaying) 
-                ambienceSource.Stop();
+        public void StopAmbience(float fadeTime = 1f)
+        {
+            if (ambienceSource != null && ambienceSource.isPlaying)
+            {
+                ambienceSource.DOFade(0f, fadeTime).OnComplete(() =>
+                {
+                    ambienceSource.Stop();
+                    ambienceSource.volume = targetAmbienceVolume;  // 恢复音量
+                });
+            }
         }
 
         public AudioSource PlaySFXAndReturnSource(string key) {

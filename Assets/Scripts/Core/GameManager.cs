@@ -10,6 +10,7 @@ namespace TenshiNoTamago.Core
         public int eggIntegrity;           // 卵完整度
         public string currentChapter;      // 当前章节名
         public int currentFrameId;         // 当前帧ID
+        public int lastEndingType = 0;  // 0=未知, 1=高完整度, 2=中完整度, 3=低完整度
 
         private void Awake()
         {

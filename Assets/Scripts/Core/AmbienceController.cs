@@ -19,7 +19,6 @@ namespace TenshiNoTamago.Audio
 
         private void Start()
         {
-            Debug.Log("AmbienceController Start 被调用");
             if (DialogueController.OnFrameChanged != null) 
                 DialogueController.OnFrameChanged += OnFrameChanged;
         }
@@ -31,9 +30,7 @@ namespace TenshiNoTamago.Audio
         }
 
         private void OnFrameChanged(string chapter, int frameId) {
-            Debug.Log($"收到事件: 章节={chapter}, 帧={frameId}");
             foreach (var evt in events) {
-                Debug.Log($"检查配置: 章节={evt.chapterName}, 帧={evt.frameId}, key={evt.ambienceKey}");
                 if (evt.chapterName == chapter && evt.frameId == frameId) {
                     if (string.IsNullOrEmpty(evt.ambienceKey))
                     {

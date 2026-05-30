@@ -446,6 +446,7 @@ MonoBehaviour:
   bgmSource: {fileID: 494142610}
   ambienceSource: {fileID: 494142609}
   sfxSource: {fileID: 494142608}
+  targetAmbienceVolume: 0.6
   audioMappings:
   - key: zhongyao
     clip: {fileID: 8300000, guid: 13b076b07657abf4298f72c664443d80, type: 3}
@@ -592,7 +593,7 @@ MonoBehaviour:
   - key: wozhaodaode
     clip: {fileID: 8300000, guid: a861d35ae64ecef488bd1ab94c1626f7, type: 3}
   - key: baituole
-    clip: {fileID: 8300000, guid: 9d0e12c669b389d47ae31cd5296193bd, type: 3}
+    clip: {fileID: 8300000, guid: 9935814c51c57b545aa02fa2f5e69ca0, type: 3}
   - key: qingbuyao
     clip: {fileID: 8300000, guid: 1b2220cdaa7b6924eaa760aab78c45da, type: 3}
   - key: yuehaole
@@ -605,8 +606,8 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: a33d5bd0a00505d459ec2a4c44cbd36d, type: 3}
   - key: zhebiano
     clip: {fileID: 8300000, guid: 71ae167db242a1f45a32a4fb852cb7b0, type: 3}
-  - key: zaoyin4
-    clip: {fileID: 8300000, guid: 9e42eb153b95c8b438d83432ce034c41, type: 3}
+  - key: zaideo2
+    clip: {fileID: 8300000, guid: 32b5607606860514587648fdf9ba56f9, type: 3}
   - key: huoxuzhishi
     clip: {fileID: 8300000, guid: d2022dbd9f2b1114aad86671ed965e2c, type: 3}
   - key: wind04
@@ -643,6 +644,68 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: ce9616c00089d734ab5b0d9b987a079b, type: 3}
   - key: shu
     clip: {fileID: 8300000, guid: 3524cfb0d2c5b3041a24910431439fd2, type: 3}
+  - key: nashifeng
+    clip: {fileID: 8300000, guid: 33865b1724601d34c85cb6fc30767121, type: 3}
+  - key: feisheng
+    clip: {fileID: 8300000, guid: fb414b4f1a9f1ae49b99f45fd1e84ada, type: 3}
+  - key: foot03
+    clip: {fileID: 8300000, guid: 461550fb041570d4c97448997817db42, type: 3}
+  - key: foot01
+    clip: {fileID: 8300000, guid: 35be6b57eb80fb54584283004ea49029, type: 3}
+  - key: water02
+    clip: {fileID: 8300000, guid: 81c18a8c4f1a6a04ab72ff4c7170d3d5, type: 3}
+  - key: xiazhui
+    clip: {fileID: 8300000, guid: 67b5ca37329f5d0419b763d9fc4fd7eb, type: 3}
+  - key: wind05
+    clip: {fileID: 8300000, guid: e9afde5d21cd6d0449ff2fba79344bd7, type: 3}
+  - key: sit01
+    clip: {fileID: 8300000, guid: a6f7f64dee0a59e43999dd335a64d73a, type: 3}
+  - key: kanshui
+    clip: {fileID: 8300000, guid: 708abd9e982bb2444b949dd5c3ac126f, type: 3}
+  - key: foot02
+    clip: {fileID: 8300000, guid: e0cdc79e01123d3469eae6a6b1618a4d, type: 3}
+  - key: clock01
+    clip: {fileID: 8300000, guid: e8fdf339b8e59194abdd8e672d5ef718, type: 3}
+  - key: xiangzi
+    clip: {fileID: 8300000, guid: e4cff4d6f2868494fb2424276db59ab1, type: 3}
+  - key: bolang
+    clip: {fileID: 8300000, guid: bd96fa53882657d49a6e66197a895272, type: 3}
+  - key: ranin03
+    clip: {fileID: 8300000, guid: 6fa32ce2ecb726043885d461f5c85bcf, type: 3}
+  - key: run01
+    clip: {fileID: 8300000, guid: 549f828f7639ad545a33950f575e9ba2, type: 3}
+  - key: yuchulaile
+    clip: {fileID: 8300000, guid: 6bffb616ef4987c459f9f59a2dc633c7, type: 3}
+  - key: yuzaiyou
+    clip: {fileID: 8300000, guid: 1156d882063021546af562381813d981, type: 3}
+  - key: shayu
+    clip: {fileID: 8300000, guid: b3f88226d93ddd34298f4bc167b9cf66, type: 3}
+  - key: caichuang
+    clip: {fileID: 8300000, guid: 2fcbbf8e5f678854088726b3fa5ee401, type: 3}
+  - key: clock02
+    clip: {fileID: 8300000, guid: 83a235cd900c8cb4e9d98dc069682c89, type: 3}
+  - key: yu
+    clip: {fileID: 8300000, guid: b3372879757d9f94aa53e605bbe6de6b, type: 3}
+  - key: senlin
+    clip: {fileID: 8300000, guid: 4b68352c254034a45b0a4709acd40af9, type: 3}
+  - key: window
+    clip: {fileID: 8300000, guid: 8e3286df46654a34fa5af9327562faf3, type: 3}
+  - key: engine02
+    clip: {fileID: 8300000, guid: d34c0e0ee6268ed42937e2e6a6dd1f1c, type: 3}
+  - key: engine03
+    clip: {fileID: 8300000, guid: 0715ca517b2f80143b4558dd460801f3, type: 3}
+  - key: drop01
+    clip: {fileID: 8300000, guid: 3c13c0eeb8653624ab18b03b7153efda, type: 3}
+  - key: penquan01
+    clip: {fileID: 8300000, guid: c34137659adcae74eb91de9395971398, type: 3}
+  - key: river01
+    clip: {fileID: 8300000, guid: 45d4815f408fe35409771ad00f940090, type: 3}
+  - key: wind03
+    clip: {fileID: 8300000, guid: 2268f821dfda0974db77c85a126f4cb6, type: 3}
+  - key: wangtian
+    clip: {fileID: 8300000, guid: 8e8278372d88b8b4b86f9f2542cea109, type: 3}
+  - key: wind02
+    clip: {fileID: 8300000, guid: 17c42433f65afd544a57144b4619b800, type: 3}
 --- !u!4 &494142612
 Transform:
   m_ObjectHideFlags: 0
@@ -906,7 +969,7 @@ MonoBehaviour:
   optionsContainer: {fileID: 767057942}
   optionButtonPrefab: {fileID: 7517830269323814174, guid: d58620df10090fc4e83b93af263cb434, type: 3}
   nextIndicator: {fileID: 1538443095}
-  chapterToLoad: Chapter3
+  chapterToLoad: Prologue
   fadePanel: {fileID: 2055092166}
   titleObject: {fileID: 1325601682}
   enableParallax: 1
@@ -1027,7 +1090,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   events:
   - chapterName: Chapter3
-    frameId: 1
+    frameId: 2
     ambienceKey: wind04
     loop: 1
   - chapterName: Chapter3
@@ -1045,10 +1108,6 @@ MonoBehaviour:
   - chapterName: Chapter3
     frameId: 11
     ambienceKey: shu
-    loop: 0
-  - chapterName: Chapter3
-    frameId: 37
-    ambienceKey: 
     loop: 0
   - chapterName: Chapter3
     frameId: 47
@@ -1092,7 +1151,7 @@ MonoBehaviour:
     loop: 0
   - chapterName: Chapter3
     frameId: 124
-    ambienceKey: river04
+    ambienceKey: 
     loop: 0
   - chapterName: Chapter3
     frameId: 135
@@ -1119,28 +1178,40 @@ MonoBehaviour:
     ambienceKey: rain05
     loop: 1
   - chapterName: Chapter3
-    frameId: 150
-    ambienceKey: rain05
-    loop: 1
-  - chapterName: Chapter3
     frameId: 156
     ambienceKey: 
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 160
+    ambienceKey: foot03
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 161
+    ambienceKey: 
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 167
+    ambienceKey: foot01
     loop: 0
   - chapterName: Chapter3
     frameId: 169
     ambienceKey: wind04
     loop: 1
   - chapterName: Chapter3
-    frameId: 172
+    frameId: 177
+    ambienceKey: xiazhui
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 187
     ambienceKey: 
+    loop: 0
+  - chapterName: Chapter3
+    frameId: 201
+    ambienceKey: feisheng
     loop: 0
   - chapterName: Chapter3
     frameId: 193
     ambienceKey: wind07
-    loop: 0
-  - chapterName: Chapter3
-    frameId: 196
-    ambienceKey: 
     loop: 0
   - chapterName: Chapter3
     frameId: 197
@@ -1148,7 +1219,159 @@ MonoBehaviour:
     loop: 1
   - chapterName: Chapter3
     frameId: 201
+    ambienceKey: feisheng
+    loop: 0
+  - chapterName: Chapter2
+    frameId: 4
+    ambienceKey: wind05
+    loop: 0
+  - chapterName: Chapter2
+    frameId: 5
+    ambienceKey: sit01
+    loop: 0
+  - chapterName: Chapter2
+    frameId: 6
     ambienceKey: 
+    loop: 0
+  - chapterName: Chapter2
+    frameId: 8
+    ambienceKey: kanshui
+    loop: 0
+  - chapterName: Chapter2
+    frameId: 12
+    ambienceKey: 
+    loop: 0
+  - chapterName: Chapter2
+    frameId: 28
+    ambienceKey: clock01
+    loop: 1
+  - chapterName: Chapter2
+    frameId: 39
+    ambienceKey: foot02
+    loop: 1
+  - chapterName: Chapter2
+    frameId: 42
+    ambienceKey: 
+    loop: 0
+  - chapterName: Chapter2
+    frameId: 48
+    ambienceKey: xiangzi
+    loop: 0
+  - chapterName: Chapter2
+    frameId: 61
+    ambienceKey: bolang
+    loop: 0
+  - chapterName: Chapter2
+    frameId: 67
+    ambienceKey: 
+    loop: 0
+  - chapterName: Chapter2
+    frameId: 73
+    ambienceKey: ranin03
+    loop: 1
+  - chapterName: Chapter2
+    frameId: 79
+    ambienceKey: run01
+    loop: 1
+  - chapterName: Chapter2
+    frameId: 87
+    ambienceKey: yuchulaile
+    loop: 1
+  - chapterName: Chapter2
+    frameId: 95
+    ambienceKey: yuzaiyou
+    loop: 1
+  - chapterName: Chapter2
+    frameId: 100
+    ambienceKey: shayu
+    loop: 1
+  - chapterName: Chapter2
+    frameId: 106
+    ambienceKey: 
+    loop: 0
+  - chapterName: Chapter2
+    frameId: 111
+    ambienceKey: caichuang
+    loop: 0
+  - chapterName: Chapter2
+    frameId: 127
+    ambienceKey: caichuang
+    loop: 0
+  - chapterName: Chapter2
+    frameId: 129
+    ambienceKey: clock02
+    loop: 1
+  - chapterName: Chapter2
+    frameId: 131
+    ambienceKey: clock02
+    loop: 0
+  - chapterName: Chapter1
+    frameId: 2
+    ambienceKey: senlin
+    loop: 0
+  - chapterName: Chapter1
+    frameId: 18
+    ambienceKey: river01
+    loop: 1
+  - chapterName: Chapter1
+    frameId: 19
+    ambienceKey: 
+    loop: 0
+  - chapterName: Chapter1
+    frameId: 22
+    ambienceKey: water02
+    loop: 1
+  - chapterName: Chapter1
+    frameId: 23
+    ambienceKey: window
+    loop: 0
+  - chapterName: Chapter1
+    frameId: 27
+    ambienceKey: engine02
+    loop: 1
+  - chapterName: Chapter1
+    frameId: 28
+    ambienceKey: engine03
+    loop: 1
+  - chapterName: Chapter1
+    frameId: 32
+    ambienceKey: 
+    loop: 0
+  - chapterName: Chapter1
+    frameId: 35
+    ambienceKey: foot01
+    loop: 0
+  - chapterName: Chapter1
+    frameId: 42
+    ambienceKey: drop01
+    loop: 0
+  - chapterName: Chapter1
+    frameId: 43
+    ambienceKey: penquan01
+    loop: 0
+  - chapterName: Chapter1
+    frameId: 44
+    ambienceKey: clock01
+    loop: 1
+  - chapterName: Prologue
+    frameId: 2
+    ambienceKey: wind03
+    loop: 1
+  - chapterName: Prologue
+    frameId: 5
+    ambienceKey: wind04
+    loop: 1
+  - chapterName: Prologue
+    frameId: 12
+    ambienceKey: engine03
+    loop: 1
+  - chapterName: Prologue
+    frameId: 18
+    ambienceKey: engine07
+    loop: 1
+  - chapterName: Prologue
+    frameId: 21
+    ambienceKey: wangtian
     loop: 0
 --- !u!4 &796624118
 Transform:

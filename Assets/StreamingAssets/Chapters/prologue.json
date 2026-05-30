@@ -6,7 +6,7 @@
       "backgroundPath": "Image/Backgrounds/0_1",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "木は木ではない。骨だ。",
+      "descriptionText": "树不是树，是骨。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
@@ -18,7 +18,7 @@
       "backgroundPath": "Image/Backgrounds/0_1",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "卵は卵ではない。忘れられた始まりだ。",
+      "descriptionText": "蛋不是蛋，是遗忘的开始。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
@@ -30,12 +30,52 @@
       "backgroundPath": "Image/Backgrounds/0_1",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "根は虚空に伸び、樹冠は破れぬ沈黙を抱く。",
+      "descriptionText": "根须扎进虚空，树冠托着一个不破的沉默。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "nextFrameId":509
+    },
+                {
+      "id": 509,
+      "backgroundPath": "Image/Backgrounds/0_1",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "随处可见的树枝托满了卵, \n 可无人知晓卵里面是什么。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+       "nextFrameId":510
+    },
+                    {
+      "id": 510,
+      "backgroundPath": "Image/Backgrounds/0_1",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "依稀可见骨骼的结构，和瞳孔的形状。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":511
+    },
+                        {
+      "id": 511,
+      "backgroundPath": "Image/Backgrounds/0_1",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "然而漆黑一片的天空下，已再无生命的孕育。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+       "nextFrameId":4
     },
     {
       "id": 4,
@@ -76,8 +116,8 @@
         {
       "id": 7,
       "backgroundPath": "Image/Backgrounds/0_2",
-      "characterSpritePath": "",
-      "characterPosition": "",
+      "characterSpritePath": "Images/Sprites/m_stand",
+      "characterPosition": "Left",
       "descriptionText": "他背着那东西——像剑，但柄是十字形的。\n更像一个被铸成锋刃的十字架。",
       "autoNextSeconds": 0,
       "options": [],
@@ -102,15 +142,17 @@
         },
               {
           "text": "注视天空 ",
-          "descriptionOnSelect": "红天里没有云。只有一种缓慢的、让人想闭眼的压迫感。",
+          
+          "descriptionOnSelect": "",
           "eggDelta": 1,
-          "nextFrameId": 9
+          "nextFrameId": 512
         },
               {
           "text": "注视废墟轮廓 ",
-          "descriptionOnSelect": "隐约能看出拱顶和尖塔。曾经是教堂，现在是被剖开的兽骨。",
+         
+          "descriptionOnSelect": "",
           "eggDelta": 0,
-          "nextFrameId": 9
+          "nextFrameId": 513
         }
       ],
       "eggDelta": 0,
@@ -119,10 +161,36 @@
     },
       {
       "id": 501,
-      "backgroundPath": "Image/Backgrounds/1779800819722",
+      "backgroundPath": "Image/Backgrounds/501",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "剑刃上有锯齿状的缺口。不是战斗留下的，更像是被时间咬过。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId": 9
+    },
+     {
+      "id": 512,
+      "backgroundPath": "Image/Backgrounds/0_2(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "红天里没有云。只有一种缓慢的、让人想闭眼的压迫感。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId": 9
+    },
+      {
+      "id": 513,
+      "backgroundPath": "Image/Backgrounds/0_3(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "隐约能看出拱顶和尖塔。曾经是教堂，现在是被剖开的兽骨。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
@@ -486,23 +554,25 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": true,
-      "animationSpeed": 0.3
+      "animationSpeed": 0.1,
+      "loopAnimation":true
     },
                     {
       "id": 34,
-      "backgroundPath": "Image/Backgrounds/0_12/0_12_3",
+      "backgroundPath": "Image/Backgrounds/0_12",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "风把她的头发吹向海的另一侧。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
-      "isAnimation": false,
-      "animationSpeed": 0
+      "isAnimation": true,
+      "animationSpeed": 0.1,
+      "loopAnimation":true
     },
                         {
       "id": 35,
-      "backgroundPath": "Image/Backgrounds/0_12/0_12_3",
+      "backgroundPath": "Image/Backgrounds/0_12",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "好像在专注于什么，但那注定是一个找不到答案的问题",
@@ -522,20 +592,22 @@
         }
       ],
       "eggDelta": 0,
-      "isAnimation": false,
-      "animationSpeed": 0
+      "isAnimation": true,
+      "animationSpeed": 0.1,
+      "loopAnimation":true
     },
                         {
       "id": 36,
-      "backgroundPath": "Image/Backgrounds/0_12/0_12_3",
+      "backgroundPath": "Image/Backgrounds/0_12",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
-      "isAnimation": false,
-      "animationSpeed": 0
+      "isAnimation": true,
+      "animationSpeed": 0.1,
+      "loopAnimation":true
     },
     {
       "id": 37,

@@ -21,7 +21,12 @@ namespace TenshiNoTamago.UI
         [SerializeField] private GameObject dialoguePanel;
         [SerializeField] private Transform optionsContainer;      // 选项按钮的父容器
         [SerializeField] private GameObject optionButtonPrefab;   // 选项按钮预制体
-        [SerializeField] private GameObject nextIndicator;   
+        [SerializeField] private GameObject nextIndicator;
+
+        [Header("立绘")]
+        [SerializeField] private Image characterImage;        
+        [SerializeField] private Transform characterLeft;    
+        [SerializeField] private Transform characterRight; 
 
         [Header("章节数据")]
         [SerializeField] private string chapterToLoad = "prologue";
@@ -216,7 +221,34 @@ namespace TenshiNoTamago.UI
                 }
             });
 
-            // 处理立绘TODO
+            // 处理立绘
+            if (!string.IsNullOrEmpty(frame.characterSpritePath))
+            {
+                Sprite characterSprite = Resources.Load<Sprite>(frame.characterSpritePath);
+                if (characterSprite != null)
+                {
+                    characterImage.sprite = characterSprite;
+                    characterImage.gameObject.SetActive(true);
+
+                    switch (frame.characterPosition)
+                    {
+                        case "left":
+                            characterImage.rectTransform.position = characterLeft.position;
+                            break;
+                        case "right":
+                            characterImage.rectTransform.position = characterRight.position;
+                            break;
+                    }
+                }
+                else
+                {
+                    Debug.LogWarning($"立绘未找到: {frame.characterSpritePath}");
+                    characterImage.gameObject.SetActive(false);
+                }
+            }
+            else {
+                characterImage.gameObject.SetActive(false);
+            }
         }
 
         private CancellationTokenSource blinkCts;
@@ -299,20 +331,28 @@ namespace TenshiNoTamago.UI
             }       
         }
 
-        private void AdvanceToNextFrame() {
-            int currentIndex = System.Array.FindIndex(currentChapterData.frames, f => f.id == currentFrame.id);
-
+        private void AdvanceToNextFrame()
+        {
+            //优先处理 9999（结局分支入口）
             if (currentFrame.nextFrameId == 9999)
             {
                 GotoEnding();
                 return;
             }
 
+            if (currentFrame.nextFrameId != -1 && currentFrame.nextFrameId != 0)
+            {
+                JumpToFrame(currentFrame.nextFrameId);
+                return;
+            }
+
+            int currentIndex = System.Array.FindIndex(currentChapterData.frames, f => f.id == currentFrame.id);
             if (currentIndex >= 0 && currentIndex + 1 < currentChapterData.frames.Length)
             {
                 ShowFrame(currentChapterData.frames[currentIndex + 1]);
             }
-            else {
+            else
+            {
                 EndChapter();
             }
         }
@@ -320,6 +360,8 @@ namespace TenshiNoTamago.UI
         private void EndChapter() 
         {
             dialoguePanel.SetActive(false);
+            PlayerPrefs.SetInt("LastEndingType", GameManager.Instance.lastEndingType);
+            PlayerPrefs.Save();
             Debug.Log($"[DialogueController] 章节结束: {currentChapterData.chapterName}");
             Debug.Log($"[GameManager] 最终卵完整度: {GameManager.Instance.eggIntegrity}");
         }
@@ -448,21 +490,60 @@ namespace TenshiNoTamago.UI
             if (currentFrame.id == 201)
             {
                 // 女孩雕塑分支
-                if (egg >= 60) targetId = 2021;      
-                else if (egg >= 30) targetId = 2022; 
-                else targetId = 2023;               
+                if (egg >= 60)
+                {
+                    GameManager.Instance.lastEndingType = 1;
+                    targetId = 2021;
+                }
+                else if (egg >= 30)
+                {
+                    GameManager.Instance.lastEndingType = 2;
+                    targetId = 2022;
+                }
+                else
+                {
+                    GameManager.Instance.lastEndingType = 3;
+                    targetId = 2023;
+                }
             }
             else if (currentFrame.id == 214)
             {
                 // 树与蛋分支
-                if (egg >= 60) targetId = 2141;
-                else if (egg >= 30) targetId = 2142;
-                else targetId = 2143;
-            }else if(currentFrame.id == 148)
-                //砸蛋分支
-                if (egg >= 60) targetId = 1491;
-                else if (egg >= 30) targetId = 1492;
-                else targetId = 1493;
+                if (egg >= 60)
+                {
+                    GameManager.Instance.lastEndingType = 1;
+                    targetId = 2151;
+                }
+                else if (egg >= 30)
+                {
+                    GameManager.Instance.lastEndingType = 2;
+                    targetId = 2152;
+                }
+                else
+                {
+                    GameManager.Instance.lastEndingType = 3;
+                    targetId = 2153;
+                }
+            }
+            else if (currentFrame.id == 148)  
+            {
+                // 砸蛋分支
+                if (egg >= 60)
+                {
+                    GameManager.Instance.lastEndingType = 1;
+                    targetId = 1491;
+                }
+                else if (egg >= 30)
+                {
+                    GameManager.Instance.lastEndingType = 2;
+                    targetId = 1492;
+                }
+                else
+                {
+                    GameManager.Instance.lastEndingType = 3;
+                    targetId = 1493;
+                }
+            }
             else
             {
                 Debug.LogWarning($"GotoEnding: 未知的入口帧 {currentFrame.id}");
