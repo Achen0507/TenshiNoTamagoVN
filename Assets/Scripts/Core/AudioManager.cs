@@ -20,6 +20,7 @@ namespace TenshiNoTamago.Core
         [SerializeField] private AudioMapping[] audioMappings;
 
         private Dictionary<string, AudioClip> audioDict;
+        private string currentAmbienceKey = "";
 
         [System.Serializable]
         public struct AudioMapping {
@@ -68,6 +69,8 @@ namespace TenshiNoTamago.Core
         /// 播放环境音（风声、雨声等）
         /// </summary>
         public void PlayAmbience(string key, bool loop = true,float fadeTime =1f) {
+            currentAmbienceKey = key;
+
             if (ambienceSource == null) return;
             if (audioDict.TryGetValue(key, out AudioClip clip))
             {
@@ -135,6 +138,8 @@ namespace TenshiNoTamago.Core
         /// </summary>
         public void StopAmbience(float fadeTime = 1f)
         {
+            currentAmbienceKey = "";
+
             if (ambienceSource != null && ambienceSource.isPlaying)
             {
                 ambienceSource.DOFade(0f, fadeTime).OnComplete(() =>
@@ -154,5 +159,27 @@ namespace TenshiNoTamago.Core
             }
             return null;
         }
+
+        public void PauseBGM()
+        {
+            if (bgmSource != null && bgmSource.isPlaying)
+                bgmSource.Pause();
+            if (sfxSource != null && sfxSource.isPlaying)
+                sfxSource.Pause();
+            if (ambienceSource != null && ambienceSource.isPlaying)
+                ambienceSource.Pause();
+        }
+
+        public void ResumeBGM()
+        {
+            if (bgmSource != null)
+                bgmSource.UnPause();
+            if (sfxSource != null)
+                sfxSource.UnPause();
+            if (ambienceSource != null)
+                ambienceSource.UnPause();
+        }
+
+        public string GetCurrentAmbienceKey() => currentAmbienceKey;
     }
 }

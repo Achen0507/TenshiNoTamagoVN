@@ -6,6 +6,7 @@ using TenshiNoTamago.Core;
 using TenshiNoTamago.Data;
 using TenshiNoTamago.Utilities;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace TenshiNoTamago.UI
@@ -50,6 +51,7 @@ namespace TenshiNoTamago.UI
         public static System.Action<string, int> OnFrameChanged;  // 氛围音乐
 
         private bool titleShown = false;
+        public bool canInput = true;
 
         private Vector3 originalBgPosition;
         private Tween bgTweenX;
@@ -63,6 +65,21 @@ namespace TenshiNoTamago.UI
 
         private void Start()
         {
+            if (!string.IsNullOrEmpty(GameManager.Instance.currentChapter))
+            {
+                LoadChapter(GameManager.Instance.currentChapter);
+            }
+            else
+            {
+                LoadChapter(chapterToLoad);
+            }
+
+            if (!string.IsNullOrEmpty(GameManager.Instance.pendingAmbienceKey))
+            {
+                AudioManager.Instance.PlayAmbience(GameManager.Instance.pendingAmbienceKey, true);
+                GameManager.Instance.pendingAmbienceKey = null;
+            }
+
             originalBgPosition = backgroundImage.rectTransform.anchoredPosition;
 
             float screenWidth = Screen.width;
@@ -72,8 +89,6 @@ namespace TenshiNoTamago.UI
             {
                 StartMicroMotion(actualMoveRange);
             }
-
-            LoadChapter(chapterToLoad);
         }
 
         private void StartMicroMotion(float range)
@@ -95,6 +110,8 @@ namespace TenshiNoTamago.UI
 
         private void Update()
         {
+            if (!canInput) return; 
+
             if (isWaitingForInput)
             {
                 if (autoNextTimer > 0)
@@ -149,7 +166,23 @@ namespace TenshiNoTamago.UI
                 return;
             }
 
-            ShowFrame(currentChapterData.frames[0]);
+            if (GameManager.Instance.currentFrameId > 0)
+            {
+                FrameData targetFrame = System.Array.Find(currentChapterData.frames, f => f.id == GameManager.Instance.currentFrameId);
+                if (targetFrame != null)
+                {
+                    ShowFrame(targetFrame);
+                }
+                else
+                {
+                    Debug.LogWarning($"找不到帧 {GameManager.Instance.currentFrameId}，从第一帧开始");
+                    ShowFrame(currentChapterData.frames[0]);
+                }
+            }
+            else
+            {
+                ShowFrame(currentChapterData.frames[0]);
+            }
         }
 
         private void ShowFrame(FrameData frame) {
@@ -160,19 +193,21 @@ namespace TenshiNoTamago.UI
             }
 
             currentFrame = frame;
+            GameManager.Instance.currentChapter = currentChapterData.chapterName;
+            GameManager.Instance.currentFrameId = frame.id;
             isTextFullyDisplayed = false;
+
+            if (chapterToLoad == "Prologue" && frame.id == 37 && !titleShown)
+            {
+                titleShown = true;
+                ShowTitle();
+                return;
+            }
 
             // 应用本帧的卵完整度变化
             if (frame.eggDelta != 0)
             {
                 GameManager.Instance.AddEggIntegrity(frame.eggDelta);
-            }
-
-            if (chapterToLoad == "prologue" && frame.id == 37 && !titleShown)
-            {
-                titleShown = true;
-                ShowTitle();
-                return; 
             }
 
             if (!string.IsNullOrEmpty(frame.backgroundPath)) {
@@ -364,6 +399,20 @@ namespace TenshiNoTamago.UI
             PlayerPrefs.Save();
             Debug.Log($"[DialogueController] 章节结束: {currentChapterData.chapterName}");
             Debug.Log($"[GameManager] 最终卵完整度: {GameManager.Instance.eggIntegrity}");
+
+            if (currentChapterData.chapterName == "Chapter1")
+            {
+                LoadChapter("chapter2");
+            }
+            else if (currentChapterData.chapterName == "Chapter2")
+            {
+                LoadChapter("chapter3");
+            }
+            else if (currentChapterData.chapterName == "Chapter3")
+            {
+                Debug.Log("游戏结束");
+                SceneManager.LoadScene("MainMenu");
+            }
         }
 
         private void ShowTitle()
@@ -386,6 +435,8 @@ namespace TenshiNoTamago.UI
                         titleGroup.DOFade(0f, 1f).OnComplete(() =>
                         {
                             titleObject.SetActive(false);
+
+                            GameManager.Instance.currentFrameId = 0;
 
                             LoadChapter("chapter1");
 

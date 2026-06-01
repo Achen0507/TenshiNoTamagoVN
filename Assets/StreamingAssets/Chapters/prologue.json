@@ -9,47 +9,47 @@
       "descriptionText": "树不是树，是骨。",
       "autoNextSeconds": 0,
       "options": [],
-      "eggDelta": 0,
-      "isAnimation": false,
-      "animationSpeed": 0
+      "eggDelta": 0
     },
         {
       "id": 2,
       "backgroundPath": "Image/Backgrounds/0_1",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "蛋不是蛋，是遗忘的开始。",
+      "descriptionText": "枝干像肋骨一样撑开。",
       "autoNextSeconds": 0,
       "options": [],
-      "eggDelta": 0,
-      "isAnimation": false,
-      "animationSpeed": 0
+      "eggDelta": 0
     },
             {
       "id": 3,
       "backgroundPath": "Image/Backgrounds/0_1",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "根须扎进虚空，树冠托着一个不破的沉默。",
+      "descriptionText": "蛋不是蛋，是遗忘的开始。",
       "autoNextSeconds": 0,
       "options": [],
-      "eggDelta": 0,
-      "isAnimation": false,
-      "animationSpeed": 0,
-      "nextFrameId":509
+      "eggDelta": 0
     },
                 {
       "id": 509,
       "backgroundPath": "Image/Backgrounds/0_1",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "随处可见的树枝托满了卵, \n 可无人知晓卵里面是什么。",
+      "descriptionText": "它挂在枝桠间，像一颗从未跳动过的心脏。",
       "autoNextSeconds": 0,
       "options": [],
-      "eggDelta": 0,
-      "isAnimation": false,
-      "animationSpeed": 0,
-       "nextFrameId":510
+      "eggDelta": 0
+    },
+                    {
+      "id": 521,
+      "backgroundPath": "Image/Backgrounds/0_1",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "根须扎进虚空。 \n 树冠托着一个不破的沉默。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0
     },
                     {
       "id": 510,
@@ -59,10 +59,7 @@
       "descriptionText": "依稀可见骨骼的结构，和瞳孔的形状。",
       "autoNextSeconds": 0,
       "options": [],
-      "eggDelta": 0,
-      "isAnimation": false,
-      "animationSpeed": 0,
-      "nextFrameId":511
+      "eggDelta": 0
     },
                         {
       "id": 511,
@@ -72,10 +69,7 @@
       "descriptionText": "然而漆黑一片的天空下，已再无生命的孕育。",
       "autoNextSeconds": 0,
       "options": [],
-      "eggDelta": 0,
-      "isAnimation": false,
-      "animationSpeed": 0,
-       "nextFrameId":4
+      "eggDelta": 0
     },
     {
       "id": 4,
@@ -85,9 +79,17 @@
       "descriptionText": "天是红的，不是夕阳。\n是锈。",
       "autoNextSeconds": 0,
       "options": [],
-      "eggDelta": 0,
-      "isAnimation": false,
-      "animationSpeed": 0
+      "eggDelta": 0
+    },
+        {
+      "id": 518,
+      "backgroundPath": "Image/Backgrounds/0_2",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "空气是干的。\n 风里没有水汽，只有灰。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0
     },
         {
       "id": 5,
@@ -116,15 +118,12 @@
         {
       "id": 7,
       "backgroundPath": "Image/Backgrounds/0_2",
-      "characterSpritePath": "Images/Sprites/m_stand",
-      "characterPosition": "Left",
+      "characterSpritePath": "Image/Sprites/m_stand",
+      "characterPosition": "left",
       "descriptionText": "他背着那东西——像剑，但柄是十字形的。\n更像一个被铸成锋刃的十字架。",
       "autoNextSeconds": 0,
       "options": [],
-      "eggDelta": 0,
-      "isAnimation": false,
-      "animationSpeed": 0,
-      "nextFrameId": -1
+      "eggDelta": 0
     },
      {
       "id": 8,
@@ -164,7 +163,7 @@
       "backgroundPath": "Image/Backgrounds/501",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "剑刃上有锯齿状的缺口。不是战斗留下的，更像是被时间咬过。",
+      "descriptionText": "是剑吗?还是什么机械臂，看不出区别。 \n 锈迹斑斑的模样不像是战斗留下的，更像是被时间咬过。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
@@ -177,7 +176,7 @@
       "backgroundPath": "Image/Backgrounds/0_2(bu)",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "红天里没有云。只有一种缓慢的、让人想闭眼的压迫感。",
+      "descriptionText": "红天里没有云。只有一种缓慢的、让人想闭眼的压迫感。  \n 天空随时要掉下来了。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
@@ -190,7 +189,7 @@
       "backgroundPath": "Image/Backgrounds/0_3(bu)",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "隐约能看出拱顶和尖塔。曾经是教堂，现在是被剖开的兽骨。",
+      "descriptionText": "隐约能看出拱顶和尖塔。曾经是教堂，现在是被剖开的兽骨。 \n 怪诞的造型，让人心生恐惧。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
@@ -203,7 +202,7 @@
       "backgroundPath": "Image/Backgrounds/0_3",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "建筑是哥特的。尖拱像倒插的肋骨。",
+      "descriptionText": "所有的建筑都是哥特的。尖拱像倒插的肋骨。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
@@ -244,7 +243,7 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": true,
-      "animationSpeed": 0.3
+      "animationSpeed": 0.4
     },
         {
       "id": 13,
@@ -275,7 +274,7 @@
       "backgroundPath": "Image/Backgrounds/0_4/0_4_4",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "它只是一只空的眼窝,在审视一片早已被审判过的土地。",
+      "descriptionText": "那只眼睛好似教堂的天顶,在审视一片早已被审判过的土地。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
@@ -292,17 +291,51 @@
       "options": [
       {
           "text": "注视方舟的“瞳孔”位置 ",
-          "descriptionOnSelect": "那里是黑的。不是阴影，是一种吸收光的黑。",
+          "descriptionOnSelect": "",
           "eggDelta": 2,
-          "nextFrameId": -1
+          "nextFrameId": 514
         },
               {
           "text": "注视方舟的边缘 ",
-          "descriptionOnSelect": "边缘有水痕。但它明明没有经过水。",
+          "descriptionOnSelect": "",
           "eggDelta": 4,
-          "nextFrameId": -1
+          "nextFrameId": 515
         }
       ],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+       {
+      "id": 514,
+      "backgroundPath": "Image/Backgrounds/0_5(bu)",
+      "descriptionText": "那里是黑的。不是阴影，是一种吸收光的黑。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId": 517
+    },
+     {
+      "id": 515,
+      "backgroundPath": "Image/Backgrounds/0_5(bubu)",
+      "descriptionText": "边缘有水痕。但它明明没有经过水。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId": 517
+    },
+         {
+      "id": 517,
+      "backgroundPath": "Image/Backgrounds/0_4/0_4_4",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
+      "autoNextSeconds": 1.5,
+      "options": [],
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
@@ -324,15 +357,35 @@
       "backgroundPath": "Image/Backgrounds/0_6",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "雕像。人形的。\n他们的手伸向同一个方向——",
+      "descriptionText": "方舟上有数不计数的雕像。人形的。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
     },
+         {
+      "id": 519,
+      "backgroundPath": "Image/Backgrounds/0_6",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他们的头和手都伸向同一个方向——",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0
+    },
      {
       "id": 19,
+      "backgroundPath": "Image/Backgrounds/0_7",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "虔诚无比的教徒，排列整齐等待主的降临。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0
+    },
+         {
+      "id": 1911,
       "backgroundPath": "Image/Backgrounds/0_7",
       "characterSpritePath": "",
       "characterPosition": "",
@@ -355,25 +408,38 @@
           "text": "注视离最近的一个雕像 ",
           "descriptionOnSelect": "它的嘴微张。像是在喊一个名字，但永远喊不出。",
           "eggDelta": 3,
-          "nextFrameId": -1
+          "nextFrameId": 21
         },
          {
-          "text": "注视雕像群的整体姿势  ",
-          "descriptionOnSelect": "他们不像在祈祷，更像在被固定在方舟上，作为某种警示。",
+          "text": "注视雕像群的整体姿势",
+          "descriptionOnSelect": "",
           "eggDelta": 1,
-          "nextFrameId": -1
+          "nextFrameId": 516
         }
       ],
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
     },
+     {
+      "id": 516,
+      "backgroundPath": "Image/Backgrounds/0_7(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他们不像在祈祷，更像在被固定在方舟上，作为某种警示。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+       "nextFrameId": 21
+    },
          {
       "id": 21,
       "backgroundPath": "Image/Backgrounds/0_8",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "室内。暗红的光线从看不见的窗透进来。",
+      "descriptionText": "室内。暗红的光线从洞顶的圆孔穿进来。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
@@ -397,7 +463,7 @@
       "backgroundPath": "Image/Backgrounds/0_9",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "卵靠在石壁边。表面是哑光的，像旧骨。",
+      "descriptionText": "卵躺在布上。光射下来表面是哑光的，像旧骨。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
@@ -409,7 +475,7 @@
       "backgroundPath": "Image/Backgrounds/0_9",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "偶尔有极细的灰屑从它表面落下—— \n 但不知道是从卵上落的，还是从天花板上落的。",
+      "descriptionText": "偶尔有极细的灰屑从它表面落下—— \n 但不知道是从卵上落的，还是从洞顶上落的。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
@@ -452,7 +518,7 @@
       "backgroundPath": "Image/Backgrounds/0_10",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "台阶。 \n 每一级都被踩出了凹陷。",
+      "descriptionText": "没有人知道洞里为什么会布满台阶。 \n 但每一级都被踩出了凹陷。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
@@ -464,7 +530,7 @@
       "backgroundPath": "Image/Backgrounds/0_10",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "风从上方吹下来，带着盐和锈的味道。",
+      "descriptionText": "风从上方吹下来，带着盐和锈的味道。  \n 把她从睡梦中搅醒。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
@@ -485,10 +551,10 @@
     },
     {
       "id": 29,
-      "backgroundPath": "Image/Backgrounds/0_11",
+      "backgroundPath": "Image/Backgrounds/0_10(bu)",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "她醒了。 \n 赤脚踩在碎石上。",
+      "descriptionText": "她离开了床。 \n 赤脚踩在碎石上。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
@@ -554,7 +620,7 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": true,
-      "animationSpeed": 0.1,
+      "animationSpeed": 0.5,
       "loopAnimation":true
     },
                     {
@@ -567,7 +633,7 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": true,
-      "animationSpeed": 0.1,
+      "animationSpeed": 0.5,
       "loopAnimation":true
     },
                         {
@@ -582,19 +648,30 @@
           "text": "注视她的嘴唇",
           "descriptionOnSelect": "嘴唇动了一下。没有声音。",
           "eggDelta": 2,
-          "nextFrameId": -1
+          "nextFrameId": 36
         },
               {
           "text": "注视她身后远处的台阶",
-          "descriptionOnSelect": "台阶还在那里。但它看起来比刚才少了三级。",
+          "descriptionOnSelect": "",
           "eggDelta": 1,
-          "nextFrameId": -1
+          "nextFrameId": 520
         }
       ],
       "eggDelta": 0,
       "isAnimation": true,
-      "animationSpeed": 0.1,
+      "animationSpeed": 0.5,
       "loopAnimation":true
+    },
+                         {
+      "id": 520,
+      "backgroundPath": "Image/Backgrounds/0_10(bubu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "台阶还在那里。但它看起来比刚才少了三级。",
+      "autoNextSeconds": 1,
+      "options": [],
+      "eggDelta": 0,
+       "nextFrameId": 36
     },
                         {
       "id": 36,
@@ -606,7 +683,7 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": true,
-      "animationSpeed": 0.1,
+      "animationSpeed": 0.5,
       "loopAnimation":true
     },
     {

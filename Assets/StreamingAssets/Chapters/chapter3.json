@@ -84,12 +84,52 @@
       "backgroundPath": "Image/Backgrounds/3_2",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "她领着他走进了一个布满积水的洞穴里。",
+      "descriptionText": "她领着他走进了一个地方。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "nextFrameId":591
+     },
+                         {
+      "id": 591,
+      "backgroundPath": "Image/Backgrounds/3_2",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "洞里很暗。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":592
+     },
+                              {
+      "id": 592,
+      "backgroundPath": "Image/Backgrounds/3_2",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "地上有积水。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":593
+     },
+                                   {
+      "id": 593,
+      "backgroundPath": "Image/Backgrounds/3_2",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "脚步踩在水里，发出轻微的声音。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":6
      },
                          {
       "id": 6,
@@ -121,12 +161,52 @@
       "backgroundPath": "Image/Backgrounds/3_3",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "地面似乎盘绕着一根巨大的骨头。 \n 不是石头的纹理——是生物骨头的纹理。",
+      "descriptionText": "地面似乎盘绕着一根巨大的骨头。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "nextFrameId":594
+     },
+                                        {
+      "id": 594,
+      "backgroundPath": "Image/Backgrounds/3_3",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": " 不是石头的纹理——",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":595
+     },
+                                             {
+      "id": 595,
+      "backgroundPath": "Image/Backgrounds/3_3",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": " 是生物骨头的纹理。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":596
+     },
+                                                  {
+      "id": 596,
+      "backgroundPath": "Image/Backgrounds/3_3",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": " 骨头的表面有裂纹。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":9
      },
                                         {
       "id": 9,
@@ -150,7 +230,21 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": true,
-      "animationSpeed": 0.4
+      "animationSpeed": 0.4,
+      "nextFrameId":597
+     },
+                                                  {
+      "id": 597,
+      "backgroundPath": "Image/Backgrounds/3_4/3_4_4",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":11
      },
                                                   {
       "id": 11,
@@ -174,20 +268,46 @@
       "options": [
         {
           "text": "注视脚下的骨头    ",
-          "descriptionOnSelect": "骨头的表面有裂纹。裂纹里填满了灰。\n 踩上去的感觉和踩石头不一样——石头是死的，骨头是死过的东西。 ",
+          "descriptionOnSelect": " ",
           "eggDelta": 1,
-          "nextFrameId": -1
+          "nextFrameId": 598
         },
           {
           "text": "注视墙上的树     ",
-          "descriptionOnSelect": "树的线条是刻进墙里的。不是画上去的。\n 刀刻的痕迹还在，有些地方已经磨平了。\n 枝干一直往上，往上，往上，消失在看不清的地方。 ",
+          "descriptionOnSelect": " ",
           "eggDelta": 3,
-          "nextFrameId": -1
+          "nextFrameId": 599
         }
       ],
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
+     },
+                                                         {
+      "id": 598,
+      "backgroundPath": "Image/Backgrounds/3_3(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "骨头的表面有裂纹。裂纹里填满了灰。\n 踩上去的感觉和踩石头不一样——石头是死的，骨头是死过的东西。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":13
+     },
+                                                           {
+      "id": 599,
+      "backgroundPath": "Image/Backgrounds/3_4/3_4_4",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "树的线条是刻进墙里的。不是画上去的。\n 刀刻的痕迹还在，有些地方已经磨平了。\n 枝干一直往上，往上，往上，消失在看不清的地方。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":13
      },
                                                        {
       "id": 13,
@@ -249,20 +369,33 @@
       "options": [
        {
           "text": "注视他的手    ",
-          "descriptionOnSelect": "他的手指停在树干的分叉处。指甲里有灰。 ",
+          "descriptionOnSelect": " ",
           "eggDelta": 0,
-          "nextFrameId": -1
+          "nextFrameId": 600
         },
          {
           "text": "注视墙上的树     ",
           "descriptionOnSelect": "树干从根部开始分叉。枝干不停不停地往上走，走进黑暗里，看不见了。 ",
           "eggDelta": 3,
-          "nextFrameId": -1
+          "nextFrameId": 18
         }
       ],
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
+     },
+                                                                            {
+      "id": 600,
+      "backgroundPath": "Image/Backgrounds/3_4(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他的手指停在树干的分叉处。指甲里有灰。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+                "nextFrameId": 18
      },
                                                                            {
       "id": 18,
@@ -358,8 +491,8 @@
                                                                                                          {
       "id": 24,
       "backgroundPath": "Image/Backgrounds/3_7",
-      "characterSpritePath": "",
-      "characterPosition": "",
+      "characterSpritePath": "Image/Sprites/w_zhengmian",
+      "characterPosition": "left",
       "descriptionText": "「鸟怎么样了。」",
       "autoNextSeconds": 0,
       "options": [],
@@ -371,8 +504,8 @@
                                                                                                               {
       "id": 25,
       "backgroundPath": "Image/Backgrounds/3_7",
-      "characterSpritePath": "",
-      "characterPosition": "",
+      "characterSpritePath": "Image/Sprites/w_zhengmian",
+      "characterPosition": "left",
       "descriptionText": "「在哪里?」",
       "autoNextSeconds": 0,
       "options": [],
@@ -408,8 +541,8 @@
                                                                                                                         {
       "id": 28,
       "backgroundPath": "Image/Backgrounds/3_7",
-      "characterSpritePath": "",
-      "characterPosition": "",
+      "characterSpritePath": "Image/Sprites/m_stand",
+      "characterPosition": "right",
       "descriptionText": "「如今还在那里。」",
       "autoNextSeconds": 0,
       "options": [],
@@ -421,8 +554,8 @@
                                                                                                                              {
       "id": 29,
       "backgroundPath": "Image/Backgrounds/3_7",
-      "characterSpritePath": "",
-      "characterPosition": "",
+      "characterSpritePath": "Image/Sprites/m_stand",
+      "characterPosition": "right",
       "descriptionText": "「一直在做梦呢。」",
       "autoNextSeconds": 0,
       "options": [],
@@ -434,8 +567,8 @@
                                                                                                                                   {
       "id": 30,
       "backgroundPath": "Image/Backgrounds/3_7",
-      "characterSpritePath": "",
-      "characterPosition": "",
+      "characterSpritePath": "Image/Sprites/w_zhengmian",
+      "characterPosition": "left",
       "descriptionText": "「梦? \n 鸟会做什么梦呢？」",
       "autoNextSeconds": 0,
       "options": [],
@@ -460,8 +593,8 @@
                                                                                                                                        {
       "id": 3112,
       "backgroundPath": "Image/Backgrounds/3_7",
-      "characterSpritePath": "",
-      "characterPosition": "",
+      "characterSpritePath": "Image/Sprites/m_stand",
+      "characterPosition": "right",
       "descriptionText": "「那个蛋里是什么？」",
       "autoNextSeconds": 0,
       "options": [],
@@ -474,23 +607,23 @@
                                                                                                                                             {
       "id": 32,
       "backgroundPath": "Image/Backgrounds/3_7",
-      "characterSpritePath": "",
-      "characterPosition": "",
+      "characterSpritePath": "Image/Sprites/m_stand",
+      "characterPosition": "right",
       "descriptionText": "「还不能告诉我吗?」",
       "autoNextSeconds": 0,
       "sfxKey":"haibuneng",
       "options": [
        {
           "text": "注视女孩的脸    ",
-          "descriptionOnSelect": "她的脸朝着墙。嘴唇闭着。卵在她裙子下面，贴着腰侧。她把手按在那里。 ",
+          "descriptionOnSelect": " ",
           "eggDelta": 1,
-          "nextFrameId": -1
+          "nextFrameId": 601
         },
          {
           "text": "注视男人的眼睛    ",
-          "descriptionOnSelect": "他的眼睛看着她。没有催促。没有期待。 ",
+          "descriptionOnSelect": " ",
           "eggDelta": 2,
-          "nextFrameId": -1
+          "nextFrameId": 602
         }
       ],
       "eggDelta": 0,
@@ -498,40 +631,147 @@
       "animationSpeed": 0
      },
      {                                                                                                                                     
-      "id": 33,
-      "backgroundPath": "Image/Backgrounds/3_7",
+      "id": 601,
+      "backgroundPath": "Image/Backgrounds/3_7(bu)",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "她没有说话。但是带他去往了另一个地方。",
+      "descriptionText": "她的脸朝着墙。嘴唇闭着。卵在她裙子下面，贴着腰侧。她把手按在那里。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
-     },                                                                                                                                       
+      "animationSpeed": 0,
+                "nextFrameId": 33
+     },    
+          {                                                                                                                                     
+      "id": 602,
+      "backgroundPath": "Image/Backgrounds/3_7(bubu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他的眼睛看着她。没有催促。没有期待。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+                "nextFrameId": 33
+     },    
+     {                                                                                                                                     
+      "id": 33,
+      "backgroundPath": "Image/Backgrounds/3_7",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她没有说话。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":603
+     },      
+          {                                                                                                                                     
+      "id": 603,
+      "backgroundPath": "Image/Backgrounds/3_7",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "只是转身。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":604
+     },   
+               {                                                                                                                                     
+      "id": 604,
+      "backgroundPath": "Image/Backgrounds/3_7",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "带他去往了另一个地方。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":605
+     }, 
+                    {                                                                                                                                     
+      "id": 605,
+      "backgroundPath": "Image/Backgrounds/3_11",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
+      "autoNextSeconds": 1.5,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":34
+     }, 
                                                                                                                                                   {
       "id": 34,
       "backgroundPath": "Image/Backgrounds/3_11",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "那是两侧摆满了瓶子的阶梯，像螺旋一样一直蜿蜒向上，看不见尽头。",
+      "descriptionText": "那是两侧摆满了瓶子的阶梯。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+                  "nextFrameId":606
+     },
+                                                                                                                                                       {
+      "id": 606,
+      "backgroundPath": "Image/Backgrounds/3_11",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "像螺旋一样一直蜿蜒向上，看不见尽头。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+                  "nextFrameId":35
      },
                                                                                                                                                          {
       "id": 35,
       "backgroundPath": "Image/Backgrounds/3_12",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "台阶和墙壁上还有许多类似生物的尸体图案。",
+      "descriptionText": "台阶上。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+                 "nextFrameId":607
+     },
+                                                                                                                                                              {
+      "id": 607,
+      "backgroundPath": "Image/Backgrounds/3_12",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "墙壁上。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+                       "nextFrameId":608
+     },
+                                                                                                                                                                   {
+      "id": 608,
+      "backgroundPath": "Image/Backgrounds/3_13",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "还有许多类似生物的尸体图案。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+                       "nextFrameId":36
      },
                                                                                                                                                               {
       "id": 36,
@@ -543,7 +783,21 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+                             "nextFrameId":609
+     },
+                                                                                                                                                                   {
+      "id": 609,
+      "backgroundPath": "Image/Backgrounds/3_13",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
+      "autoNextSeconds": 1.5,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+         "nextFrameId":37
      },
                                                                                                                                                                    {
       "id": 37,
@@ -691,21 +945,47 @@
   "options": [
     {
       "text": "注视水流",
-      "descriptionOnSelect": "水是黑的。流进黑暗里，没有声音。",
+      "descriptionOnSelect": "",
       "eggDelta": 3,
-      "nextFrameId": 48
+      "nextFrameId": 610
     },
     {
       "text": "注视女孩",
-      "descriptionOnSelect": "她抱着蛋，低着头。没有在听水声。",
+      "descriptionOnSelect": "",
       "eggDelta": 1,
-      "nextFrameId": 48
+      "nextFrameId": 611
     }
   ],
   "eggDelta": 0,
   "isAnimation": false,
   "animationSpeed": 0
 },     
+                                                                                                                                                                                                                            {
+      "id": 610,
+      "backgroundPath": "Image/Backgrounds/3_16(bubu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "水是黑的。流进黑暗里，没有声音。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+       "nextFrameId": 48
+     },
+                                                                                                                                                                                                                                 {
+      "id": 611,
+      "backgroundPath": "Image/Backgrounds/3_17(bubu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她抱着蛋，低着头。没有在听水声。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+       "nextFrameId": 48
+     },
 {
       "id": 48,
       "backgroundPath": "Image/Backgrounds/3_16",
@@ -824,11 +1104,24 @@
       "text": "注视墙上的化石",
       "descriptionOnSelect": "化石的头朝着右边。喙张开，但没有舌头。",
       "eggDelta": 4,
-      "nextFrameId": 54
+      "nextFrameId": 612
     }
   ],
   "eggDelta": 0
 },
+                                                                                                                                                                                                                                                   {
+      "id":612,
+      "backgroundPath": "Image/Backgrounds/3_17(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId": 54
+     },
                                                                                                                                                                                                                                                    {
       "id": 54,
       "backgroundPath": "Image/Backgrounds/3_16",
@@ -1105,7 +1398,21 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "sfxKey":"niaoerhuoxu"
+      "sfxKey":"niaoerhuoxu",
+            "nextFrameId":613
+     },
+                                                                                                                                                                                                                                                                                                                                             {
+      "id": 613,
+      "backgroundPath": "Image/Backgrounds/3_17",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
+      "autoNextSeconds": 3,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":508
      },
      {
   "id": 508,
@@ -1245,16 +1552,43 @@
       "backgroundPath": "Image/Backgrounds/3_20",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "她往上走。阶梯仍然摆满了水瓶，依旧是螺旋的。",
+      "descriptionText": "她往上走。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "nextFrameId":614
+     },
+                                                                                                                                                                                                                                                                                                                                                                                     {
+      "id": 614,
+      "backgroundPath": "Image/Backgrounds/3_11",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "阶梯两侧仍然摆满了水瓶。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":615
+     },
+                                                                                                                                                                                                                                                                                                                                                                                          {
+      "id": 615,
+      "backgroundPath": "Image/Backgrounds/3_11",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "依旧是螺旋的阶梯。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":82
      },
                                                                                                                                                                                                                                                                                                                                                                                      {
       "id": 82,
-      "backgroundPath": "Image/Backgrounds/3_20",
+      "backgroundPath": "Image/Backgrounds/3_11",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "他们的影子在墙上转。",
@@ -1262,19 +1596,47 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+                  "nextFrameId":616
+     },
+                                                                                                                                                                                                                                                                                                                                                                                          {
+      "id": 616,
+      "backgroundPath": "Image/Backgrounds/3_11",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
+      "autoNextSeconds": 1.5,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+                        "nextFrameId":83
      },
                                                                                                                                                                                                                                                                                                                                                                                           {
       "id": 83,
-      "backgroundPath": "Image/Backgrounds/3_20",
+      "backgroundPath": "Image/Backgrounds/3_20(bu)",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "女孩停了下来。面前是一块石头。",
+      "descriptionText": "女孩停了下来。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+         "nextFrameId":617
+     },
+                                                                                                                                                                                                                                                                                                                                                                                               {
+      "id": 617,
+      "backgroundPath": "Image/Backgrounds/3_20(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "面前是一块石头。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+               "nextFrameId":84
      },
                                                                                                                                                                                                                                                                                                                                                                                                {
       "id": 84,
@@ -1293,12 +1655,26 @@
       "backgroundPath": "Image/Backgrounds/3_21/3_21_4",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "不是石头。 \n 是化石。",
+      "descriptionText": "不是石头。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+                     "nextFrameId":618
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                         {
+      "id": 618,
+      "backgroundPath": "Image/Backgrounds/3_21/3_21_4",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "是化石。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+        "nextFrameId":86
      },
                                                                                                                                                                                                                                                                                                                                                                                                          {
       "id": 86,
@@ -1336,18 +1712,31 @@
           "text": "注视鸟的化石     ",
           "descriptionOnSelect": "骨骼是黑的。水从上面流下来。\n 水从空的眼眶里流出来，像眼泪，但不是眼泪。 ",
           "eggDelta": 3,
-          "nextFrameId": -1
+          "nextFrameId": 89
         },
          {
           "text": "注视男人的表情    ",
-          "descriptionOnSelect": "他的眉头皱着。嘴唇闭着。\n 他的眼睛盯着鸟的喙——喙张开的形状，像是在叫，但叫不出声。 ",
+          "descriptionOnSelect": " ",
           "eggDelta": 1,
-          "nextFrameId": -1
+          "nextFrameId": 619
         }
       ],
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                        {
+      "id": 619,
+      "backgroundPath": "Image/Backgrounds/3_21(bu)", 
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他的眉头皱着。嘴唇闭着。\n 他的眼睛盯着鸟的喙——喙张开的形状，像是在叫，但叫不出声。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":89
      },
                                                                                                                                                                                                                                                                                                                                                                                                                    {
       "id": 89,
@@ -1446,6 +1835,19 @@
       "animationSpeed": 0
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                  {
+      "id": 620,
+      "backgroundPath": "Image/Backgrounds/3_22",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
+      "autoNextSeconds": 1.5,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":96
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                 {
       "id": 96,
       "backgroundPath": "Image/Backgrounds/3_22",
       "characterSpritePath": "",
@@ -1468,7 +1870,21 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+           "nextFrameId":621
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                           {
+      "id": 621,
+      "backgroundPath": "Image/Backgrounds/3_22",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
+      "autoNextSeconds": 1.5,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+           "nextFrameId":98
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                            {
       "id": 98,
@@ -1795,6 +2211,19 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
+      "nextFrameId":622
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              {
+      "id": 622,
+      "backgroundPath": "Image/Backgrounds/3_28",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "雨打在石头上，发出沉闷的响声。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
       "nextFrameId":1232
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              {
@@ -1802,7 +2231,20 @@
       "backgroundPath": "Image/Backgrounds/3_28",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "水从下水道口漫上来。快要漫过石堤。",
+      "descriptionText": "水从下水道口漫上来。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":623
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  {
+      "id": 623,
+      "backgroundPath": "Image/Backgrounds/3_28",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "快要漫过石堤。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
@@ -1827,14 +2269,27 @@
       "backgroundPath": "Image/Backgrounds/3_29",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "她似乎陷入了沉睡。怀里还抱着蛋。",
+      "descriptionText": "她似乎陷入了沉睡。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+            "nextFrameId":624
      },
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         {
+      "id": 624,
+      "backgroundPath": "Image/Backgrounds/3_29",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "怀里还抱着蛋。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+                  "nextFrameId":126
+     },                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                {
       "id": 126,
       "backgroundPath": "Image/Backgrounds/3_30",
       "characterSpritePath": "",
@@ -1937,96 +2392,273 @@
       "backgroundPath": "Image/Backgrounds/3_32",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "男人跪在床边。\n 他的影子落在她身上。",
+      "descriptionText": "男人跪在床边。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "nextFrameId":625
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               {
+      "id": 625,
+      "backgroundPath": "Image/Backgrounds/3_32",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": " 他的影子落在她身上。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":135
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                {
       "id": 135,
       "backgroundPath": "Image/Backgrounds/3_33",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "雨声小了。风声小了。",
+      "descriptionText": "雨声小了。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "nextFrameId":626
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    {
+      "id": 626,
+      "backgroundPath": "Image/Backgrounds/3_33",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "风声小了。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":627
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         {
+      "id": 627,
+      "backgroundPath": "Image/Backgrounds/3_33",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
+      "autoNextSeconds": 1.5,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+                 "nextFrameId":136
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     {
       "id": 136,
       "backgroundPath": "Image/Backgrounds/3_34",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "外面的士兵还站着。水淹到他们的小腿。",
+      "descriptionText": "外面的士兵还站着。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+                       "nextFrameId":628
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              {
+      "id": 628,
+      "backgroundPath": "Image/Backgrounds/3_34",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "水淹到他们的小腿。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+                 "nextFrameId":137
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          {
       "id": 137,
       "backgroundPath": "Image/Backgrounds/3_34",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "他们没有动。像方舟上的雕像。",
+      "descriptionText": "他们没有动。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+                      "nextFrameId":629
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   {
+      "id": 629,
+      "backgroundPath": "Image/Backgrounds/3_34",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "像方舟上的雕像。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+                 "nextFrameId":138
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               {
       "id": 138,
       "backgroundPath": "Image/Backgrounds/3_35",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "男人坐在床前的篝火旁。火光在他脸上。",
+      "descriptionText": "男人坐在床前的篝火旁。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+       "nextFrameId":630
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   {
+      "id": 630,
+      "backgroundPath": "Image/Backgrounds/3_35",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "火光在他脸上。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+             "nextFrameId":631
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        {
+      "id": 631,
+      "backgroundPath": "Image/Backgrounds/3_35",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
+      "autoNextSeconds":1.5,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+             "nextFrameId":139
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    {
       "id": 139,
       "backgroundPath": "Image/Backgrounds/3_35",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "一分钟。也许更久。",
+      "descriptionText": "一分钟。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+                 "nextFrameId":632
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        {
+      "id": 632,
+      "backgroundPath": "Image/Backgrounds/3_35",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "也许更久。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+                       "nextFrameId":633
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             {
+      "id": 633,
+      "backgroundPath": "Image/Backgrounds/3_35",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
+      "autoNextSeconds": 1.5,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+                       "nextFrameId":140
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         {
       "id": 140,
       "backgroundPath": "Image/Backgrounds/3_36",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "火灭了。\n 他坐在黑暗里。一动不动。",
+      "descriptionText": "火灭了。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+       "nextFrameId":634
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             {
+      "id": 634,
+      "backgroundPath": "Image/Backgrounds/3_36",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他坐在黑暗里。一动不动。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+             "nextFrameId":657
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             {
+      "id": 657,
+      "backgroundPath": "Image/Backgrounds/3_36",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
+      "autoNextSeconds": 1.5,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+       "nextFrameId":141
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              {
       "id": 141,
       "backgroundPath": "Image/Backgrounds/3_37",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "他站起来。走到床边。从她旁边拿走了那枚蛋。",
+      "descriptionText": "他站起来。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+             "nextFrameId":635
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  {
+      "id": 635,
+      "backgroundPath": "Image/Backgrounds/3_37",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "走到床边。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":636
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       {
+      "id": 636,
+      "backgroundPath": "Image/Backgrounds/3_37",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "从她旁边拿走了那枚蛋。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":142
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   {
       "id": 142,
@@ -2255,31 +2887,86 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "nextFrameId":637
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               {
+      "id": 637,
+      "backgroundPath": "Image/Backgrounds/3_39",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
+      "autoNextSeconds": 1.5,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":151
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               {
       "id": 151,
       "backgroundPath": "Image/Backgrounds/3_40",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "水淹没士兵一半的身体。\n 他们站在那里一动不动。",
+      "descriptionText": "水淹没士兵一半的身体。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+                  "nextFrameId":638
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   {
+      "id": 638,
+      "backgroundPath": "Image/Backgrounds/3_40",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他们站在那里。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+                     "nextFrameId":639
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        {
+      "id": 639,
+      "backgroundPath": "Image/Backgrounds/3_40",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "一动不动。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+                       "nextFrameId":152
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    {
       "id": 152,
       "backgroundPath": "Image/Backgrounds/3_41",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "水面上有倒影。\n 倒影里，还残留着捕鱼时留下的长矛。",
+      "descriptionText": "水面上有倒影。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+        "nextFrameId":640
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        {
+      "id": 640,
+      "backgroundPath": "Image/Backgrounds/3_41",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "倒影里，还残留着捕鱼时留下的长矛。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+          "nextFrameId":153
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         {
       "id": 153,
@@ -2291,7 +2978,21 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+          "nextFrameId":641
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             {
+      "id": 641,
+      "backgroundPath": "Image/Backgrounds/3_41",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
+      "autoNextSeconds": 1.5,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+                "nextFrameId":154
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              {
       "id": 154,
@@ -2328,7 +3029,21 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "sfxKey":"nishishui"
+      "sfxKey":"nishishui",
+        "nextFrameId":642
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            {
+      "id": 642,
+      "backgroundPath": "Image/Backgrounds/3_41",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
+      "autoNextSeconds": 1,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+              "nextFrameId":157
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             {
       "id": 157,
@@ -2343,30 +3058,73 @@
       "animationSpeed": 0,
       "sfxKey":"nishishui"
      },
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 {
-      "id": 158,
-      "backgroundPath": "Image/Backgrounds/3_42",
-      "characterSpritePath": "",
-      "characterPosition": "",
-      "descriptionText": "女孩醒了。",
-      "autoNextSeconds": 0,
-      "options": [],
-      "eggDelta": 0,
-      "isAnimation": false,
-      "animationSpeed": 0
-     },
+{
+  "id": 158,
+  "backgroundPath": "Image/Backgrounds/3_42",
+  "descriptionText": "女孩醒了。",
+  "autoNextSeconds": 0,
+  "options": [],
+  "eggDelta": 0,
+  "nextFrameId": 643
+},
+{
+  "id": 643,
+  "backgroundPath": "Image/Backgrounds/3_42",
+  "descriptionText": "",
+  "autoNextSeconds": 1,
+  "options": [],
+  "eggDelta": 0,
+  "nextFrameId": 159
+},
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       {
       "id": 159,
       "backgroundPath": "Image/Backgrounds/3_42",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "她睁开眼睛。\n身边是空的。 \n男人不见了，她的蛋也不见了。",
+      "descriptionText": "她睁开眼睛。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+        "nextFrameId": 644
      },
+     {
+  "id": 644,
+  "backgroundPath": "Image/Backgrounds/3_43",
+  "descriptionText": "身边是空的。",
+  "autoNextSeconds": 0,
+  "options": [],
+  "eggDelta": 0,
+  "nextFrameId":645
+},
+     {
+  "id": 645,
+  "backgroundPath": "Image/Backgrounds/3_43",
+  "descriptionText": "男人不见了。",
+  "autoNextSeconds": 0,
+  "options": [],
+  "eggDelta": 0,
+  "nextFrameId": 646
+},
+     {
+  "id": 646,
+  "backgroundPath": "Image/Backgrounds/3_43",
+  "descriptionText": "她的蛋也不见了。",
+  "autoNextSeconds": 0,
+  "options": [],
+  "eggDelta": 0,
+  "nextFrameId": 647
+},
+     {
+  "id": 647,
+  "backgroundPath": "Image/Backgrounds/3_43",
+  "descriptionText": "",
+  "autoNextSeconds": 1,
+  "options": [],
+  "eggDelta": 0,
+  "nextFrameId":160
+},
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            {
       "id": 160,
       "backgroundPath": "Image/Backgrounds/3_43",
@@ -2384,12 +3142,26 @@
       "backgroundPath": "Image/Backgrounds/3_43",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "地上有水。到处张望着。",
+      "descriptionText": "地上有水。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+        "nextFrameId":648
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     {
+      "id": 648,
+      "backgroundPath": "Image/Backgrounds/3_43",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她到处张望着。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+           "nextFrameId":162
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      {
       "id": 162,
@@ -2413,7 +3185,21 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+       "nextFrameId":649
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               {
+      "id": 649,
+      "backgroundPath": "Image/Backgrounds/3_43",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
+      "autoNextSeconds": 1,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+           "nextFrameId":164
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                {
       "id": 164,
@@ -2450,19 +3236,47 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "sfxKey":"jiao01"
+      "sfxKey":"jiao01",
+       "nextFrameId":650
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              {
+      "id": 650,
+      "backgroundPath": "Image/Backgrounds/3_44",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
+      "autoNextSeconds": 1.5,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":167
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          {
       "id": 167,
       "backgroundPath": "Image/Backgrounds/3_46",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "阶梯是螺旋的。瓶子放在两边。",
+      "descriptionText": "阶梯是螺旋的。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+            "nextFrameId":651
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              {
+      "id": 651,
+      "backgroundPath": "Image/Backgrounds/3_46",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "瓶子放在两边。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":168
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               {
       "id": 168,
@@ -2553,12 +3367,26 @@
       "backgroundPath": "Image/Backgrounds/3_49",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "脚底空了。她掉了下去。",
+      "descriptionText": "脚底空了。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "nextFrameId":652
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      {
+      "id": 652,
+      "backgroundPath": "Image/Backgrounds/3_49",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她掉了下去。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":176
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       {
       "id": 176,
@@ -2570,7 +3398,21 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+       "nextFrameId":653
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           {
+      "id": 653,
+      "backgroundPath": "Image/Backgrounds/3_49",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
+      "autoNextSeconds": 1,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+             "nextFrameId":177
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            {
       "id": 177,
@@ -2589,12 +3431,26 @@
       "backgroundPath": "Image/Backgrounds/3_50",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "她看到了水面上的女人。\n 似乎是自己，又不像。",
+      "descriptionText": "她看到了水面上的女人。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+        "nextFrameId":654
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     {
+      "id": 654,
+      "backgroundPath": "Image/Backgrounds/3_50",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "似乎是自己，又不像。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+              "nextFrameId":179
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      {
       "id": 179,
@@ -2673,12 +3529,26 @@
       "backgroundPath": "Image/Backgrounds/3_52",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "升到水面的时候—— \n 气泡变成了无数的蛋。",
+      "descriptionText": "升到水面的时候——",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "nextFrameId":655
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        {
+      "id": 655,
+      "backgroundPath": "Image/Backgrounds/3_52",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "气泡变成了无数的蛋。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":186
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         {
       "id": 186,
@@ -2694,15 +3564,29 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              {
       "id": 187,
-      "backgroundPath": "Image/Backgrounds/3_53",
+      "backgroundPath": "Image/Backgrounds/3_53(bu)",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "水面倒映着树。树的倒影在水面上。",
+      "descriptionText": "水面倒映着树。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+                  "nextFrameId":656
+     },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 {
+      "id": 656,
+      "backgroundPath": "Image/Backgrounds/3_53(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "树的倒影在水面上。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+       "nextFrameId":188
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   {
       "id": 188,
@@ -2838,7 +3722,7 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          {
       "id": 199,
-      "backgroundPath": "Image/Backgrounds/0_6",
+      "backgroundPath": "Image/Backgrounds/3_56(bu)",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "他抬起头",
@@ -2862,7 +3746,7 @@
      },
      {
   "id": 201,
-  "backgroundPath": "Image/Backgrounds/3_56",
+  "backgroundPath": "Image/Backgrounds/3_56(bu)",
   "descriptionText": "他在看。\n 看了很久。",
   "autoNextSeconds": 0,
   "options": [],
@@ -2873,7 +3757,7 @@
 },
      {
   "id": 2021,
-  "backgroundPath": "Image/Backgrounds/3_56",
+  "backgroundPath": "Image/Backgrounds/3_56(bu)",
   "descriptionText": "然后他看到了她——",
   "autoNextSeconds": 0,
   "options": [],
@@ -2884,8 +3768,8 @@
 },
      {
   "id": 2022,
-  "backgroundPath": "Image/Backgrounds/3_56",
-  "descriptionText": "方舟上，在那些雕塑的中间。",
+  "backgroundPath": "Image/Backgrounds/0_6",
+  "descriptionText": "方舟上，在那些雕塑的中间。似乎有什么。",
   "autoNextSeconds": 0,
   "options": [],
   "eggDelta": 0,
@@ -2906,10 +3790,10 @@
 },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               {
       "id": 2031,
-      "backgroundPath": "Image/Backgrounds/0_6",
+      "backgroundPath": "Image/Backgrounds/3_57",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "她站在那些雕塑中间。",
+      "descriptionText": "她坐在那些雕塑中间。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
@@ -2919,10 +3803,10 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  {
       "id": 2032,
-      "backgroundPath": "Image/Backgrounds/0_6",
+      "backgroundPath": "Image/Backgrounds/3_61",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "但看不清，那只眼睛离地面越来越远。",
+      "descriptionText": "但看不清，方舟离地面越来越远。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
@@ -2958,7 +3842,7 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    {
       "id": 2042,
-      "backgroundPath": "Image/Backgrounds/3_57",
+      "backgroundPath": "Image/Backgrounds/3_61",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "或许被水雾遮住了。",
@@ -2971,7 +3855,7 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         {
       "id": 2043,
-      "backgroundPath": "Image/Backgrounds/3_57",
+      "backgroundPath": "Image/Backgrounds/0_6",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "女孩不在那里。",
@@ -2997,7 +3881,7 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         {
       "id": 2052,
-      "backgroundPath": "Image/Backgrounds/3_57",
+      "backgroundPath": "Image/Backgrounds/3_61",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "也许只是旧雕像，他以前没注意到。",
@@ -3010,7 +3894,7 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              {
       "id": 2053,
-      "backgroundPath": "Image/Backgrounds/3_57",
+      "backgroundPath": "Image/Backgrounds/0_6",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "她从来就没有去过那里。",
@@ -3048,7 +3932,7 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   {
       "id": 208,
-      "backgroundPath": "Image/Backgrounds/3_58",
+      "backgroundPath": "Image/Backgrounds/3_59",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "他没有动。只是远远看着方舟。",
@@ -3060,7 +3944,7 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        {
       "id": 209,
-      "backgroundPath": "Image/Backgrounds/3_58",
+      "backgroundPath": "Image/Backgrounds/3_60",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "水在他膝盖边，他的影子在水面上碎开了。",
@@ -3072,7 +3956,7 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           {
       "id": 210,
-      "backgroundPath": "Image/Backgrounds/1_1",
+      "backgroundPath": "Image/Backgrounds/3_60",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "他低下头。\n 水面上只有他自己的倒影。",
@@ -3084,7 +3968,7 @@
      },
      {
   "id": 211,
-  "backgroundPath": "Image/Backgrounds/3_58",
+  "backgroundPath": "Image/Backgrounds/3_60",
   "descriptionText": "风吹过来，又停了。\n 水面上的影子不再动。",
   "autoNextSeconds": 1.5,
   "options": [],
@@ -3094,7 +3978,7 @@
 },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              {
       "id": 212,
-      "backgroundPath": "Image/Backgrounds/1_1",
+      "backgroundPath": "Image/Backgrounds/3_60",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "边缘伸进黑暗里，黑暗没有尽头。",
@@ -3106,7 +3990,7 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   {
       "id": 213,
-      "backgroundPath": "Image/Backgrounds/1_1",
+      "backgroundPath": "Image/Backgrounds/3_60",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "水是黑的。方舟浮在水上，像一只闭着的眼睛。",
@@ -3118,7 +4002,7 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        {
       "id": 214,
-      "backgroundPath": "Image/Backgrounds/1_1",
+      "backgroundPath": "Image/Backgrounds/3_60",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "风已经停了很久了。\n 水也不动了。",
@@ -3131,7 +4015,7 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             {
       "id": 2151,
-      "backgroundPath": "Image/Backgrounds/1_1",
+      "backgroundPath": "Image/Backgrounds/3_60",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "树不是树。是骨。",
@@ -3144,7 +4028,7 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  {
       "id": 2152,
-      "backgroundPath": "Image/Backgrounds/1_1",
+      "backgroundPath": "Image/Backgrounds/3_60",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "树不是树。是骨。",
@@ -3157,7 +4041,7 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  {
       "id": 2153,
-      "backgroundPath": "Image/Backgrounds/1_1",
+      "backgroundPath": "Image/Backgrounds/3_60",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "树不是树。是骨。",
@@ -3170,7 +4054,7 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  {
       "id": 2161,
-      "backgroundPath": "Image/Backgrounds/1_1",
+      "backgroundPath": "Image/Backgrounds/3_60",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "蛋不是蛋。是被忘记的开始。",
@@ -3183,7 +4067,7 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       {
       "id": 2162,
-      "backgroundPath": "Image/Backgrounds/1_1",
+      "backgroundPath": "Image/Backgrounds/3_60",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "蛋不是蛋。是被忘记的开始。",
@@ -3196,7 +4080,7 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            {
       "id": 2163,
-      "backgroundPath": "Image/Backgrounds/1_1",
+      "backgroundPath": "Image/Backgrounds/3_60",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "蛋不是蛋。是壳。",
@@ -3209,7 +4093,7 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       {
       "id": 2171,
-      "backgroundPath": "Image/Backgrounds/1_1",
+      "backgroundPath": "Image/Backgrounds/3_60",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "根须扎进虚空。树冠托着一个不破的沉默。",
@@ -3222,7 +4106,7 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            {
       "id": 2172,
-      "backgroundPath": "Image/Backgrounds/1_1",
+      "backgroundPath": "Image/Backgrounds/3_60",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "根须扎进虚空。树冠托着一个不破的沉默。",
@@ -3235,7 +4119,7 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            {
       "id": 2173,
-      "backgroundPath": "Image/Backgrounds/1_1",
+      "backgroundPath": "Image/Backgrounds/3_60",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "根须扎进虚空。树冠上什么也没有",
@@ -3248,7 +4132,7 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             {
       "id": 2181,
-      "backgroundPath": "Image/Backgrounds/1_1",
+      "backgroundPath": "Image/Backgrounds/3_60",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "但蛋壳上，多了一条细纹。",
@@ -3261,7 +4145,7 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            {
       "id": 219,
-      "backgroundPath": "Image/Backgrounds/1_1",
+      "backgroundPath": "Image/Backgrounds/3_60",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "水下面有什么在动。",
@@ -3273,7 +4157,7 @@
      },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 {
       "id": 220,
-      "backgroundPath": "Image/Backgrounds/1_1",
+      "backgroundPath": "Image/Backgrounds/3_60",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "或者什么都没有。",
@@ -3284,7 +4168,7 @@
       "animationSpeed": 0
      },{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
       "id": 221,
-      "backgroundPath": "Image/Backgrounds/1_1",
+      "backgroundPath": "Image/Backgrounds/3_60",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "......",

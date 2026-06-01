@@ -9,9 +9,7 @@
       "descriptionText": "夜。风吹过草地，草像波浪一样动。",
       "autoNextSeconds": 0,
       "options": [],
-      "eggDelta": 0,
-      "isAnimation": false,
-      "animationSpeed": 0
+      "eggDelta": 0
     },
      {
       "id": 2,
@@ -21,9 +19,27 @@
       "descriptionText": "女孩抱着蛋，慢慢走在草地上。",
       "autoNextSeconds": 0,
       "options": [],
-      "eggDelta": 0,
-      "isAnimation": false,
-      "animationSpeed": 0
+      "eggDelta": 0
+    },
+         {
+      "id": 522,
+      "backgroundPath": "Image/Backgrounds/1_1",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "风声很大。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0
+    },
+             {
+      "id": 523,
+      "backgroundPath": "Image/Backgrounds/1_1",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "不是呼啸，是低沉的、像从地底传来的声音。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0
     },
        {
       "id": 3,
@@ -33,9 +49,17 @@
       "descriptionText": "卵抱在胸前，贴着她的心跳。",
       "autoNextSeconds": 0,
       "options": [],
-      "eggDelta": 0,
-      "isAnimation": false,
-      "animationSpeed": 0
+      "eggDelta": 0
+    },
+           {
+      "id": 524,
+      "backgroundPath": "Image/Backgrounds/1_1",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她的影子被月光拉得很长，落在草地上。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0
     },
            {
       "id": 4,
@@ -71,32 +95,75 @@
       "options": [
       {
           "text": "注视她的脚步 ",
-          "descriptionOnSelect": "赤脚。脚底似乎有旧伤疤。 \n 但她在跑，像是感觉不到痛。",
+          "descriptionOnSelect": "赤脚。脚底似乎有旧伤疤。",
           "eggDelta": 1,
-          "nextFrameId": -1
+          "nextFrameId": 525
         },
               {
           "text": "注视森林深处 ",
-          "descriptionOnSelect": "树木之间有人形的空隙。\n 不是树被砍了，是有人曾站在那里，然后消失了。",
+          "descriptionOnSelect": "",
           "eggDelta": 2,
-          "nextFrameId": -1
+          "nextFrameId": 526
         }
       ],
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
+    },                   {
+      "id": 525,
+      "backgroundPath": "Image/Backgrounds/1_2(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "但她在跑，像是感觉不到痛。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "nextFrameId":533
     },
+            {
+      "id": 526,
+      "backgroundPath": "Image/Backgrounds/1_2(bubu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "树木之间有人形的空隙。\n 不是树被砍了，是有人曾站在那里，然后消失了。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "nextFrameId": 533
+    },
+                {
+      "id": 533,
+      "backgroundPath": "Image/Backgrounds/1_2/1_2_2",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
+      "autoNextSeconds": 1.5,
+      "options": [],
+      "eggDelta": 0,
+      "nextFrameId": 7
+    },
+
                    {
       "id": 7,
       "backgroundPath": "Image/Backgrounds/1_3",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "池水是黑的。池水中有很多倒影。",
+      "descriptionText": "池水是黑的。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
-      "isAnimation": false,
-      "animationSpeed": 0
+      "nextFrameId":530
+    },
+                       {
+      "id": 530,
+      "backgroundPath": "Image/Backgrounds/1_3",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "池中有很多倒影。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+       "nextFrameId":8
     },
                        {
       "id": 8,
@@ -108,20 +175,40 @@
       "options": [
           {
           "text": "注视水面 ",
-          "descriptionOnSelect": "水是静止的。像一块黑色的玻璃。",
+          "descriptionOnSelect": "",
           "eggDelta": 0,
-          "nextFrameId": -1
+          "nextFrameId": 527
         },
                   {
           "text": "注视她放卵的动作 ",
-          "descriptionOnSelect": "她把卵放下时，手指没有立刻松开。像是舍不得。",
+          "descriptionOnSelect": "",
           "eggDelta": 2,
-          "nextFrameId": -1
+          "nextFrameId": 528
         }
       ],
+      "eggDelta": 0
+    },
+                             {
+      "id": 527,
+      "backgroundPath": "Image/Backgrounds/1_3(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "水是静止的。像一块黑色的玻璃。",
+      "autoNextSeconds": 0,
+      "options": [],
       "eggDelta": 0,
-      "isAnimation": false,
-      "animationSpeed": 0
+      "nextFrameId": 9
+    },
+                                 {
+      "id": 528,
+      "backgroundPath": "Image/Backgrounds/1_3(bubu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她把卵放下时，手指没有立刻松开。像是舍不得",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "nextFrameId": 9
     },
                            {
       "id": 9,
@@ -131,9 +218,7 @@
       "descriptionText": "她拿出那个器皿——圆的，透明的，像一个被切开的泡泡。",
       "autoNextSeconds": 0,
       "options": [],
-      "eggDelta": 0,
-      "isAnimation": false,
-      "animationSpeed": 0
+      "eggDelta": 0
     },
                                {
       "id": 10,
@@ -147,30 +232,48 @@
           "text": "注视器皿入水 ",
           "descriptionOnSelect": "水进入器皿后，颜色变了——从黑变成极淡的红。",
           "eggDelta": 3,
-          "nextFrameId": -1
+          "nextFrameId": 11
         },
                         {
           "text": "注视她的表情 ",
-          "descriptionOnSelect": "她没有表情。但她呼吸变慢了。",
+          "descriptionOnSelect": "",
           "eggDelta": 1,
-          "nextFrameId": -1
+          "nextFrameId": 529
         }
       ],
+      "eggDelta": 0
+    },                            {
+      "id": 529,
+      "backgroundPath": "Image/Backgrounds/1_4(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她没有表情。但她呼吸变慢了。",
+      "autoNextSeconds": 0,
+      "options": [],
       "eggDelta": 0,
-      "isAnimation": false,
-      "animationSpeed": 0
+      "nextFrameId": 11
     },
                                {
       "id": 11,
       "backgroundPath": "Image/Backgrounds/1_5",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "她喝水的时候喉结动了一下。\n 水从嘴角溢出一点，顺着下巴滴下来——滴到卵上。",
+      "descriptionText": "她喝水的时候喉结动了一下。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
-      "isAnimation": false,
-      "animationSpeed": 0
+       "nextFrameId":531
+    },
+                                   {
+      "id": 531,
+      "backgroundPath": "Image/Backgrounds/1_5",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "水从嘴角溢出一点，顺着下巴滴下来——滴到卵上。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+       "nextFrameId":12
     },
                                    {
       "id": 12,
@@ -180,9 +283,7 @@
       "descriptionText": "卵没有湿。\n 水滑开了，像卵的表面有一层看不见的油。",
       "autoNextSeconds": 0,
       "options": [],
-      "eggDelta": 0,
-      "isAnimation": false,
-      "animationSpeed": 0
+      "eggDelta": 0
     },
                                        {
       "id": 13,
@@ -218,20 +319,48 @@
       "options": [
                         {
           "text": "注视海草 ",
-          "descriptionOnSelect": "海草的末端有很小的、发光的点。\n 像眼睛？像孢子？",
+          "descriptionOnSelect": "",
           "eggDelta": 2,
-          "nextFrameId": -1
+          "nextFrameId":534
         },
                           {
           "text": "注视倒影的不协调  ",
-          "descriptionOnSelect": "树的倒影比树本身更老。树干上有树没有的裂纹。",
+          "descriptionOnSelect": "",
           "eggDelta": 3,
-          "nextFrameId": -1
+          "nextFrameId": 535
         }
       ],
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
+    },
+                                             {
+      "id": 534,
+      "backgroundPath": "Image/Backgrounds/2_534",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "海草的末端有很小的、发光的点。\n 像眼睛？像孢子？",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": true,
+      "animationSpeed": 0.5,
+      "loopAnimation":true,
+         "nextFrameId":16
+    },
+                                                {
+      "id": 535,
+      "backgroundPath": "Image/Backgrounds/2_535",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "树的倒影比树本身更老。树干上有树没有的裂纹。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": true,
+      "animationSpeed": 0.5,
+      "loopAnimation":true,
+         "nextFrameId":16
     },
                                                {
       "id": 16,
@@ -244,13 +373,12 @@
       "eggDelta": 0,
       "isAnimation": true,
       "animationSpeed": 1
-    },
-                                                   {
+    },                                                  {
       "id": 17,
       "backgroundPath": "Image/Backgrounds/1_10",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "海草缠住她的脚踝、手腕、卵。水声。风声。\n 还有一种很低很低的、像心跳一样的震动。",
+      "descriptionText": "海草缠住她的脚踝。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
@@ -259,27 +387,94 @@
     },
                                                        {
       "id": 18,
-      "backgroundPath": "Image/Backgrounds/1_11",
+      "backgroundPath": "Image/Backgrounds/1_10",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "她从暗处走出来。卵上沾了水珠，但没有湿。",
+      "descriptionText": "缠住她的手腕。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+            "nextFrameId":537
+    },
+                                                           {
+      "id": 537,
+      "backgroundPath": "Image/Backgrounds/1_10",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "水声。风声。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":538
+    },
+                                                               {
+      "id": 538,
+      "backgroundPath": "Image/Backgrounds/1_10",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "还有一种很低很低的、像心跳一样的震动。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":536
+    },
+                                                     {
+      "id": 536,
+      "backgroundPath": "Image/Backgrounds/1_11",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她从暗处走出来。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":539
+    },
+                                                         {
+      "id": 539,
+      "backgroundPath": "Image/Backgrounds/1_11",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "卵上沾了水珠。 \n但没有湿。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":19
     },
                                                            {
       "id": 19,
       "backgroundPath": "Image/Backgrounds/1_12",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "前方是小镇。房子是石头的，窗户是黑的。",
+      "descriptionText": "前方是小镇。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "nextFrameId":540
+    },
+                                                              {
+      "id": 540,
+      "backgroundPath": "Image/Backgrounds/1_12",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "房子是石头的，窗户是黑的。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":20
     },
                                                            {
       "id": 20,
@@ -291,7 +486,41 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "nextFrameId":541
+    },
+                                                             {
+      "id": 541,
+      "backgroundPath": "Image/Backgrounds/1_12(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她在镇子里走着。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "nextFrameId":542
+    },
+                                                                 {
+      "id": 542,
+      "backgroundPath": "Image/Backgrounds/1_12(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "路过一扇扇紧闭的门。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "nextFrameId":543
+    },
+                                                                     {
+      "id": 543,
+      "backgroundPath": "Image/Backgrounds/1_12(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "没有灯光。没有人声。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "nextFrameId":21
     },
                                                                {
       "id": 21,
@@ -317,13 +546,13 @@
           "text": "注视新的器皿  ",
           "descriptionOnSelect": "器皿底部刻着一个符号：一个被划掉的圆。",
           "eggDelta": 3,
-          "nextFrameId": -1
+          "nextFrameId": 23
         },
                         {
           "text": "注视她装水时手指的动作 ",
-          "descriptionOnSelect": "指尖轻微的晃动似乎预示着女孩的心情不错。",
+          "descriptionOnSelect": "",
           "eggDelta": 1,
-          "nextFrameId": -1
+          "nextFrameId": 544
         }
       ],
       "eggDelta": 0,
@@ -331,29 +560,106 @@
       "animationSpeed": 0
     },
                                                                    {
+      "id": 544,
+      "backgroundPath": "Image/Backgrounds/1_14(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "指尖轻微的晃动似乎预示着女孩的心情不错。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":23
+    },
+                                                                   {
       "id": 23,
       "backgroundPath": "Image/Backgrounds/1_15",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "她装好水抬头。\n 发现对面的窗户上，云的倒影在移动。 \n 但天上没有云。",
+      "descriptionText": "她装好水抬头。",
+      "autoNextSeconds": 0,
+      "eggDelta": 0,
+      "isAnimation": true,
+      "animationSpeed": 0.5,
+      "loopAnimation": true,
+      "nextFrameId":545
+    },
+                                                                {
+      "id": 545,
+      "backgroundPath": "Image/Backgrounds/1_15",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "对面的窗户上，有什么在动。",
+      "autoNextSeconds": 0,
+      "eggDelta": 0,
+      "isAnimation": true,
+      "animationSpeed": 0.5,
+      "loopAnimation": true,
+      "nextFrameId":546
+    },
+                                                                {
+      "id": 546,
+      "backgroundPath": "Image/Backgrounds/1_15",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "是云的倒影。",
+      "autoNextSeconds": 0,
+      "eggDelta": 0,
+      "isAnimation": true,
+      "animationSpeed": 0.5,
+      "loopAnimation": true,
+      "nextFrameId":547
+    },
+                                                                    {
+      "id": 547,
+      "backgroundPath": "Image/Backgrounds/1_15",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "云在移动。",
+      "autoNextSeconds": 0,
+      "eggDelta": 0,
+      "isAnimation": true,
+      "animationSpeed": 0.5,
+      "loopAnimation": true,
+      "nextFrameId":548
+    },
+                                                                        {
+      "id": 548,
+      "backgroundPath": "Image/Backgrounds/1_15",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "但天上没有云。",
+      "autoNextSeconds": 0,
+      "eggDelta": 0,
+      "isAnimation": true,
+      "animationSpeed": 0.5,
+      "loopAnimation": true,
+      "nextFrameId":549
+    },
+                                                                {
+      "id": 549,
+      "backgroundPath": "Image/Backgrounds/1_15",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "",
       "autoNextSeconds": 0,
       "options": [
                        {
           "text": "注视窗户里的云 ",
           "descriptionOnSelect": "云移动的方向和风的方向相反。",
           "eggDelta": 3,
-          "nextFrameId": -1
+          "nextFrameId": 24
         },
                          {
           "text": "注视窗玻璃上的灰尘和裂纹 ",
           "descriptionOnSelect": "怎么看都像是很久没有住过人的模样，但是为什么玻璃会碎裂呢?",
           "eggDelta": 1,
-          "nextFrameId": -1
+          "nextFrameId": 24
         }
       ],
-      "eggDelta": 0,
-      "isAnimation": true,
-      "animationSpeed": 1,
+       "isAnimation": true,
+      "animationSpeed": 0.5,
       "loopAnimation": true
     },
                                                                    {
@@ -361,12 +667,26 @@
       "backgroundPath": "Image/Backgrounds/1_16",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "窗框是空的，没有玻璃。她在外面。\n 卵在怀里。月光照在她身上。",
+      "descriptionText": "窗框是空的，没有玻璃。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed":0,
+      "nextFrameId":550
+    },
+                                                                       {
+      "id": 550,
+      "backgroundPath": "Image/Backgrounds/1_16",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她在外面。\n 卵在怀里。 \n 月光照在她身上。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":25
     },
                                                                        {
       "id": 25,
@@ -397,12 +717,39 @@
       "backgroundPath": "Image/Backgrounds/1_19",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "声音沉重地从远方传来。\n 从地下来？ \n 从天上来？\n 总之强烈到连地板都在震动。",
+      "descriptionText": "声音沉重地从远方传来。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "nextFrameId":556
+    },
+                                                                                   {
+      "id": 556,
+      "backgroundPath": "Image/Backgrounds/1_19",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "从地下来？ \n 从天上来？",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":557
+    },
+                                                                                       {
+      "id": 557,
+      "backgroundPath": "Image/Backgrounds/1_19",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "强烈到连地板都在震动。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+                  "nextFrameId":28
     },
                                                                                    {
       "id": 28,
@@ -426,15 +773,15 @@
       "options": [
                            {
           "text": "注视机械车的“脸” ",
-          "descriptionOnSelect": "前端有两个圆形的凹陷。像眼睛，但不会看。",
+          "descriptionOnSelect": "",
           "eggDelta": 1,
-          "nextFrameId": -1
+          "nextFrameId": 551
         },
                          {
           "text": "注视女孩的反应 ",
-          "descriptionOnSelect": "她抱紧卵。手指发白。",
+          "descriptionOnSelect": "",
           "eggDelta": 2,
-          "nextFrameId": -1
+          "nextFrameId": 552
         }
       ],
       "eggDelta": 0,
@@ -442,16 +789,56 @@
       "animationSpeed": 0
     },
                                                                                        {
-      "id": 30,
-      "backgroundPath": "Image/Backgrounds/1_21",
+      "id": 551,
+      "backgroundPath": "Image/Backgrounds/1_19(bu)",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "男人从那辆诡异的东西上下来。背着那个十字形的东西。",
+      "descriptionText": "比起器械，它看起来更像某种虫类。没有前端，但是有触角。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "nextFrameId":30
+    },
+                                                                                      {
+      "id": 552,
+      "backgroundPath": "Image/Backgrounds/1_19(bu)",
+      "characterSpritePath": "Image/Sprites/w_jin",
+      "characterPosition": "left",
+      "descriptionText": "她抱紧卵。手指发白。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+       "nextFrameId":30
+    },
+                                                                                       {
+      "id": 30,
+      "backgroundPath": "Image/Backgrounds/1_21",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "男人从那辆诡异的东西上下来。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":558
+    },
+                                                                                          {
+      "id": 558,
+      "backgroundPath": "Image/Backgrounds/1_21",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "背着那个十字形的东西。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+           "nextFrameId":31
     },
                                                                                            {
       "id": 31,
@@ -463,20 +850,46 @@
       "options": [
                                {
           "text": "注视他背上的十字武器 ",
-          "descriptionOnSelect": "武器表面有旧凹痕，像是被长时间握持磨出来的。",
+          "descriptionOnSelect": "",
           "eggDelta": 2,
-          "nextFrameId": -1
+          "nextFrameId": 553
         },
                                  {
           "text": "注视男人的眼睛 ",
-          "descriptionOnSelect": "他的目光没有看向女孩，而是看向她怀里的卵？",
+          "descriptionOnSelect": "",
           "eggDelta": 1,
-          "nextFrameId": -1
+          "nextFrameId": 554
         }
       ],
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
+    },
+                                                                                                   {
+      "id": 553,
+      "backgroundPath": "Image/Backgrounds/1_553",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "武器表面有旧凹痕，像是被长时间握持磨出来的。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":32
+    },
+                                                                                               {
+      "id": 554,
+      "backgroundPath": "Image/Backgrounds/1_21",
+      "characterSpritePath": "Image/Sprites/m_stand",
+      "characterPosition": "right",
+      "descriptionText": "他的目光没有看向女孩，而是看向她怀里的卵？",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":32
     },
                                                                                                {
       "id": 32,
@@ -512,27 +925,40 @@
       "options": [
                                        {
           "text": "注视她的眼睛 ",
-          "descriptionOnSelect": "她在听。瞳孔没有动，但耳朵在找声音。",
+          "descriptionOnSelect": "",
           "eggDelta": 1,
-          "nextFrameId": -1
+          "nextFrameId": 555
         },
                                          {
           "text": "注视巷子深处的黑暗 ",
           "descriptionOnSelect": "伸手不见五指的漆黑，这真的是小镇吗...",
           "eggDelta": 0,
-          "nextFrameId": -1
+          "nextFrameId": 35
         }
       ],
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
     },
+                                                                                                          {
+      "id": 555,
+      "backgroundPath": "Image/Backgrounds/1_23",
+      "characterSpritePath": "Image/Sprites/w_duo",
+      "characterPosition": "right",
+      "descriptionText": "她抱紧了手中的蛋，瞳孔有些颤抖，耳朵却还在听。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":35
+    },
                                                                                                            {
       "id": 35,
       "backgroundPath": "Image/Backgrounds/1_24",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "她跑回来。街道又恢复了刚刚的死寂。",
+      "descriptionText": "没过一会儿，街道又恢复了刚刚的死寂。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
@@ -542,8 +968,8 @@
                                                                                                                {
       "id": 36,
       "backgroundPath": "Image/Backgrounds/1_24",
-      "characterSpritePath": "",
-      "characterPosition": "",
+      "characterSpritePath": "Image/Sprites/w_zhengmian",
+      "characterPosition": "left",
       "descriptionText": "机械车、还有男人——都不在了。",
       "autoNextSeconds": 0,
       "options": [],
@@ -554,8 +980,8 @@
                                                                                                                    {
       "id": 37,
       "backgroundPath": "Image/Backgrounds/1_24",
-      "characterSpritePath": "",
-      "characterPosition": "",
+      "characterSpritePath": "Image/Sprites/w_zhengmian",
+      "characterPosition": "left",
       "descriptionText": "地上只有两道平行的凹痕，像那东西留下的轨道。",
       "autoNextSeconds": 0,
       "options": [],
@@ -568,12 +994,26 @@
       "backgroundPath": "Image/Backgrounds/1_25",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "屋子里暗。角落有一个器皿，里面是红色的水。",
+      "descriptionText": "屋子里很暗。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "nextFrameId":559
+    },
+                                                                                                                           {
+      "id": 559,
+      "backgroundPath": "Image/Backgrounds/1_25",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "角落有一个器皿，里面是红色的水。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":41
     },
                                                                                                                            {
       "id": 41,
@@ -605,48 +1045,129 @@
       "backgroundPath": "Image/Backgrounds/1_26",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "她倒了它。红色液体流到地上，发出嘶嘶的声音。\n 她没有看。她只看着空的器皿。",
+      "descriptionText": "她倒了它。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "nextFrameId":572
+    },
+                                                                                                                               {
+      "id":572 ,
+      "backgroundPath": "Image/Backgrounds/1_26",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "红色液体流到地上，发出嘶嘶的声音。\n 她没有看。她只看着空的器皿。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":560
+    },
+                                                                                                                                 {
+      "id": 560,
+      "backgroundPath": "Image/Backgrounds/1_26",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她跑到一处喷泉那里。喷泉还在流水。水是清的。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":43
     },
      {
       "id": 43,
       "backgroundPath": "Image/Backgrounds/1_27",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "喷泉还在流水。水是清的。\n 她装满了器皿。",
+      "descriptionText": "她装满了器皿。",
       "autoNextSeconds": 0,
       "options": [
           {   "text": "注视喷泉的水流  ",
-          "descriptionOnSelect": "水的源头看不见。从墙壁里出来，又回到墙壁里。",
+          "descriptionOnSelect": "",
           "eggDelta": 1,
-          "nextFrameId": -1
+          "nextFrameId": 561
         },
                   {   "text": "注视她举器皿的手 ",
-          "descriptionOnSelect": "她的手在微微发抖。",
+          "descriptionOnSelect": "",
           "eggDelta": 2,
-          "nextFrameId": -1
+          "nextFrameId": 562
         }
       ],
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
     },
+                                                                                                                                  {
+      "id": 561,
+      "backgroundPath": "Image/Backgrounds/1_27(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "水的源头看不见。从墙壁里出来，又回到墙壁里。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":44
+    },
+                                                                                                                                 {
+      "id": 562,
+      "backgroundPath": "Image/Backgrounds/1_27(bubu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她的手在微微发抖。但注意力很快又被水瓶给吸引了。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":44
+    },
                                                                                                                                    {
       "id": 44,
       "backgroundPath": "Image/Backgrounds/1_28",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "器皿掉了。水洒出来，恰好这时钟声响了。",
+      "descriptionText": "器皿掉了。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": true,
-      "animationSpeed": 0.5
+      "animationSpeed": 0.5,
+      "nextFrameId":563
+                                                                                                                                   },
+                                                                                                                                           {
+      "id": 563,
+      "backgroundPath": "Image/Backgrounds/1_28/1_28_4",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "水洒出来。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":564
     },
+                                                                                                                                               {
+      "id": 564,
+      "backgroundPath": "Image/Backgrounds/1_28/1_28_4",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "恰好这时钟声响了。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":45
+    },
+
                                                                                                                                        {
       "id": 45,
       "backgroundPath": "Image/Backgrounds/1_28/1_28_4",
@@ -664,24 +1185,50 @@
       "backgroundPath": "Image/Backgrounds/1_29",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "她跑了。没有回头看洒掉的水。",
+      "descriptionText": "她跑了。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "nextFrameId":565
+    },
+                                                                                                                                               {
+      "id": 565,
+      "backgroundPath": "Image/Backgrounds/1_29",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "没有回头看洒掉的水瓶。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":47
     },
                                                                                                                                                {
       "id": 47,
       "backgroundPath": "Image/Backgrounds/1_29",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "钟声还在响。很重。 \n 像每一响都在把什么东西钉进地面。",
+      "descriptionText": "钟声还在响。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "nextFrameId":568
+    },
+                                                                                                                                                   {
+      "id": 568,
+      "backgroundPath": "Image/Backgrounds/1_29",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": " 像每一响都在把什么东西钉进地面。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "nextFrameId":48
     },
                                                                                                                                                    {
       "id": 48,
@@ -693,30 +1240,96 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "nextFrameId":569
+    },
+                                                                                                                                                       {
+      "id": 569,
+      "backgroundPath": "Image/Backgrounds/1_30",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "是居民？",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":570
+    },
+                                                                                                                                                           {
+      "id": 570,
+      "backgroundPath": "Image/Backgrounds/1_30",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "是士兵？",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":49
     },
                                                                                                                                                        {
       "id": 49,
       "backgroundPath": "Image/Backgrounds/1_30",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "是居民？是士兵？是眼睛上那些雕像走下来了？",
+      "descriptionText": "是眼睛上那些雕像走下来了？",
       "autoNextSeconds": 0,
       "options": [
                 {   "text": "注视人群的眼睛 ",
-          "descriptionOnSelect": "他们的眼睛不聚焦。\n 像在看很远的地方，或者不在这个世界。",
+          "descriptionOnSelect": "",
           "eggDelta": 2,
-          "nextFrameId": -1
+          "nextFrameId": 566
         },
                   {   "text": "注视女孩的背影 ",
-          "descriptionOnSelect": "她跑得太快了。卵在她怀里上下颠簸，像在催她。",
+          "descriptionOnSelect": "",
           "eggDelta": 1,
-          "nextFrameId": -1
+          "nextFrameId": 567
         }
       ],
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
+    },
+                                                                                                                                                         {
+      "id": 566,
+      "backgroundPath": "Image/Backgrounds/1_29(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他们的眼睛不聚焦。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":571
+    },
+                                                                                                                                                             {
+      "id": 571,
+      "backgroundPath": "Image/Backgrounds/1_29(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "像在看很远的地方，或者不在这个世界。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":50
+    },
+                                                                                                                                                             {
+      "id": 567,
+      "backgroundPath": "Image/Backgrounds/1_29(bubu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她跑得太快了。卵在她怀里上下颠簸，像在催她。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":50
     },
                                                                                                                                                        {
       "id": 50,
@@ -747,7 +1360,19 @@
       "backgroundPath": "Image/Backgrounds/1_31",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "她还在跑。钟声也响个不停",
+      "descriptionText": "她还在跑。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0
+    },
+                                                                                                                                                                   {
+      "id": 53,
+      "backgroundPath": "Image/Backgrounds/1_31",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "钟声也响个不停。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,

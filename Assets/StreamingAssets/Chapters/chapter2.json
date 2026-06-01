@@ -204,20 +204,33 @@
       "options": [
        {
           "text": "注视他的背影  ",
-          "descriptionOnSelect": "披风是黑的。和台阶的灰色不一样。\n 黑色在灰色上面，像一个被剪下来贴上去的影子。\n 他的肩膀没有起伏。",
+          "descriptionOnSelect": "披风是黑的。和台阶的灰色不一样。",
           "eggDelta": 1,
-          "nextFrameId": -1
+          "nextFrameId": 574
         }, 
         {
           "text": "注视他背上的十字武器 ",
           "descriptionOnSelect": "十字形。表面有凹痕，不是伤痕，是磨损。",
           "eggDelta": 2,
-          "nextFrameId": -1
+          "nextFrameId": 17
         }
       ],
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
+    },
+                                                           {
+      "id": 574,
+      "backgroundPath": "Image/Backgrounds/2_4",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "黑色在灰色上面，像一个被剪下来贴上去的影子。\n 他的肩膀没有起伏。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":17
     },
                                                           {
       "id": 17,
@@ -289,20 +302,46 @@
       "options": [
               {
           "text": "注视她的脸 ",
-          "descriptionOnSelect": "她的瞳孔在小幅度的震动着，嘴唇微张。",
+          "descriptionOnSelect": "",
           "eggDelta": 1,
-          "nextFrameId": -1
+          "nextFrameId": 575
         },
                 {
           "text": "注视男人的眼睛 ",
-          "descriptionOnSelect": "他的眼睛看起来没有任何波澜，就像一潭死水。",
+          "descriptionOnSelect": "",
           "eggDelta": 2,
-          "nextFrameId": -1
+          "nextFrameId": 576
         }
       ],
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
+    },
+                                                                              {
+      "id": 575,
+      "backgroundPath": "Image/Backgrounds/2_3(bubu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她的瞳孔在小幅度的震动着，嘴唇微张。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":23
+    },
+                                                                             {
+      "id": 576,
+      "backgroundPath": "Image/Backgrounds/2_9",
+      "characterSpritePath": "Image/Sprites/m_stand",
+      "characterPosition": "right",
+      "descriptionText": "他的眼睛看起来没有任何波澜，就像一潭死水。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":23
     },
                                                                               {
       "id": 23,
@@ -338,20 +377,33 @@
       "options": [
               {
           "text": "注视蛋 ",
-          "descriptionOnSelect": "蛋在他手里。和她拿的方式不一样——他握得更紧。\n 蛋壳上的暗斑在暗光里几乎看不见了。",
+          "descriptionOnSelect": "",
           "eggDelta": 3,
-          "nextFrameId": -1
+          "nextFrameId": 577
         },
                 {
           "text": "注视男人的手 ",
           "descriptionOnSelect": "他的手指上缠有绷带。估计是哪场战争的成果。",
           "eggDelta": 2,
-          "nextFrameId": -1
+          "nextFrameId": 26
         }
       ],
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
+    },
+                                                                                          {
+      "id": 577,
+      "backgroundPath": "Image/Backgrounds/2_5(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "蛋在他手里。和她拿的方式不一样——他握得更紧。\n 蛋壳上的暗斑在暗光里几乎看不见了。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":26
     },
                                                                                           {
       "id": 26,
@@ -415,20 +467,46 @@
       "options": [
           {
           "text": "注视她收蛋的手 ",
-          "descriptionOnSelect": "她的手指微微发抖。\n 蛋被塞进裙子暗袋的那一刻，她按住了那个位置。",
+          "descriptionOnSelect": "",
           "eggDelta": 2,
-          "nextFrameId": -1
+          "nextFrameId": 578
         },
                   {
           "text": "注视她的表情  ",
-          "descriptionOnSelect": "她没有看那个男人。嘴唇抿着，像在咽下什么没有说出口的话。",
+          "descriptionOnSelect": "",
           "eggDelta": 1,
-          "nextFrameId": -1
+          "nextFrameId": 579
         }
       ],
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
+    },
+                                                                                                        {
+      "id": 578,
+      "backgroundPath": "Image/Backgrounds/2_5(bubu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她的手指微微发抖。\n 蛋被塞进裙子暗袋的那一刻，她按住了那个位置。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId": 30
+    },
+                                                                                                        {
+      "id": 579,
+      "backgroundPath": "Image/Backgrounds/2_8",
+      "characterSpritePath": "Image/Sprites/w_cemian",
+      "characterPosition": "right",
+      "descriptionText": "她没有看那个男人。嘴唇抿着，像在咽下什么没有说出口的话。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId": 30
     },
                                                                                                           {
       "id": 30,
@@ -542,18 +620,55 @@
           "text": "注视女孩的反应 ",
           "descriptionOnSelect": "她站在那里。卵在她的裙子下面，贴着腰侧。\n 她没有动。也没有说话。只是看着他。",
           "eggDelta": 1,
-          "nextFrameId": -1
+          "nextFrameId": 580
         },
          {
           "text": "注视男人的表情 ",
           "descriptionOnSelect": "他的表情没有变化。眼睛没有眨。\n 像一扇门关上——不是推开，是合上。",
           "eggDelta": 2,
-          "nextFrameId": -1
+          "nextFrameId": 581
         }
       ],
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
+    },
+                                                                                                                                                  {
+      "id": 580,
+      "backgroundPath": "Image/Backgrounds/2_9",
+      "characterSpritePath": "Image/Sprites/w_cemian",
+      "characterPosition": "right",
+      "descriptionText": "",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":594
+    },
+                                                                                                                                                   {
+      "id": 581,
+      "backgroundPath": "Image/Backgrounds/2_9",
+      "characterSpritePath": "Image/Sprites/m_stand",
+      "characterPosition": "left",
+      "descriptionText": "",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":594
+    },
+                                                                                                                                                       {
+      "id": 594,
+      "backgroundPath": "Image/Backgrounds/2_9",
+      "descriptionText": "",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 1,
+      "nextFrameId":39
     },
                                                                                                                                               {
       "id": 39,
@@ -630,8 +745,6 @@
                                                                                                                                                                       {
       "id": 45,
       "backgroundPath": "Image/Backgrounds/2_10",
-      "characterSpritePath": "",
-      "characterPosition": "",
       "descriptionText": "她朝他喊。",
       "autoNextSeconds": 0,
       "options": [],
@@ -642,8 +755,8 @@
                                                                                                                                                                           {
       "id": 46,
       "backgroundPath": "Image/Backgrounds/2_10",
-      "characterSpritePath": "",
-      "characterPosition": "",
+      "characterSpritePath": "Image/Sprites/w_zhengmian",
+      "characterPosition": "left",
       "descriptionText": "「你是谁——」",
       "autoNextSeconds": 0,
       "options": [],
@@ -655,8 +768,8 @@
                                                                                                                                                                               {
       "id": 47,
       "backgroundPath": "Image/Backgrounds/2_10",
-      "characterSpritePath": "",
-      "characterPosition": "",
+      "characterSpritePath": "Image/Sprites/w_zhengmian",
+      "characterPosition": "left",
       "descriptionText": "声音在空旷的地方散开，没有回音。\n 她不确定他有没有听见。",
       "autoNextSeconds": 0,
       "options": [],
@@ -771,20 +884,33 @@
       "options": [
         {
           "text": "注视男人的眼睛  ",
-          "descriptionOnSelect": "他的视线没有离开她的背影。",
+          "descriptionOnSelect": "",
           "eggDelta": 2,
-          "nextFrameId": -1
+          "nextFrameId": 582
         },
           {
           "text": "注视女孩的背影 ",
-          "descriptionOnSelect": "她的肩膀绷得很紧。脚步很快，但每次快到他跟不上的时候，她会慢下来。",
+          "descriptionOnSelect": "她的肩膀绷得很紧，脚步很快。 \n 但每次快到他跟不上的时候，她会慢下来。",
           "eggDelta": 1,
-          "nextFrameId": -1
+          "nextFrameId": 57
         }
       ],
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
+    },
+                                                                                                                                                                                                                   {
+      "id": 582,
+      "backgroundPath": "Image/Backgrounds/2_12(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他的视线没有离开她的背影。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":57
     },
                                                                                                                                                                                                                  {
       "id": 57,
@@ -904,20 +1030,46 @@
       "options": [
        {
           "text": "注视她的眼睛  ",
-          "descriptionOnSelect": "她的眼神里有害怕。但害怕的下面还有别的东西——",
+          "descriptionOnSelect": "",
           "eggDelta": 1,
-          "nextFrameId": -1
+          "nextFrameId": 583
         },
          {
           "text": "注视他的脚步 ",
-          "descriptionOnSelect": "他的步伐不快，但每一步都很稳。\n 他一直走在她后面的影子里，从来没有踩到她的影子。",
+          "descriptionOnSelect": "",
           "eggDelta": 2,
-          "nextFrameId": -1
+          "nextFrameId": 584
         }
       ],
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                        {
+      "id": 583,
+      "backgroundPath": "Image/Backgrounds/2_18(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她的眼神里有害怕。但害怕的下面还有别的东西——",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":67
+    },
+                                                                                                                                                                                                                                                          {
+      "id": 584,
+      "backgroundPath": "Image/Backgrounds/2_18(bubu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他的步伐不快，但每一步都很稳。\n 他一直走在她后面的影子里，从来没有踩到她的影子。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId":67
     },
                                                                                                                                                                                                                                                          {
       "id": 67,
@@ -995,14 +1147,27 @@
         },
         {
           "text": "注视女孩的表情  ",
-          "descriptionOnSelect": "她低着头。头发垂下来，遮住半张脸。嘴唇抿着。",
+          "descriptionOnSelect": "",
           "eggDelta": 1,
-          "nextFrameId": 73
+          "nextFrameId": 585
         }
       ],
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                               {
+      "id": 585,
+      "backgroundPath": "Image/Backgrounds/2_20(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她似乎对他的回答有些惊讶。拿着水瓶愣在那里。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+      "nextFrameId": 73
     },
                                                                                                                                                                                                                                                                              {
       "id": 502,
@@ -1172,20 +1337,46 @@
       "options": [
        {
           "text": "注视她的手   ",
-          "descriptionOnSelect": "她的手指抓住他的袖子。指甲陷进布料里，指节发白。 ",
+          "descriptionOnSelect": " ",
           "eggDelta": 2,
-          "nextFrameId": -1
+          "nextFrameId": 586
         },
          {
           "text": "注视男人的反应    ",
-          "descriptionOnSelect": "他没有动。没有看她，没有推开她。只是站在那里，让她抓着。 ",
+          "descriptionOnSelect": " ",
           "eggDelta": 1,
-          "nextFrameId": -1
+          "nextFrameId": 587
         }
       ],
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                               {
+      "id": 586,
+      "backgroundPath": "Image/Backgrounds/2_24(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她的手指抓住他的袖子。指甲陷进布料里，指节发白。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+              "nextFrameId": 85
+    },
+                                                                                                                                                                                                                                                                                                                               {
+      "id": 587,
+      "backgroundPath": "Image/Backgrounds/2_24(bubu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他没有动。没有看她，没有推开她。只是站在那里，让她抓着。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+              "nextFrameId": 85
     },
                                                                                                                                                                                                                                                                                                                              {
       "id": 85,
@@ -1439,12 +1630,39 @@
       "backgroundPath": "Image/Backgrounds/2_29",
       "characterSpritePath": "",
       "characterPosition": "",
-      "descriptionText": "没有液体。没有血。只是影子在动， \n 然后在矛头下面慢慢变淡，最后消失。\n 但过一会儿，别的地方又会出现新的影子。",
+      "descriptionText": "没有液体。没有血。只是影子在动。",
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed": 0
+      "animationSpeed": 0,
+      "nextFrameId":588
+    },
+                                                                                                                                                                                                                                                                                                                                                                                             {
+      "id": 588,
+      "backgroundPath": "Image/Backgrounds/2_29",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "它们在矛头的攻击下面慢慢变淡，最后消失。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+            "nextFrameId":589
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                 {
+      "id": 589,
+      "backgroundPath": "Image/Backgrounds/2_29",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "但过一会儿，别的地方又会出现新的鱼的影子。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+                  "nextFrameId":103
     },
                                                                                                                                                                                                                                                                                                                                                                                              {
       "id": 103,
@@ -1600,20 +1818,46 @@
       "options": [
       {
           "text": "注视彩窗的图案    ",
-          "descriptionOnSelect": "颜料有些剥落了，让人看不清雕的是什么，但顶部的图案与鱼尾似乎有些相似? ",
+          "descriptionOnSelect": " ",
           "eggDelta": 3,
-          "nextFrameId": -1
+          "nextFrameId": 590
         },
         {
           "text": "注视女孩的脸     ",
-          "descriptionOnSelect": "她的眼睛亮了，嘴唇张开了一点。视线完全被眼前的玻璃吸引了。 ",
+          "descriptionOnSelect": " ",
           "eggDelta": 1,
-          "nextFrameId": -1
+          "nextFrameId": 591
         }
       ],
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                              {
+      "id": 590,
+      "backgroundPath": "Image/Backgrounds/2_34(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "颜料有些剥落了，让人看不清雕的是什么，但顶部的图案与鱼尾似乎有些相似?",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+           "nextFrameId": 116
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                              {
+      "id": 591,
+      "backgroundPath": "Image/Backgrounds/2_34(bubu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "她的眼睛亮了，嘴唇张开了一点。视线完全被眼前的玻璃吸引了。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+                "nextFrameId": 116
     },
                                                                                                                                                                                                                                                                                                                                                                                                                                              {
       "id": 116,
@@ -1697,20 +1941,46 @@
       "options": [
        {
           "text": "注视男人的表情    ",
-          "descriptionOnSelect": "他的眼睛似乎并不在看鱼。几乎看不到胸口的起伏。 ",
+          "descriptionOnSelect": " ",
           "eggDelta": 2,
-          "nextFrameId": -1
+          "nextFrameId": 592
         },
          {
           "text": "注视墙壁上的鱼     ",
-          "descriptionOnSelect": "鱼的影子在墙上滑过。它们的鳞片在光线下闪一下，然后消失。\n 它们没有方向——或者说，所有的方向都是墙。 ",
+          "descriptionOnSelect": " ",
           "eggDelta": 1,
-          "nextFrameId": -1
+          "nextFrameId": 593
         }
       ],
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                           {
+      "id": 592,
+      "backgroundPath": "Image/Backgrounds/2_36(bu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "他的眼睛似乎并不在看鱼。几乎看不到胸口的起伏。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+             "nextFrameId": 123
+    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                            {
+      "id": 593,
+      "backgroundPath": "Image/Backgrounds/2_36(bubu)",
+      "characterSpritePath": "",
+      "characterPosition": "",
+      "descriptionText": "鱼的影子在墙上滑过。它们的鳞片在光线下闪一下，然后消失。\n 它们没有方向——或者说，所有的方向都是墙。",
+      "autoNextSeconds": 0,
+      "options": [],
+      "eggDelta": 0,
+      "isAnimation": false,
+      "animationSpeed": 0,
+       "nextFrameId": 123
     },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                          {
       "id": 123,

@@ -38,6 +38,33 @@ namespace TenshiNoTamago.UI
             StartCoroutine(PlayEntranceAnimation());
         }
 
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.LeftArrow))
+            {
+                OnLeftArrow();
+            }
+            else if (Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                OnRightArrow();
+            }
+
+            if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
+            {
+                OnConfirm();
+            }
+        }
+
+        public void OnConfirm() {
+            switch (currentIndex)
+            {
+                case 0: OnStartGame(); break;
+                case 1: OnContinueGame(); break;
+                case 2: OnSettings(); break;
+                case 3: OnQuitGame(); break;
+            }
+        }
+
         private void ChangeBackgroundByEnding(int endingType)
         {
             string bgPath = "MainMenu/menu_default";  // 默认背景
@@ -51,7 +78,7 @@ namespace TenshiNoTamago.UI
                     bgPath = "MainMenu/menu_mid";
                     break;
                 case 3:
-                    bgPath = "MainMenu/enu_low";
+                    bgPath = "MainMenu/menu_low";
                     break;
             }
 
@@ -122,8 +149,10 @@ namespace TenshiNoTamago.UI
 
         public void OnContinueGame()
         {
-            // TODO: 实现存档读档
-            OnStartGame();
+            SaveLoadManager.currentMode = SaveLoadManager.Mode.Load;
+            SaveLoadManager.currentSource = SaveLoadManager.EntrySource.MainMenu;
+            SceneManager.LoadScene("SaveLoad");
+            Debug.Log("存档页面打开");
         }
 
         // 系统设置
