@@ -39,7 +39,10 @@ namespace TenshiNoTamago.UI
         [Header("背景飘移")]
         [SerializeField] private bool enableParallax = true;
         [SerializeField] private float moveRangePercent = 0.5f;
-        [SerializeField] private float moveDuration = 12f;    
+        [SerializeField] private float moveDuration = 12f;
+
+        [Header("自动模式提示")]
+        [SerializeField] private CanvasGroup autoModeHint;
 
         private ChapterData currentChapterData;
         private FrameData currentFrame;
@@ -88,6 +91,26 @@ namespace TenshiNoTamago.UI
             if (enableParallax)
             {
                 StartMicroMotion(actualMoveRange);
+            }
+
+            UpdateAutoModeHint();
+        }
+
+        private void UpdateAutoModeHint()
+        {
+            bool isAuto = PlayerPrefs.GetInt("AutoPlay", 0) == 1;
+            if (autoModeHint != null)
+            {
+                autoModeHint.gameObject.SetActive(isAuto);
+                if (isAuto)
+                {
+                    autoModeHint.DOFade(0.3f, 1f).SetLoops(-1, LoopType.Yoyo);
+                }
+                else
+                {
+                    autoModeHint.DOKill();
+                    autoModeHint.alpha = 1f;
+                }
             }
         }
 
@@ -185,7 +208,8 @@ namespace TenshiNoTamago.UI
             }
         }
 
-        private void ShowFrame(FrameData frame) {
+        private void ShowFrame(FrameData frame)
+        {
             if (animationCoroutine != null)
             {
                 StopCoroutine(animationCoroutine);
@@ -210,16 +234,15 @@ namespace TenshiNoTamago.UI
                 GameManager.Instance.AddEggIntegrity(frame.eggDelta);
             }
 
-            if (!string.IsNullOrEmpty(frame.backgroundPath)) {
+            if (!string.IsNullOrEmpty(frame.backgroundPath))
+            {
                 if (frame.isAnimation)
                 {
                     PlayAnimation(frame);
                 }
                 else
                 {
-                    Sprite bg = Resources.Load<Sprite>(frame.backgroundPath);
-                    if (bg != null) backgroundImage.sprite = bg;
-                    else Debug.LogWarning($"[DialogueController] Background not found: {frame.backgroundPath}");
+                    _ = LoadBackgroundAsync(frame.backgroundPath);
                 }
             }
 
@@ -235,22 +258,37 @@ namespace TenshiNoTamago.UI
             {
                 if (frame.options != null && frame.options.Length > 0)
                 {
-                    ShowOptions(frame.options);
-                    isWaitingForInput = false;
-                    nextIndicator.SetActive(false);
+                    if (PlayerPrefs.GetInt("AutoPlay", 0) == 1)
+                    {
+                        OnOptionSelected(frame.options[0]);
+                    }
+                    else {
+                        ShowOptions(frame.options);
+                        isWaitingForInput = false;
+                        nextIndicator.SetActive(false);
+                    }          
                 }
                 else
                 {
                     ClearOptions();
                     isWaitingForInput = true;
-                    autoNextTimer = frame.autoNextSeconds;
+
+                    float delay = frame.autoNextSeconds;
+
+                    if (PlayerPrefs.GetInt("AutoPlay", 0) == 1)
+                    {
+                        if (delay < 2f) delay = 2f;
+                    }
+
+                    autoNextTimer = delay;
 
                     if (autoNextTimer == 0)
                     {
                         nextIndicator.SetActive(true);
                         _ = BlinkIndicatorAsync();
                     }
-                    else {
+                    else
+                    {
                         nextIndicator.SetActive(false);
                     }
                 }
@@ -259,29 +297,41 @@ namespace TenshiNoTamago.UI
             // 处理立绘
             if (!string.IsNullOrEmpty(frame.characterSpritePath))
             {
-                Sprite characterSprite = Resources.Load<Sprite>(frame.characterSpritePath);
-                if (characterSprite != null)
-                {
-                    characterImage.sprite = characterSprite;
-                    characterImage.gameObject.SetActive(true);
+                _ = LoadCharacterAsync(frame.characterSpritePath, frame.characterPosition);
+            }
+            else
+            {
+                characterImage.gameObject.SetActive(false);
+            }
+        }
 
-                    switch (frame.characterPosition)
-                    {
-                        case "left":
-                            characterImage.rectTransform.position = characterLeft.position;
-                            break;
-                        case "right":
-                            characterImage.rectTransform.position = characterRight.position;
-                            break;
-                    }
-                }
-                else
+        private async Task LoadBackgroundAsync(string path) {
+            Sprite bg = await ResourceCache.LoadSpriteAsync(path);
+            if (bg != null && backgroundImage != null) backgroundImage.sprite = bg;
+            else Debug.LogWarning($"Background not found: {path}");
+        }
+
+        private async Task LoadCharacterAsync(string path, string position)
+        {
+            Sprite characterSprite = await ResourceCache.LoadSpriteAsync(path);
+            if (characterSprite != null)
+            {
+                characterImage.sprite = characterSprite;
+                characterImage.gameObject.SetActive(true);
+
+                switch (position)
                 {
-                    Debug.LogWarning($"立绘未找到: {frame.characterSpritePath}");
-                    characterImage.gameObject.SetActive(false);
+                    case "left":
+                        characterImage.rectTransform.position = characterLeft.position;
+                        break;
+                    case "right":
+                        characterImage.rectTransform.position = characterRight.position;
+                        break;
                 }
             }
-            else {
+            else
+            {
+                Debug.LogWarning($"立绘未找到: {path}");
                 characterImage.gameObject.SetActive(false);
             }
         }
@@ -467,13 +517,17 @@ namespace TenshiNoTamago.UI
 
         private IEnumerator TypeText(string fullText,System.Action onComplete) {
             descriptionText.text = "";
-            float typeSpeed = 0.1f;
+
+            float speedValue = PlayerPrefs.GetFloat("TextSpeed", 7.5f);
+            float baseSpeed = 0.18f - (speedValue / 15f) * 0.15f;
 
             foreach (char c in fullText)
             {
                 descriptionText.text += c;
-                if (c == '。' || c == '、' || c == '…') typeSpeed = 0.2f;
-                else typeSpeed = 0.1f;
+                float typeSpeed = baseSpeed;
+
+                if (c == '。' || c == '、' || c == '…') typeSpeed = baseSpeed * 1.5f;
+
                 yield return new WaitForSeconds(typeSpeed); 
             }
 

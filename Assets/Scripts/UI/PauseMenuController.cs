@@ -80,9 +80,17 @@ namespace TenshiNoTamago.UI
             SceneManager.LoadScene("SaveLoad");
         }
 
-        public void OnBackToMainMenu() {
+        public void OnSettings()
+        {
+            SettingsManager.currentSource = SettingsManager.EntrySource.PauseMenu;
             Time.timeScale = 1f;
+            SceneManager.LoadScene("SettingMenu");
+        }
+
+        public void OnBackToMainMenu() {
+            AudioManager.Instance.StopAmbience();
             AudioManager.Instance.StopBGM();
+            Time.timeScale = 1f;
             SceneManager.LoadScene("MainMenu");
         }
     }

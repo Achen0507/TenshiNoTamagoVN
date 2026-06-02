@@ -39,6 +39,7 @@ namespace TenshiNoTamago.UI
 
             if (Input.GetKeyDown(KeyCode.UpArrow))
             {
+                AudioManager.Instance.PlaySFX("click");
                 if (slotUIs == null || slotUIs.Length == 0) return;
                 selectedSlot--;
                 if (selectedSlot < 0) selectedSlot = slotUIs.Length - 1;
@@ -48,6 +49,7 @@ namespace TenshiNoTamago.UI
             }
             else if (Input.GetKeyDown(KeyCode.DownArrow))
             {
+                AudioManager.Instance.PlaySFX("click");
                 if (slotUIs == null || slotUIs.Length == 0) return;
                 selectedSlot++;
                 if (selectedSlot >= slotUIs.Length) selectedSlot = 0;
@@ -138,6 +140,8 @@ namespace TenshiNoTamago.UI
         }
 
         void OnConfirm() {
+            AudioManager.Instance.PlaySFX("click");
+
             if (selectedSlot == -1)
             {
                 Debug.Log("请先选择一个存档槽位");

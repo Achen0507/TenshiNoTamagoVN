@@ -11,7 +11,7 @@
       "options": [],
       "eggDelta": 0
     },
-     {
+    {
       "id": 2,
       "backgroundPath": "Image/Backgrounds/1_1",
       "characterSpritePath": "",
@@ -21,7 +21,7 @@
       "options": [],
       "eggDelta": 0
     },
-         {
+    {
       "id": 522,
       "backgroundPath": "Image/Backgrounds/1_1",
       "characterSpritePath": "",
@@ -31,7 +31,7 @@
       "options": [],
       "eggDelta": 0
     },
-             {
+    {
       "id": 523,
       "backgroundPath": "Image/Backgrounds/1_1",
       "characterSpritePath": "",
@@ -41,7 +41,7 @@
       "options": [],
       "eggDelta": 0
     },
-       {
+    {
       "id": 3,
       "backgroundPath": "Image/Backgrounds/1_1",
       "characterSpritePath": "",
@@ -51,7 +51,7 @@
       "options": [],
       "eggDelta": 0
     },
-           {
+    {
       "id": 524,
       "backgroundPath": "Image/Backgrounds/1_1",
       "characterSpritePath": "",
@@ -61,7 +61,7 @@
       "options": [],
       "eggDelta": 0
     },
-           {
+    {
       "id": 4,
       "backgroundPath": "Image/Backgrounds/1_2",
       "characterSpritePath": "",
@@ -72,8 +72,8 @@
       "eggDelta": 0,
       "isAnimation": true,
       "animationSpeed": 1
-       },
-               {
+    },
+    {
       "id": 5,
       "backgroundPath": "Image/Backgrounds/1_2/1_2_2",
       "characterSpritePath": "",
@@ -85,7 +85,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                   {
+    {
       "id": 6,
       "backgroundPath": "Image/Backgrounds/1_2/1_2_2",
       "characterSpritePath": "",
@@ -93,13 +93,13 @@
       "descriptionText": "或者声音被什么东西吸走了。",
       "autoNextSeconds": 0,
       "options": [
-      {
+        {
           "text": "注视她的脚步 ",
           "descriptionOnSelect": "赤脚。脚底似乎有旧伤疤。",
           "eggDelta": 1,
           "nextFrameId": 525
         },
-              {
+        {
           "text": "注视森林深处 ",
           "descriptionOnSelect": "",
           "eggDelta": 2,
@@ -109,7 +109,8 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0
-    },                   {
+    },
+    {
       "id": 525,
       "backgroundPath": "Image/Backgrounds/1_2(bu)",
       "characterSpritePath": "",
@@ -118,9 +119,9 @@
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
-      "nextFrameId":533
+      "nextFrameId": 533
     },
-            {
+    {
       "id": 526,
       "backgroundPath": "Image/Backgrounds/1_2(bubu)",
       "characterSpritePath": "",
@@ -131,19 +132,18 @@
       "eggDelta": 0,
       "nextFrameId": 533
     },
-                {
+    {
       "id": 533,
       "backgroundPath": "Image/Backgrounds/1_2/1_2_2",
       "characterSpritePath": "",
       "characterPosition": "",
       "descriptionText": "",
-      "autoNextSeconds": 1.5,
+      "autoNextSeconds": 2.5,
       "options": [],
       "eggDelta": 0,
       "nextFrameId": 7
     },
-
-                   {
+    {
       "id": 7,
       "backgroundPath": "Image/Backgrounds/1_3",
       "characterSpritePath": "",
@@ -152,9 +152,9 @@
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
-      "nextFrameId":530
+      "nextFrameId": 530
     },
-                       {
+    {
       "id": 530,
       "backgroundPath": "Image/Backgrounds/1_3",
       "characterSpritePath": "",
@@ -163,9 +163,9 @@
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
-       "nextFrameId":8
+      "nextFrameId": 8
     },
-                       {
+    {
       "id": 8,
       "backgroundPath": "Image/Backgrounds/1_3",
       "characterSpritePath": "",
@@ -173,13 +173,13 @@
       "descriptionText": "水流声很响。她蹲下来，把卵放在膝盖边的地上。",
       "autoNextSeconds": 0,
       "options": [
-          {
+        {
           "text": "注视水面 ",
           "descriptionOnSelect": "",
           "eggDelta": 0,
           "nextFrameId": 527
         },
-                  {
+        {
           "text": "注视她放卵的动作 ",
           "descriptionOnSelect": "",
           "eggDelta": 2,
@@ -188,7 +188,7 @@
       ],
       "eggDelta": 0
     },
-                             {
+    {
       "id": 527,
       "backgroundPath": "Image/Backgrounds/1_3(bu)",
       "characterSpritePath": "",
@@ -199,7 +199,7 @@
       "eggDelta": 0,
       "nextFrameId": 9
     },
-                                 {
+    {
       "id": 528,
       "backgroundPath": "Image/Backgrounds/1_3(bubu)",
       "characterSpritePath": "",
@@ -210,7 +210,7 @@
       "eggDelta": 0,
       "nextFrameId": 9
     },
-                           {
+    {
       "id": 9,
       "backgroundPath": "Image/Backgrounds/1_4",
       "characterSpritePath": "",
@@ -220,7 +220,7 @@
       "options": [],
       "eggDelta": 0
     },
-                               {
+    {
       "id": 10,
       "backgroundPath": "Image/Backgrounds/1_4",
       "characterSpritePath": "",
@@ -228,13 +228,13 @@
       "descriptionText": "她把它沉进池水。 \n 水进入器皿时，发出了很轻的、像叹息一样的声音。。",
       "autoNextSeconds": 0,
       "options": [
-                {
+        {
           "text": "注视器皿入水 ",
           "descriptionOnSelect": "水进入器皿后，颜色变了——从黑变成极淡的红。",
           "eggDelta": 3,
           "nextFrameId": 11
         },
-                        {
+        {
           "text": "注视她的表情 ",
           "descriptionOnSelect": "",
           "eggDelta": 1,
@@ -242,7 +242,8 @@
         }
       ],
       "eggDelta": 0
-    },                            {
+    },
+    {
       "id": 529,
       "backgroundPath": "Image/Backgrounds/1_4(bu)",
       "characterSpritePath": "",
@@ -253,7 +254,7 @@
       "eggDelta": 0,
       "nextFrameId": 11
     },
-                               {
+    {
       "id": 11,
       "backgroundPath": "Image/Backgrounds/1_5",
       "characterSpritePath": "",
@@ -262,9 +263,9 @@
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
-       "nextFrameId":531
+      "nextFrameId": 531
     },
-                                   {
+    {
       "id": 531,
       "backgroundPath": "Image/Backgrounds/1_5",
       "characterSpritePath": "",
@@ -273,9 +274,9 @@
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
-       "nextFrameId":12
+      "nextFrameId": 12
     },
-                                   {
+    {
       "id": 12,
       "backgroundPath": "Image/Backgrounds/1_5",
       "characterSpritePath": "",
@@ -285,7 +286,7 @@
       "options": [],
       "eggDelta": 0
     },
-                                       {
+    {
       "id": 13,
       "backgroundPath": "Image/Backgrounds/1_6",
       "characterSpritePath": "",
@@ -297,7 +298,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                       {
+    {
       "id": 14,
       "backgroundPath": "Image/Backgrounds/1_7",
       "characterSpritePath": "",
@@ -309,7 +310,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                           {
+    {
       "id": 15,
       "backgroundPath": "Image/Backgrounds/1_8",
       "characterSpritePath": "",
@@ -317,13 +318,13 @@
       "descriptionText": "海草在水底慢慢摇摆，像另一种生物的手指。",
       "autoNextSeconds": 0,
       "options": [
-                        {
+        {
           "text": "注视海草 ",
           "descriptionOnSelect": "",
           "eggDelta": 2,
-          "nextFrameId":534
+          "nextFrameId": 534
         },
-                          {
+        {
           "text": "注视倒影的不协调  ",
           "descriptionOnSelect": "",
           "eggDelta": 3,
@@ -334,7 +335,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                             {
+    {
       "id": 534,
       "backgroundPath": "Image/Backgrounds/2_534",
       "characterSpritePath": "",
@@ -345,10 +346,10 @@
       "eggDelta": 0,
       "isAnimation": true,
       "animationSpeed": 0.5,
-      "loopAnimation":true,
-         "nextFrameId":16
+      "loopAnimation": true,
+      "nextFrameId": 16
     },
-                                                {
+    {
       "id": 535,
       "backgroundPath": "Image/Backgrounds/2_535",
       "characterSpritePath": "",
@@ -359,10 +360,10 @@
       "eggDelta": 0,
       "isAnimation": true,
       "animationSpeed": 0.5,
-      "loopAnimation":true,
-         "nextFrameId":16
+      "loopAnimation": true,
+      "nextFrameId": 16
     },
-                                               {
+    {
       "id": 16,
       "backgroundPath": "Image/Backgrounds/1_9",
       "characterSpritePath": "",
@@ -373,7 +374,8 @@
       "eggDelta": 0,
       "isAnimation": true,
       "animationSpeed": 1
-    },                                                  {
+    },
+    {
       "id": 17,
       "backgroundPath": "Image/Backgrounds/1_10",
       "characterSpritePath": "",
@@ -385,7 +387,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                                       {
+    {
       "id": 18,
       "backgroundPath": "Image/Backgrounds/1_10",
       "characterSpritePath": "",
@@ -396,9 +398,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-            "nextFrameId":537
+      "nextFrameId": 537
     },
-                                                           {
+    {
       "id": 537,
       "backgroundPath": "Image/Backgrounds/1_10",
       "characterSpritePath": "",
@@ -409,9 +411,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-            "nextFrameId":538
+      "nextFrameId": 538
     },
-                                                               {
+    {
       "id": 538,
       "backgroundPath": "Image/Backgrounds/1_10",
       "characterSpritePath": "",
@@ -422,9 +424,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":536
+      "nextFrameId": 536
     },
-                                                     {
+    {
       "id": 536,
       "backgroundPath": "Image/Backgrounds/1_11",
       "characterSpritePath": "",
@@ -435,9 +437,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-            "nextFrameId":539
+      "nextFrameId": 539
     },
-                                                         {
+    {
       "id": 539,
       "backgroundPath": "Image/Backgrounds/1_11",
       "characterSpritePath": "",
@@ -448,9 +450,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-            "nextFrameId":19
+      "nextFrameId": 19
     },
-                                                           {
+    {
       "id": 19,
       "backgroundPath": "Image/Backgrounds/1_12",
       "characterSpritePath": "",
@@ -461,9 +463,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":540
+      "nextFrameId": 540
     },
-                                                              {
+    {
       "id": 540,
       "backgroundPath": "Image/Backgrounds/1_12",
       "characterSpritePath": "",
@@ -474,9 +476,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":20
+      "nextFrameId": 20
     },
-                                                           {
+    {
       "id": 20,
       "backgroundPath": "Image/Backgrounds/1_12",
       "characterSpritePath": "",
@@ -487,9 +489,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":541
+      "nextFrameId": 541
     },
-                                                             {
+    {
       "id": 541,
       "backgroundPath": "Image/Backgrounds/1_12(bu)",
       "characterSpritePath": "",
@@ -498,9 +500,9 @@
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
-      "nextFrameId":542
+      "nextFrameId": 542
     },
-                                                                 {
+    {
       "id": 542,
       "backgroundPath": "Image/Backgrounds/1_12(bu)",
       "characterSpritePath": "",
@@ -509,9 +511,9 @@
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
-      "nextFrameId":543
+      "nextFrameId": 543
     },
-                                                                     {
+    {
       "id": 543,
       "backgroundPath": "Image/Backgrounds/1_12(bu)",
       "characterSpritePath": "",
@@ -520,9 +522,9 @@
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
-      "nextFrameId":21
+      "nextFrameId": 21
     },
-                                                               {
+    {
       "id": 21,
       "backgroundPath": "Image/Backgrounds/1_13",
       "characterSpritePath": "",
@@ -534,7 +536,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                                                   {
+    {
       "id": 22,
       "backgroundPath": "Image/Backgrounds/1_14",
       "characterSpritePath": "",
@@ -542,13 +544,13 @@
       "descriptionText": "形状和之前那个差不多，但更小，颈更短。",
       "autoNextSeconds": 0,
       "options": [
-                      {
+        {
           "text": "注视新的器皿  ",
           "descriptionOnSelect": "器皿底部刻着一个符号：一个被划掉的圆。",
           "eggDelta": 3,
           "nextFrameId": 23
         },
-                        {
+        {
           "text": "注视她装水时手指的动作 ",
           "descriptionOnSelect": "",
           "eggDelta": 1,
@@ -559,7 +561,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                                                   {
+    {
       "id": 544,
       "backgroundPath": "Image/Backgrounds/1_14(bu)",
       "characterSpritePath": "",
@@ -570,9 +572,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":23
+      "nextFrameId": 23
     },
-                                                                   {
+    {
       "id": 23,
       "backgroundPath": "Image/Backgrounds/1_15",
       "characterSpritePath": "",
@@ -583,9 +585,9 @@
       "isAnimation": true,
       "animationSpeed": 0.5,
       "loopAnimation": true,
-      "nextFrameId":545
+      "nextFrameId": 545
     },
-                                                                {
+    {
       "id": 545,
       "backgroundPath": "Image/Backgrounds/1_15",
       "characterSpritePath": "",
@@ -596,9 +598,9 @@
       "isAnimation": true,
       "animationSpeed": 0.5,
       "loopAnimation": true,
-      "nextFrameId":546
+      "nextFrameId": 546
     },
-                                                                {
+    {
       "id": 546,
       "backgroundPath": "Image/Backgrounds/1_15",
       "characterSpritePath": "",
@@ -609,9 +611,9 @@
       "isAnimation": true,
       "animationSpeed": 0.5,
       "loopAnimation": true,
-      "nextFrameId":547
+      "nextFrameId": 547
     },
-                                                                    {
+    {
       "id": 547,
       "backgroundPath": "Image/Backgrounds/1_15",
       "characterSpritePath": "",
@@ -622,9 +624,9 @@
       "isAnimation": true,
       "animationSpeed": 0.5,
       "loopAnimation": true,
-      "nextFrameId":548
+      "nextFrameId": 548
     },
-                                                                        {
+    {
       "id": 548,
       "backgroundPath": "Image/Backgrounds/1_15",
       "characterSpritePath": "",
@@ -635,9 +637,9 @@
       "isAnimation": true,
       "animationSpeed": 0.5,
       "loopAnimation": true,
-      "nextFrameId":549
+      "nextFrameId": 549
     },
-                                                                {
+    {
       "id": 549,
       "backgroundPath": "Image/Backgrounds/1_15",
       "characterSpritePath": "",
@@ -645,24 +647,24 @@
       "descriptionText": "",
       "autoNextSeconds": 0,
       "options": [
-                       {
+        {
           "text": "注视窗户里的云 ",
           "descriptionOnSelect": "云移动的方向和风的方向相反。",
           "eggDelta": 3,
           "nextFrameId": 24
         },
-                         {
+        {
           "text": "注视窗玻璃上的灰尘和裂纹 ",
           "descriptionOnSelect": "怎么看都像是很久没有住过人的模样，但是为什么玻璃会碎裂呢?",
           "eggDelta": 1,
           "nextFrameId": 24
         }
       ],
-       "isAnimation": true,
+      "isAnimation": true,
       "animationSpeed": 0.5,
       "loopAnimation": true
     },
-                                                                   {
+    {
       "id": 24,
       "backgroundPath": "Image/Backgrounds/1_16",
       "characterSpritePath": "",
@@ -672,10 +674,10 @@
       "options": [],
       "eggDelta": 0,
       "isAnimation": false,
-      "animationSpeed":0,
-      "nextFrameId":550
+      "animationSpeed": 0,
+      "nextFrameId": 550
     },
-                                                                       {
+    {
       "id": 550,
       "backgroundPath": "Image/Backgrounds/1_16",
       "characterSpritePath": "",
@@ -686,9 +688,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":25
+      "nextFrameId": 25
     },
-                                                                       {
+    {
       "id": 25,
       "backgroundPath": "Image/Backgrounds/1_17",
       "characterSpritePath": "",
@@ -700,7 +702,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                                                           {
+    {
       "id": 26,
       "backgroundPath": "Image/Backgrounds/1_18",
       "characterSpritePath": "",
@@ -712,7 +714,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                                                               {
+    {
       "id": 27,
       "backgroundPath": "Image/Backgrounds/1_19",
       "characterSpritePath": "",
@@ -723,9 +725,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":556
+      "nextFrameId": 556
     },
-                                                                                   {
+    {
       "id": 556,
       "backgroundPath": "Image/Backgrounds/1_19",
       "characterSpritePath": "",
@@ -736,9 +738,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-            "nextFrameId":557
+      "nextFrameId": 557
     },
-                                                                                       {
+    {
       "id": 557,
       "backgroundPath": "Image/Backgrounds/1_19",
       "characterSpritePath": "",
@@ -749,9 +751,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-                  "nextFrameId":28
+      "nextFrameId": 28
     },
-                                                                                   {
+    {
       "id": 28,
       "backgroundPath": "Image/Backgrounds/1_20",
       "characterSpritePath": "",
@@ -763,7 +765,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                                                                       {
+    {
       "id": 29,
       "backgroundPath": "Image/Backgrounds/1_20",
       "characterSpritePath": "",
@@ -771,13 +773,13 @@
       "descriptionText": "它发出不像引擎的声音——更像某种巨大动物的呼吸。",
       "autoNextSeconds": 0,
       "options": [
-                           {
+        {
           "text": "注视机械车的“脸” ",
           "descriptionOnSelect": "",
           "eggDelta": 1,
           "nextFrameId": 551
         },
-                         {
+        {
           "text": "注视女孩的反应 ",
           "descriptionOnSelect": "",
           "eggDelta": 2,
@@ -788,7 +790,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                                                                       {
+    {
       "id": 551,
       "backgroundPath": "Image/Backgrounds/1_19(bu)",
       "characterSpritePath": "",
@@ -799,9 +801,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":30
+      "nextFrameId": 30
     },
-                                                                                      {
+    {
       "id": 552,
       "backgroundPath": "Image/Backgrounds/1_19(bu)",
       "characterSpritePath": "Image/Sprites/w_jin",
@@ -812,9 +814,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-       "nextFrameId":30
+      "nextFrameId": 30
     },
-                                                                                       {
+    {
       "id": 30,
       "backgroundPath": "Image/Backgrounds/1_21",
       "characterSpritePath": "",
@@ -825,9 +827,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":558
+      "nextFrameId": 558
     },
-                                                                                          {
+    {
       "id": 558,
       "backgroundPath": "Image/Backgrounds/1_21",
       "characterSpritePath": "",
@@ -838,9 +840,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-           "nextFrameId":31
+      "nextFrameId": 31
     },
-                                                                                           {
+    {
       "id": 31,
       "backgroundPath": "Image/Backgrounds/1_21",
       "characterSpritePath": "",
@@ -848,13 +850,13 @@
       "descriptionText": "地面还在震。但他的脚步没有声音。",
       "autoNextSeconds": 0,
       "options": [
-                               {
+        {
           "text": "注视他背上的十字武器 ",
           "descriptionOnSelect": "",
           "eggDelta": 2,
           "nextFrameId": 553
         },
-                                 {
+        {
           "text": "注视男人的眼睛 ",
           "descriptionOnSelect": "",
           "eggDelta": 1,
@@ -865,7 +867,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                                                                                   {
+    {
       "id": 553,
       "backgroundPath": "Image/Backgrounds/1_553",
       "characterSpritePath": "",
@@ -876,9 +878,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":32
+      "nextFrameId": 32
     },
-                                                                                               {
+    {
       "id": 554,
       "backgroundPath": "Image/Backgrounds/1_21",
       "characterSpritePath": "Image/Sprites/m_stand",
@@ -889,9 +891,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":32
+      "nextFrameId": 32
     },
-                                                                                               {
+    {
       "id": 32,
       "backgroundPath": "Image/Backgrounds/1_22",
       "characterSpritePath": "",
@@ -903,7 +905,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                                                                                   {
+    {
       "id": 33,
       "backgroundPath": "Image/Backgrounds/1_23",
       "characterSpritePath": "",
@@ -915,7 +917,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                                                                                       {
+    {
       "id": 34,
       "backgroundPath": "Image/Backgrounds/1_23",
       "characterSpritePath": "",
@@ -923,13 +925,13 @@
       "descriptionText": "她等了一会儿。没有脚步声追来。",
       "autoNextSeconds": 0,
       "options": [
-                                       {
+        {
           "text": "注视她的眼睛 ",
           "descriptionOnSelect": "",
           "eggDelta": 1,
           "nextFrameId": 555
         },
-                                         {
+        {
           "text": "注视巷子深处的黑暗 ",
           "descriptionOnSelect": "伸手不见五指的漆黑，这真的是小镇吗...",
           "eggDelta": 0,
@@ -940,7 +942,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                                                                                          {
+    {
       "id": 555,
       "backgroundPath": "Image/Backgrounds/1_23",
       "characterSpritePath": "Image/Sprites/w_duo",
@@ -951,9 +953,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":35
+      "nextFrameId": 35
     },
-                                                                                                           {
+    {
       "id": 35,
       "backgroundPath": "Image/Backgrounds/1_24",
       "characterSpritePath": "",
@@ -965,7 +967,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                                                                                               {
+    {
       "id": 36,
       "backgroundPath": "Image/Backgrounds/1_24",
       "characterSpritePath": "Image/Sprites/w_zhengmian",
@@ -977,7 +979,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                                                                                                   {
+    {
       "id": 37,
       "backgroundPath": "Image/Backgrounds/1_24",
       "characterSpritePath": "Image/Sprites/w_zhengmian",
@@ -989,7 +991,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                                                                                                       {
+    {
       "id": 40,
       "backgroundPath": "Image/Backgrounds/1_25",
       "characterSpritePath": "",
@@ -1000,9 +1002,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":559
+      "nextFrameId": 559
     },
-                                                                                                                           {
+    {
       "id": 559,
       "backgroundPath": "Image/Backgrounds/1_25",
       "characterSpritePath": "",
@@ -1013,9 +1015,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":41
+      "nextFrameId": 41
     },
-                                                                                                                           {
+    {
       "id": 41,
       "backgroundPath": "Image/Backgrounds/1_25",
       "characterSpritePath": "",
@@ -1023,13 +1025,13 @@
       "descriptionText": "不是血的红，是锈的红。",
       "autoNextSeconds": 0,
       "options": [
-                                             {
+        {
           "text": "注视红色水 ",
           "descriptionOnSelect": "水里有细小的沉淀物。像铁屑。",
           "eggDelta": 1,
           "nextFrameId": -1
         },
-                                                     {
+        {
           "text": "注视女孩的动作 ",
           "descriptionOnSelect": "她盯着它看了很久。然后伸手去拿。",
           "eggDelta": 2,
@@ -1040,7 +1042,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                                                                                                           {
+    {
       "id": 42,
       "backgroundPath": "Image/Backgrounds/1_26",
       "characterSpritePath": "",
@@ -1051,10 +1053,10 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":572
+      "nextFrameId": 572
     },
-                                                                                                                               {
-      "id":572 ,
+    {
+      "id": 572,
       "backgroundPath": "Image/Backgrounds/1_26",
       "characterSpritePath": "",
       "characterPosition": "",
@@ -1064,9 +1066,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":560
+      "nextFrameId": 560
     },
-                                                                                                                                 {
+    {
       "id": 560,
       "backgroundPath": "Image/Backgrounds/1_26",
       "characterSpritePath": "",
@@ -1077,9 +1079,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":43
+      "nextFrameId": 43
     },
-     {
+    {
       "id": 43,
       "backgroundPath": "Image/Backgrounds/1_27",
       "characterSpritePath": "",
@@ -1087,12 +1089,14 @@
       "descriptionText": "她装满了器皿。",
       "autoNextSeconds": 0,
       "options": [
-          {   "text": "注视喷泉的水流  ",
+        {
+          "text": "注视喷泉的水流  ",
           "descriptionOnSelect": "",
           "eggDelta": 1,
           "nextFrameId": 561
         },
-                  {   "text": "注视她举器皿的手 ",
+        {
+          "text": "注视她举器皿的手 ",
           "descriptionOnSelect": "",
           "eggDelta": 2,
           "nextFrameId": 562
@@ -1102,7 +1106,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                                                                                                                  {
+    {
       "id": 561,
       "backgroundPath": "Image/Backgrounds/1_27(bu)",
       "characterSpritePath": "",
@@ -1113,9 +1117,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":44
+      "nextFrameId": 44
     },
-                                                                                                                                 {
+    {
       "id": 562,
       "backgroundPath": "Image/Backgrounds/1_27(bubu)",
       "characterSpritePath": "",
@@ -1126,9 +1130,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":44
+      "nextFrameId": 44
     },
-                                                                                                                                   {
+    {
       "id": 44,
       "backgroundPath": "Image/Backgrounds/1_28",
       "characterSpritePath": "",
@@ -1139,9 +1143,9 @@
       "eggDelta": 0,
       "isAnimation": true,
       "animationSpeed": 0.5,
-      "nextFrameId":563
-                                                                                                                                   },
-                                                                                                                                           {
+      "nextFrameId": 563
+    },
+    {
       "id": 563,
       "backgroundPath": "Image/Backgrounds/1_28/1_28_4",
       "characterSpritePath": "",
@@ -1152,9 +1156,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":564
+      "nextFrameId": 564
     },
-                                                                                                                                               {
+    {
       "id": 564,
       "backgroundPath": "Image/Backgrounds/1_28/1_28_4",
       "characterSpritePath": "",
@@ -1165,10 +1169,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":45
+      "nextFrameId": 45
     },
-
-                                                                                                                                       {
+    {
       "id": 45,
       "backgroundPath": "Image/Backgrounds/1_28/1_28_4",
       "characterSpritePath": "",
@@ -1180,7 +1183,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                                                                                                                           {
+    {
       "id": 46,
       "backgroundPath": "Image/Backgrounds/1_29",
       "characterSpritePath": "",
@@ -1191,9 +1194,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":565
+      "nextFrameId": 565
     },
-                                                                                                                                               {
+    {
       "id": 565,
       "backgroundPath": "Image/Backgrounds/1_29",
       "characterSpritePath": "",
@@ -1204,9 +1207,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":47
+      "nextFrameId": 47
     },
-                                                                                                                                               {
+    {
       "id": 47,
       "backgroundPath": "Image/Backgrounds/1_29",
       "characterSpritePath": "",
@@ -1215,9 +1218,9 @@
       "autoNextSeconds": 0,
       "options": [],
       "eggDelta": 0,
-      "nextFrameId":568
+      "nextFrameId": 568
     },
-                                                                                                                                                   {
+    {
       "id": 568,
       "backgroundPath": "Image/Backgrounds/1_29",
       "characterSpritePath": "",
@@ -1228,9 +1231,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":48
+      "nextFrameId": 48
     },
-                                                                                                                                                   {
+    {
       "id": 48,
       "backgroundPath": "Image/Backgrounds/1_30",
       "characterSpritePath": "",
@@ -1241,9 +1244,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":569
+      "nextFrameId": 569
     },
-                                                                                                                                                       {
+    {
       "id": 569,
       "backgroundPath": "Image/Backgrounds/1_30",
       "characterSpritePath": "",
@@ -1254,9 +1257,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-            "nextFrameId":570
+      "nextFrameId": 570
     },
-                                                                                                                                                           {
+    {
       "id": 570,
       "backgroundPath": "Image/Backgrounds/1_30",
       "characterSpritePath": "",
@@ -1267,9 +1270,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-            "nextFrameId":49
+      "nextFrameId": 49
     },
-                                                                                                                                                       {
+    {
       "id": 49,
       "backgroundPath": "Image/Backgrounds/1_30",
       "characterSpritePath": "",
@@ -1277,12 +1280,14 @@
       "descriptionText": "是眼睛上那些雕像走下来了？",
       "autoNextSeconds": 0,
       "options": [
-                {   "text": "注视人群的眼睛 ",
+        {
+          "text": "注视人群的眼睛 ",
           "descriptionOnSelect": "",
           "eggDelta": 2,
           "nextFrameId": 566
         },
-                  {   "text": "注视女孩的背影 ",
+        {
+          "text": "注视女孩的背影 ",
           "descriptionOnSelect": "",
           "eggDelta": 1,
           "nextFrameId": 567
@@ -1292,7 +1297,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                                                                                                                                         {
+    {
       "id": 566,
       "backgroundPath": "Image/Backgrounds/1_29(bu)",
       "characterSpritePath": "",
@@ -1303,9 +1308,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":571
+      "nextFrameId": 571
     },
-                                                                                                                                                             {
+    {
       "id": 571,
       "backgroundPath": "Image/Backgrounds/1_29(bu)",
       "characterSpritePath": "",
@@ -1316,9 +1321,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":50
+      "nextFrameId": 50
     },
-                                                                                                                                                             {
+    {
       "id": 567,
       "backgroundPath": "Image/Backgrounds/1_29(bubu)",
       "characterSpritePath": "",
@@ -1329,9 +1334,9 @@
       "eggDelta": 0,
       "isAnimation": false,
       "animationSpeed": 0,
-      "nextFrameId":50
+      "nextFrameId": 50
     },
-                                                                                                                                                       {
+    {
       "id": 50,
       "backgroundPath": "Image/Backgrounds/1_31",
       "characterSpritePath": "",
@@ -1343,7 +1348,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                                                                                                                                           {
+    {
       "id": 51,
       "backgroundPath": "Image/Backgrounds/1_31",
       "characterSpritePath": "",
@@ -1355,7 +1360,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                                                                                                                                               {
+    {
       "id": 52,
       "backgroundPath": "Image/Backgrounds/1_31",
       "characterSpritePath": "",
@@ -1367,7 +1372,7 @@
       "isAnimation": false,
       "animationSpeed": 0
     },
-                                                                                                                                                                   {
+    {
       "id": 53,
       "backgroundPath": "Image/Backgrounds/1_31",
       "characterSpritePath": "",

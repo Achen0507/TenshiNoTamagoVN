@@ -55,6 +55,11 @@ namespace TenshiNoTamago.Core
             }
         }
 
+        private void Start()
+        {
+            LoadVolumeSettings();
+        }
+
         /// <summary>
         /// 播放背景音乐
         /// </summary>
@@ -68,7 +73,7 @@ namespace TenshiNoTamago.Core
         /// <summary>
         /// 播放环境音（风声、雨声等）
         /// </summary>
-        public void PlayAmbience(string key, bool loop = true,float fadeTime =1f) {
+        public void PlayAmbience(string key, bool loop = true, float fadeTime = 1f) {
             currentAmbienceKey = key;
 
             if (ambienceSource == null) return;
@@ -97,7 +102,7 @@ namespace TenshiNoTamago.Core
                     ambienceSource.DOFade(targetAmbienceVolume, fadeTime);
                 }
             }
-            else{
+            else {
                 Debug.LogWarning($"未找到环境音 key: {key}");
             }
         }
@@ -181,5 +186,27 @@ namespace TenshiNoTamago.Core
         }
 
         public string GetCurrentAmbienceKey() => currentAmbienceKey;
+
+        public void SetMasterVolume(float volume)
+        {
+            AudioListener.volume = volume;
+            PlayerPrefs.SetFloat("MasterVolume", volume);
+        }
+
+        public void SetAmbienceVolume(float volume) {
+            if (ambienceSource != null) ambienceSource.volume = volume;
+            PlayerPrefs.SetFloat("AmbienceVolume", volume);
+        }
+
+        public void SetSFXVolume(float volume) {
+            if (sfxSource != null) sfxSource.volume = volume;
+            PlayerPrefs.SetFloat("SFXVolume", volume);
+        }
+
+        private void LoadVolumeSettings() {
+            AudioListener.volume = PlayerPrefs.GetFloat("MasterVolume", 1f);
+            if (ambienceSource != null) ambienceSource.volume = PlayerPrefs.GetFloat("AmbienceVolume", 0.6f);
+            if (sfxSource != null) sfxSource.volume = PlayerPrefs.GetFloat("SFXVolume", 0.8f);
+        }
     }
 }

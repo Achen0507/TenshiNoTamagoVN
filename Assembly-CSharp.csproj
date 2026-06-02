@@ -67,6 +67,8 @@
     <Compile Include="Assets\Scripts\UI\SaveLoadController.cs" />
     <Compile Include="Assets\Scripts\Utilities\JsonLoader.cs" />
     <Compile Include="Assets\Scripts\UI\SaveSlotUI.cs" />
+    <Compile Include="Assets\Scripts\UI\SettingsController.cs" />
+    <Compile Include="Assets\Scripts\Core\ResourceCache.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\Fonts\kaiso_up\readme.txt" />

@@ -23,6 +23,8 @@ namespace TenshiNoTamago.UI
 
         private void Start()
         {
+            AudioManager.Instance.PlayAmbience("menu_bgm", true);
+
             int endingType = PlayerPrefs.GetInt("LastEndingType", 0);
             ChangeBackgroundByEnding(endingType);
 
@@ -56,6 +58,7 @@ namespace TenshiNoTamago.UI
         }
 
         public void OnConfirm() {
+            AudioManager.Instance.PlaySFX("click");
             switch (currentIndex)
             {
                 case 0: OnStartGame(); break;
@@ -121,6 +124,7 @@ namespace TenshiNoTamago.UI
 
         public void OnLeftArrow()
         {
+            AudioManager.Instance.PlaySFX("click");
             currentIndex--;
             if (currentIndex < 0) currentIndex = buttonNames.Length - 1;
             UpdateButtonText();
@@ -129,6 +133,7 @@ namespace TenshiNoTamago.UI
 
         public void OnRightArrow()
         {
+            AudioManager.Instance.PlaySFX("click");
             currentIndex++;
             if (currentIndex >= buttonNames.Length) currentIndex = 0;
             UpdateButtonText();
@@ -143,6 +148,7 @@ namespace TenshiNoTamago.UI
 
         public void OnStartGame()
         {
+            AudioManager.Instance.StopAmbience();
             GameManager.Instance.ResetGame();
             SceneManager.LoadScene("SampleScene");
         }
@@ -158,8 +164,8 @@ namespace TenshiNoTamago.UI
         // 系统设置
         public void OnSettings()
         {
-            Debug.Log("系统设置 - 待实现");
-            // TODO: 打开设置面板（音量、文字速度等）
+            SettingsManager.currentSource = SettingsManager.EntrySource.MainMenu;
+            SceneManager.LoadScene("SettingMenu");
         }
 
 

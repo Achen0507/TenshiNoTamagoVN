@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 namespace TenshiNoTamago.Core
@@ -25,6 +26,18 @@ namespace TenshiNoTamago.Core
             {
                 Destroy(gameObject);
             }
+        }
+
+        private void Start()
+        {
+            StartCoroutine(PreloadResources());
+        }
+
+        private IEnumerator PreloadResources()
+        {
+            Resources.LoadAll<Sprite>("Image/Backgrounds");
+            Resources.LoadAll<Sprite>("Image/Sprites");
+            yield return null;
         }
 
         public void AddEggIntegrity(int delta) {
