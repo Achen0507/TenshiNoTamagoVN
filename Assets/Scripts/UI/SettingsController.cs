@@ -1,4 +1,5 @@
 using TenshiNoTamago.Core;
+using TenshiNoTamago.Utilities;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -42,6 +43,9 @@ namespace TenshiNoTamago.UI
         [SerializeField] private Button confirmButton;
         [SerializeField] private Button closeButton;
 
+        [Header("标题")]
+        [SerializeField] private Text titleText;
+
         private Resolution[] resolutions;
         private int resolutionIndex;
         private string[] languages = { "中文", "日本語" };
@@ -53,6 +57,7 @@ namespace TenshiNoTamago.UI
             BindEvents();
             InitResolutions();
             InitLanguage();
+            UpdateAllUITexts();
         }
 
         private void Update()
@@ -81,6 +86,27 @@ namespace TenshiNoTamago.UI
             if (confirmButton != null) confirmButton.onClick.AddListener(OnConfirm);
         }
 
+        private void UpdateAllUITexts()
+        {
+            if (titleText != null) titleText.text = LanguageManager.Get("settingtitle");
+            if (confirmButton != null && confirmButton.GetComponentInChildren<Text>() != null)
+                confirmButton.GetComponentInChildren<Text>().text = LanguageManager.Get("confirm");
+            if (closeButton != null && closeButton.GetComponentInChildren<Text>() != null)
+                closeButton.GetComponentInChildren<Text>().text = LanguageManager.Get("back");
+
+            // 自动/手动 Toggle 的文字
+            if (autoOnToggle != null && autoOnToggle.GetComponentInChildren<Text>() != null)
+                autoOnToggle.GetComponentInChildren<Text>().text = LanguageManager.Get("auto");
+            if (autoOffToggle != null && autoOffToggle.GetComponentInChildren<Text>() != null)
+                autoOffToggle.GetComponentInChildren<Text>().text = LanguageManager.Get("manual");
+
+            // 全屏/窗口 Toggle 的文字
+            if (fullscreenOnToggle != null && fullscreenOnToggle.GetComponentInChildren<Text>() != null)
+                fullscreenOnToggle.GetComponentInChildren<Text>().text = LanguageManager.Get("fullscreen");
+            if (fullscreenOffToggle != null && fullscreenOffToggle.GetComponentInChildren<Text>() != null)
+                fullscreenOffToggle.GetComponentInChildren<Text>().text = LanguageManager.Get("window");
+        }
+
         private void LoadSettings() {
             if (masterSlider != null) masterSlider.value = PlayerPrefs.GetFloat("MasterVolume", 15f);
             if (ambienceSlider != null) ambienceSlider.value = PlayerPrefs.GetFloat("AmbienceVolume", 10f);
@@ -98,7 +124,11 @@ namespace TenshiNoTamago.UI
             fullscreenOffToggle.isOn = !isFullscreen;
             Screen.fullScreen = isFullscreen;
 
-            // 分辨率、语言等后续加
+            languageIndex = PlayerPrefs.GetInt("LanguageIndex", 0);
+            UpdateLanguageText();
+            string lang = languages[languageIndex] == "日本語" ? "ja" : "zh";
+            JsonLoader.currentLanguage = lang;
+            LanguageManager.LoadLanguage(lang);
         }
 
         private void InitResolutions() {
@@ -156,6 +186,12 @@ namespace TenshiNoTamago.UI
             if (languageIndex < 0) languageIndex = languages.Length - 1;
             UpdateLanguageText();
             PlayerPrefs.SetInt("LanguageIndex", languageIndex);
+
+            string lang = languages[languageIndex] == "日本語" ? "ja" : "zh";
+            JsonLoader.currentLanguage = lang;
+            LanguageManager.LoadLanguage(lang);
+
+            UpdateAllUITexts();
         }
 
         private void OnLanguageRight()
@@ -164,6 +200,12 @@ namespace TenshiNoTamago.UI
             if (languageIndex >= languages.Length) languageIndex = 0;
             UpdateLanguageText();
             PlayerPrefs.SetInt("LanguageIndex", languageIndex);
+
+            string lang = languages[languageIndex] == "日本語" ? "ja" : "zh";
+            JsonLoader.currentLanguage = lang;
+            LanguageManager.LoadLanguage(lang);
+
+            UpdateAllUITexts();
         }
 
         private void OnMasterVolumeChanged(float value) {

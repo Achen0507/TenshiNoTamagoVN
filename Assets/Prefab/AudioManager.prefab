@@ -311,6 +311,14 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 77153566948b7ac43a819cb5c088c32e, type: 3}
   - key: water01
     clip: {fileID: 8300000, guid: 756df46cc776b0a4e863c57e06d92052, type: 3}
+  - key: nishishui03
+    clip: {fileID: 8300000, guid: a54093d8e11c2f243a233c837c7d9685, type: 3}
+  - key: nishishui04
+    clip: {fileID: 8300000, guid: 38d16ce7e012e1b46afcedefd02d610a, type: 3}
+  - key: click
+    clip: {fileID: 8300000, guid: a44f2e31b4bbfc04696b0662d5fdf34c, type: 3}
+  - key: menu_bgm
+    clip: {fileID: 8300000, guid: e69ea5e81a8142b409ac69e04fc47619, type: 3}
 --- !u!82 &2951331889732917298
 AudioSource:
   m_ObjectHideFlags: 0

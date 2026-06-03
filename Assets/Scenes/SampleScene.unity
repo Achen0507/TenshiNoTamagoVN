@@ -3038,6 +3038,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueController: {fileID: 787888310}
   pauseCanvasRoot: {fileID: 18313127}
+  saveButton: {fileID: 1073704110}
+  loadButton: {fileID: 1935083923}
+  settingsButton: {fileID: 1330057329}
+  returnButton: {fileID: 2029744821}
+  backToMenuButton: {fileID: 1997254131}
 --- !u!4 &1230594563
 Transform:
   m_ObjectHideFlags: 0

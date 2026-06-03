@@ -18,7 +18,7 @@ namespace TenshiNoTamago.UI
         [SerializeField] private Text rightArrow;
 
         [Header("按钮切换")]
-        private string[] buttonNames = { "スタート", "ツヅケル‌", "システム","シュウリョウ‌" };
+        private string[] buttonNames = { "start_game", "continue_game", "settings", "quit_game" };
         private int currentIndex = 0;
 
         private void Start()
@@ -28,15 +28,17 @@ namespace TenshiNoTamago.UI
             int endingType = PlayerPrefs.GetInt("LastEndingType", 0);
             ChangeBackgroundByEnding(endingType);
 
-            buttonsGroup.alpha = 1;
+            int langIndex = PlayerPrefs.GetInt("LanguageIndex", 0);
+            string lang = langIndex == 1 ? "ja" : "zh";
+            LanguageManager.LoadLanguage(lang);
+
             UpdateButtonText();
+            buttonsGroup.alpha = 1;          
 
             // 启动噪点动画
             StartCoroutine(NoiseAnimation());
-
             StartCoroutine(BlinkArrow(leftArrow));
             StartCoroutine(BlinkArrow(rightArrow));
-
             StartCoroutine(PlayEntranceAnimation());
         }
 
@@ -143,7 +145,7 @@ namespace TenshiNoTamago.UI
         private void UpdateButtonText()
         {
             if (buttonText != null)
-                buttonText.text = buttonNames[currentIndex];
+                buttonText.text = LanguageManager.Get(buttonNames[currentIndex]);
         }
 
         public void OnStartGame()
@@ -158,7 +160,6 @@ namespace TenshiNoTamago.UI
             SaveLoadManager.currentMode = SaveLoadManager.Mode.Load;
             SaveLoadManager.currentSource = SaveLoadManager.EntrySource.MainMenu;
             SceneManager.LoadScene("SaveLoad");
-            Debug.Log("存档页面打开");
         }
 
         // 系统设置

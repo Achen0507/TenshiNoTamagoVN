@@ -4,11 +4,18 @@ using UnityEngine;
 
 namespace TenshiNoTamago.Utilities
 {
-    public static class JsonLoader 
+    public static class JsonLoader
     {
+        public static string currentLanguage = "zh";
         public static ChapterData LoadChapter(string chapterFileName)
         {
-            string path = Path.Combine(Application.streamingAssetsPath, "Chapters", chapterFileName + ".json");
+            string fileName = chapterFileName.ToLower();
+            if (currentLanguage == "ja") {
+                fileName = fileName + "_ja";
+            }
+
+            string path = Path.Combine(Application.streamingAssetsPath, "Chapters", fileName + ".json");
+            Debug.Log($"尝试加载: {path}");
 
             if (File.Exists(path))
             {
@@ -16,7 +23,6 @@ namespace TenshiNoTamago.Utilities
 
                 // 检查是否有 BOM
                 byte[] bytes = System.Text.Encoding.UTF8.GetBytes(json);
-
                 ChapterData data = JsonUtility.FromJson<ChapterData>(json);
                 return data;
             }

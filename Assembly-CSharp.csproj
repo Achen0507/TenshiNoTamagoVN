@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\UI\PauseMenuController.cs" />
+    <Compile Include="Assets\Scripts\UI\SettingsController.cs" />
     <Compile Include="Assets\Scripts\Core\AmbienceController.cs" />
     <Compile Include="Assets\Scripts\UI\MainMenuAnimController.cs" />
     <Compile Include="Assets\Scripts\UI\DialogueController.cs" />
@@ -65,10 +66,10 @@
     <Compile Include="Assets\Scripts\Core\SaveLoadManager.cs" />
     <Compile Include="Assets\Scripts\Data\FrameData.cs" />
     <Compile Include="Assets\Scripts\UI\SaveLoadController.cs" />
+    <Compile Include="Assets\Scripts\Core\ResourceCache.cs" />
     <Compile Include="Assets\Scripts\Utilities\JsonLoader.cs" />
     <Compile Include="Assets\Scripts\UI\SaveSlotUI.cs" />
-    <Compile Include="Assets\Scripts\UI\SettingsController.cs" />
-    <Compile Include="Assets\Scripts\Core\ResourceCache.cs" />
+    <Compile Include="Assets\Scripts\Core\LanguageManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\Fonts\kaiso_up\readme.txt" />

@@ -245,6 +245,7 @@ MonoBehaviour:
   slotPrefab: {fileID: 993360258832880201, guid: 04a8b65374055664b8a9e528cbb96dfe, type: 3}
   confirmButton: {fileID: 2024152531}
   backButton: {fileID: 828822102}
+  titleText: {fileID: 1454112577}
 --- !u!1 &139201097
 GameObject:
   m_ObjectHideFlags: 0

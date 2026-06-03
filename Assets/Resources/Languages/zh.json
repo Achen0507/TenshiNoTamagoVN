@@ -1,0 +1,30 @@
+{
+  "data": {
+    "start_game": "开始游戏",
+    "continue_game": "继续游戏",
+    "settings": "设置",
+    "quit_game": "退出游戏",
+    "auto": "自动",
+    "manual": "手动",
+    "fullscreen": "全屏",
+    "window": "窗口",
+    "confirm": "确认",
+    "back": "返回",
+    "savetitle": "记录/SAVING",
+    "loadtitle": "读取/LOADING",
+    "settingtitle": "设定/SETTING",
+    "master_volume": "主音量",
+    "ambience_volume": "环境音",
+    "sfx_volume": "音效",
+    "text_speed": "文字速度",
+    "auto_play": "播放方式",
+    "display_mode": "显示模式",
+    "resolution": "分辨率",
+    "language": "语言",
+    "setting": "系统设置",
+    "save": "存储游戏",
+    "load": "读取游戏",
+    "return": "返回游戏",
+    "return_main": "主菜单"
+  }
+}

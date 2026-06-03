@@ -1,0 +1,30 @@
+{
+  "data": {
+    "start_game": "スタート",
+    "continue_game": "ツヅケル",
+    "settings": "システム",
+    "quit_game": "シュウリョウ",
+    "auto": "オート",
+    "manual": "マニュアル",
+    "fullscreen": "全画面",
+    "window": "ウィンドウ",
+    "confirm": "決定",
+    "back": "戻る",
+    "savetitle": "記録/SAVING",
+    "loadtitle": "読み込み/LOADING",
+    "settingtitle": "設定/SETTING",
+    "master_volume": "マスター音量",
+    "ambience_volume": "環境音",
+    "sfx_volume": "効果音",
+    "text_speed": "文字速度",
+    "auto_play": "自動/手動",
+    "display_mode": "表示モード",
+    "resolution": "解像度",
+    "language": "言語",
+    "setting": "システム設定",
+    "save": "ゲーム保存",
+    "load": "ゲーム読み込み",
+    "return": "ケーム戻る",
+    "return_main": "メインメニュー"
+  }
+}

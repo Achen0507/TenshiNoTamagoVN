@@ -2,6 +2,7 @@ using System.Collections;
 using TenshiNoTamago.Core;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 namespace TenshiNoTamago.UI
 {
@@ -9,7 +10,14 @@ namespace TenshiNoTamago.UI
     {
         [Header("Canvas")]
         [SerializeField] private DialogueController dialogueController;
-        [SerializeField] private GameObject pauseCanvasRoot;   
+        [SerializeField] private GameObject pauseCanvasRoot;
+
+        [Header("按钮")]
+        [SerializeField] private Button saveButton;
+        [SerializeField] private Button loadButton;
+        [SerializeField] private Button settingsButton;
+        [SerializeField] private Button returnButton;
+        [SerializeField] private Button backToMenuButton;
 
         private bool isPaused = false;
 
@@ -33,8 +41,27 @@ namespace TenshiNoTamago.UI
             }
         }
 
+        private void UpdateButtonTexts()
+        {
+            if (saveButton != null && saveButton.GetComponentInChildren<Text>() != null)
+                saveButton.GetComponentInChildren<Text>().text = LanguageManager.Get("save");
+
+            if (loadButton != null && loadButton.GetComponentInChildren<Text>() != null)
+                loadButton.GetComponentInChildren<Text>().text = LanguageManager.Get("load");
+
+            if (settingsButton != null && settingsButton.GetComponentInChildren<Text>() != null)
+                settingsButton.GetComponentInChildren<Text>().text = LanguageManager.Get("setting");
+
+            if (returnButton != null && returnButton.GetComponentInChildren<Text>() != null)
+                returnButton.GetComponentInChildren<Text>().text = LanguageManager.Get("return");
+
+            if (backToMenuButton != null && backToMenuButton.GetComponentInChildren<Text>() != null)
+                backToMenuButton.GetComponentInChildren<Text>().text = LanguageManager.Get("return_main");
+        }
+
         private void PauseGame() {
             isPaused = true;
+            UpdateButtonTexts();
             pauseCanvasRoot.SetActive(true);
             if (dialogueController != null) dialogueController.canInput = false;
             AudioManager.Instance.PauseBGM();
@@ -51,7 +78,6 @@ namespace TenshiNoTamago.UI
 
         public void OnSaveGame()
         {
-            Debug.Log("OnSaveGame 被调用");
             StartCoroutine(CaptureAndGoToSaveLoad());
         }
 

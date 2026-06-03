@@ -257,6 +257,7 @@ MonoBehaviour:
   languageRight: {fileID: 1737196438}
   confirmButton: {fileID: 2024152531}
   closeButton: {fileID: 828822102}
+  titleText: {fileID: 1454112577}
 --- !u!1 &107645641
 GameObject:
   m_ObjectHideFlags: 0

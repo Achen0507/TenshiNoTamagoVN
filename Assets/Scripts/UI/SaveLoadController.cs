@@ -17,6 +17,7 @@ namespace TenshiNoTamago.UI
         [SerializeField] private GameObject slotPrefab;
         [SerializeField] private Button confirmButton;
         [SerializeField] private Button backButton;
+        [SerializeField] private Text titleText;
 
         private int selectedSlot = -1;
         private SaveSlotUI[] slotUIs;
@@ -24,10 +25,24 @@ namespace TenshiNoTamago.UI
         private void Start()
         {
             isSaveMode = (SaveLoadManager.currentMode == SaveLoadManager.Mode.Save);
+
+            UpdateUITexts();
+
             RefreshSlotList();
 
             if (confirmButton != null) confirmButton.onClick.AddListener(OnConfirm);
             if (backButton != null) backButton.onClick.AddListener(OnBack);
+        }
+
+        private void UpdateUITexts() {
+            if (titleText != null)
+                titleText.text = LanguageManager.Get(isSaveMode ? "savetitle" : "loadtitle");
+
+            if (confirmButton != null && confirmButton.GetComponentInChildren<Text>() != null)
+                confirmButton.GetComponentInChildren<Text>().text = LanguageManager.Get("confirm");
+
+            if (backButton != null && backButton.GetComponentInChildren<Text>() != null)
+                backButton.GetComponentInChildren<Text>().text = LanguageManager.Get("back");
         }
 
         private void Update()
@@ -155,7 +170,6 @@ namespace TenshiNoTamago.UI
                     if (File.Exists(SaveLoadManager.tempThumbnailPath))
                     {
                         File.Copy(SaveLoadManager.tempThumbnailPath, destPath, true);
-                        Debug.Log($"½ØÍ¼ÒÑ¸´ÖÆµ½ {destPath}");
                     }
                 }
 

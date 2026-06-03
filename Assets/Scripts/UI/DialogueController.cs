@@ -16,6 +16,8 @@ namespace TenshiNoTamago.UI
     /// </summary>
     public class DialogueController : MonoBehaviour
     {
+        public static DialogueController Instance { get; private set; }
+
         [Header("UI 组件")]
         [SerializeField] private Image backgroundImage;
         [SerializeField] private Text descriptionText;
@@ -62,12 +64,21 @@ namespace TenshiNoTamago.UI
 
         private void Awake()
         {
+            if (Instance == null) {
+                Instance = this;
+            }
+
             if (OnFrameChanged == null)
                 OnFrameChanged = delegate { };
         }
 
         private void Start()
         {
+            Debug.Log("DialogueController Start 被调用");
+            int langIndex =PlayerPrefs.GetInt("LanguageIndex", 0);
+            JsonLoader.currentLanguage = langIndex == 1 ? "ja" : "zh";
+            Debug.Log($"当前语言: {JsonLoader.currentLanguage}");
+
             if (!string.IsNullOrEmpty(GameManager.Instance.currentChapter))
             {
                 LoadChapter(GameManager.Instance.currentChapter);
@@ -133,7 +144,11 @@ namespace TenshiNoTamago.UI
 
         private void Update()
         {
-            if (!canInput) return; 
+            if (!canInput) return;
+
+            if (currentFrame != null && currentFrame.options != null && currentFrame.options.Length > 0) {
+                return;
+            }
 
             if (isWaitingForInput)
             {
@@ -391,6 +406,18 @@ namespace TenshiNoTamago.UI
 
             ClearOptions();
 
+            //自动模式
+            if (PlayerPrefs.GetInt("AutoPlay", 0) == 1) {
+                if (option.nextFrameId != -1)
+                    JumpToFrame(option.nextFrameId);
+                else
+                    AdvanceToNextFrame();
+
+                currentFrame.options = null;
+                return;
+            }
+
+            //手动模式
             if (!string.IsNullOrEmpty(option.descriptionOnSelect))
             {
                 SetDescriptionText(option.descriptionOnSelect, () =>
@@ -413,7 +440,8 @@ namespace TenshiNoTamago.UI
                     JumpToFrame(option.nextFrameId);
                 else
                     AdvanceToNextFrame();
-            }       
+            }
+            currentFrame.options = null;
         }
 
         private void AdvanceToNextFrame()
@@ -668,6 +696,13 @@ namespace TenshiNoTamago.UI
             }
 
             currentVoiceSource = AudioManager.Instance.PlaySFXAndReturnSource(sfxKey);
+        }
+
+        public void ReloadCurrentChapter() {
+            Debug.Log($"ReloadCurrentChapter 被调用，当前语言: {JsonLoader.currentLanguage}");
+            int currentId = currentFrame.id;
+            LoadChapter(GameManager.Instance.currentChapter);
+            JumpToFrame(currentId);
         }
     }
 }
