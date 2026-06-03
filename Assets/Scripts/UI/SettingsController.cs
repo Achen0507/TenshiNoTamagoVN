@@ -46,6 +46,16 @@ namespace TenshiNoTamago.UI
         [Header("标题")]
         [SerializeField] private Text titleText;
 
+        [Header("标签")]
+        [SerializeField] private Text masterVolumetitle;
+        [SerializeField] private Text ambienceVolumetitle;
+        [SerializeField] private Text sfxVolumetitle;
+        [SerializeField] private Text textSpeedtitle;
+        [SerializeField] private Text autoPlaytitle;      // 播放方式
+        [SerializeField] private Text displayModetitle;   // 显示模式
+        [SerializeField] private Text resolutiontitle;    // 分辨率
+        [SerializeField] private Text languagetitle;      // 语言
+
         private Resolution[] resolutions;
         private int resolutionIndex;
         private string[] languages = { "中文", "日本語" };
@@ -93,6 +103,15 @@ namespace TenshiNoTamago.UI
                 confirmButton.GetComponentInChildren<Text>().text = LanguageManager.Get("confirm");
             if (closeButton != null && closeButton.GetComponentInChildren<Text>() != null)
                 closeButton.GetComponentInChildren<Text>().text = LanguageManager.Get("back");
+
+            if (masterVolumetitle != null) masterVolumetitle.text = LanguageManager.Get("master_volume");
+            if (ambienceVolumetitle != null) ambienceVolumetitle.text = LanguageManager.Get("ambience_volume");
+            if (sfxVolumetitle != null) sfxVolumetitle.text = LanguageManager.Get("sfx_volume");
+            if (textSpeedtitle != null) textSpeedtitle.text = LanguageManager.Get("text_speed");
+            if (autoPlaytitle != null) autoPlaytitle.text = LanguageManager.Get("auto_play");
+            if (displayModetitle != null) displayModetitle.text = LanguageManager.Get("display_mode");
+            if (resolutiontitle != null) resolutiontitle.text = LanguageManager.Get("resolution");
+            if (languagetitle != null) languagetitle.text = LanguageManager.Get("language");
 
             // 自动/手动 Toggle 的文字
             if (autoOnToggle != null && autoOnToggle.GetComponentInChildren<Text>() != null)

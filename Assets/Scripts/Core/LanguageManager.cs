@@ -13,8 +13,13 @@ namespace TenshiNoTamago.Core
             TextAsset jsonFile = Resources.Load<TextAsset>($"Languages/{lang}");
             if (jsonFile != null)
             {
-                var wrapper = JsonUtility.FromJson<DictionaryWrapper>(jsonFile.text);
-                currentDict = wrapper.data;
+                var wrapper = JsonUtility.FromJson<LanguageWrapper>(jsonFile.text);
+                currentDict = new Dictionary<string, string>();
+                foreach (var item in wrapper.data)
+                {
+                    currentDict[item.key] = item.value;
+                }
+                Debug.Log($"语言已加载: {lang}, 共 {currentDict.Count} 条");
             }
             else {
                 Debug.LogError($"语言文件不存在: Languages/{lang}.json");
@@ -33,8 +38,15 @@ namespace TenshiNoTamago.Core
     }
 
     [System.Serializable]
-    public class DictionaryWrapper
+    public class LanguageItem
     {
-        public Dictionary<string, string> data;
+        public string key;
+        public string value;
+    }
+
+    [System.Serializable]
+    public class LanguageWrapper
+    {
+        public List<LanguageItem> data;
     }
 }
